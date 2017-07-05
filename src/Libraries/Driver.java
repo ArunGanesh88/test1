@@ -24,7 +24,7 @@ import Libraries.InitiatorTest;
 /*---------------------------------------------------------------------------------------------------------
  * Class Name			: Driver
  * Use 					: Has all excel connection and framework related functions 
- * Designed By			: AG
+ * Designed By			: AG(Arun Ganesh)
  * Last Modified Date 	: 25-Apr-2016
 --------------------------------------------------------------------------------------------------------*/
 
