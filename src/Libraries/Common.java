@@ -8,7 +8,7 @@ public class Common extends Driver
 		try
 		{
 			
-			Browser.OpenBrowser("firefox", "https://www.google.co.in/");
+			Browser.OpenBrowser("chrome", "https://www.google.co.in/");
 		}
 		catch(Exception e)
 		{
