@@ -1,0 +1,663 @@
+<html>
+<title>
+	Provisioning
+</title>
+<Head>
+<link rel="stylesheet" type="text/css" href="ui/index.css">
+<link rel="stylesheet" href="ui/alertify.core.css" />
+<link rel="stylesheet" href="ui/alertify.default.css" id="toggleCSS" />
+<script src="ui/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="ui/selectize.js"></script>
+<link rel="stylesheet" type="text/css" href="ui/selectize.css" />
+<link rel="stylesheet" type="text/css" href="ui/normalize.css" />
+<script>
+$(function() {
+	
+	$('#Exis_PP_SOC_U1').selectize({placeholder:'Please Select',create:true});				
+	$('#Exis_PP_SOC_desc1').selectize({placeholder:'Please Select',create:true});				
+	$('#New_PP_SOC_U1').selectize({placeholder:'Please Select',create:true});				
+	$('#New_PP_SOC_desc1').selectize({placeholder:'Please Select',create:true});				
+	$('#DE_Tarrif_code1').selectize({placeholder:'Please Select',create: true});				
+	$('#DE_Tarrif_desc1').selectize({placeholder:'Please Select',create:true});				
+	$('#PP_NAME_NL1').selectize({placeholder:'Please Select',create:true});				
+	$('#PP_DESC_NL1').selectize({placeholder:'Please Select',create:true});				
+	$('#PP_NAME_IE1').selectize({placeholder:'Please Select',create:true});				
+	$('#Price_Plan1').selectize({placeholder:'Please Select',create:true});				
+	$('#Price_Plan_Mov1').selectize({placeholder:'Please Select',create:true});				
+	//$('#DE_Tarrif_desc1').selectize({placeholder:'Please Select',create:true});				
+});
+</script>
+<style>
+
+#BS_C_L{
+   display: none;
+}
+#Business_S{
+   display: none;
+}
+
+#opco_L{
+   display: none;
+}
+#OPCOsel{
+   display: none;
+}
+#opcocode_L{
+   display: none;
+}
+#OPCOcode{
+   display: none;
+}
+
+#layout{
+   position:absolute;
+    Top:25%;
+	left:7%;
+	width:92%;
+}
+#Mac_BPF_gen{
+   position:absolute;
+	Top:35%;
+	left:7%;
+}
+
+.BPF_content2{
+position:absolute;
+	top:43%;
+	width:76%;
+	left:1%;
+}
+.BPF_content_Move
+{
+	position:absolute;
+	top:43%;
+	width:76%;
+	left:7%;
+}
+.BPF_content_Ter
+{
+	position:absolute;
+	top:43%;
+	width:40%;
+	left:7%;
+}
+
+.beforecontent{
+	position:absolute;
+	left:7%;
+	top:30%;
+	width:92%;
+	height = 100%;
+	border-left: solid grey;
+	border-right: solid grey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-width: 1px;
+	
+	}
+	.belowcontent{
+	position:absolute;
+	top:100%
+	left:10%;
+	width:100%;
+	height = 100%;
+	border-left: solid grey;
+	border-right: solid grey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-width: 1px;
+	
+	}
+.Mac_content2{
+	position:absolute;
+	top:43%;
+	width:76%;
+	left:7%;	
+}	
+.divclass {
+  background: #415665;
+  height: 50px;
+  width:200px;
+  border-radius: 15px;
+  padding:20px;
+  font-size:22px;
+  color:#fff;  
+}
+
+.copy
+{
+	width:150%;
+}
+.addpng
+{
+	width:150%;
+}
+.delete
+{
+	width:150%;
+}
+</style>
+</head>
+	<script src="ui/alertify.min.js"></script>
+	<script src="ui/main.js"></script>
+	<script src="ui/datetimepicker_css.js"></script>
+<!---body  onload =  "var k2=window.setTimeout('Hide_BPF();', 200); var k3=window.setTimeout('getopcomainjs_BPF();', 200);"-->
+<body  onload =  'Hide_BPF();getopcomainjs_BPF();', 200);">
+	<div class = 'arrow-right'>
+	</div>
+	<img src = 'ui/index.png' class = 'vfindex'>
+	<div id = 'usernamediv' style = 'position:absolute;top:14%;right:1%;z-index:999;font-size: 20px; font-family:    Arial, Helvetica, sans-serif;'>
+				
+		</div>
+	<div class = 'header'>
+		<center>PROVISIONING</center>
+		<br>
+	<ul id="menu-bar">
+	<li ><a href="index.html" onclick ="if (! confirm( 'Data you have entered will be lost. Please confirm you want to move away from current page.')) { return false; } " >Home</a></li>
+	<li class="active"><a href="#">Test Data Generation</a>
+	<ul>
+	
+   <li><a href="PROVISIONING.html" onclick ="if (! confirm( 'Data you have entered will be lost. Please confirm you want to move away from current page.')) { return false; } " >Provisioning</a></li>
+   <li><a href="USAGECDRGENERATION.html" onclick ="if (! confirm( 'Data you have entered will be lost. Please confirm you want to move away from current page.')) { return false; } " >Usage</a>
+   </li>
+   
+  </ul>
+ </li>
+<li><a href="#">Test Data Templates</a>
+ <ul>
+   <!--li><a href="#">Provisioning</a></li-->
+    <li><a href="BulkUploadCDR.html" onclick ="if (! confirm( 'Data you have entered will be lost. Please confirm you want to move away from current page.')) { return false; } " >Usage</a></li>
+    <li><a href="BulkUploadProvisioning.html" onclick ="if (! confirm( 'Data you have entered will be lost. Please confirm you want to move away from current page.')) { return false; } " >Provisioning</a></li>
+</ul>
+   </li>
+  <li><a href="#"  >Reference Data</a>
+ <ul>
+ 
+   <li><a href="ProvisioningReferencedata.html" onclick ="if (! confirm( 'Data you have entered will be lost. Please confirm you want to move away from current page.')) { return false; } ">Provisioning</a></li>
+    <li><a href="UsageReferenceData.html" onclick ="if (! confirm( 'Data you have entered will be lost. Please confirm you want to move away from current page.')) { return false; } ">Usage</a></li>
+</ul>
+</li> 
+ <li><a href="#"  id = 'adminlnk'>Admin</a>
+ <ul>
+   <li><a href="ProvisioningAdmin.html" onclick ="if (! confirm( 'Data you have entered will be lost. Please confirm you want to move away from current page.')) { return false; } " >Provisioning</a></li>
+    <li><a href="UsageAdmin.html" onclick ="if (! confirm( 'Data you have entered will be lost. Please confirm you want to move away from current page.')) { return false; } " >Usage</a></li>
+    <li><a href="admin.html" onclick ="if (! confirm( 'Data you have entered will be lost. Please confirm you want to move away from current page.')) { return false; } " >User Details</a></li>
+</ul>
+</li>
+ <li><a href="login.html"" id = 'logout' onclick = "logout();if (! confirm( 'Data you have entered will be lost. Please confirm you want to move away from current page.')) { return false; } "   >Logout</a></li>
+</ul>
+
+<br>
+	</div>	
+	<!-- Mac and BPF Related Layout Fields -->
+	<div id = 'provmaindiv'>
+	<div id = 'layout'style="border: thin solid grey">
+		<br>
+         <form ref='uploadForm' id='frmUploader'  action='/Uploadprov'  onsubmit="return file_upload_val( );" method='post' encType="multipart/form-data">	
+		 <span 
+			<label for = 'File Type'class = 'label' id = 'File_L'> File Type  </label>
+			<span class='after'>*</span> 
+			<select id = "FileTyp_s" name = "File Type" onchange="BPF_checker(this.value);" > 
+			<!--<option value= "Pl_sel" > Please Select </option> -->			
+			<option value= "MAC_Flag" > MAC </option>	
+			<option value= "BPF_Flag" > BPF </option>	
+			</select>
+		 </span>
+		<span 
+			<label for = 'Use Case'class = 'label' id ='BS_C_L'>Use Case</label>
+			<span class='after'>*</span> 
+			<select id = 'Business_S_BPF' name = 'Use Case' onchange="BPF_checker1(this.value);"> 
+			<option value= "BPF_ADD" > Add </option>
+			<option value= "BPF_MOV" > Move </option>
+			<option value= "BPF_TER" > Terminate </option>
+			</select>
+		 </span>
+		<span 
+		 <label for = 'OPCO'class = 'label' id ='opco_L'>OPCO</label>
+		 <span class='after'>*</span> 
+		 <select type = 'text' class = 'provisioning' name = 'OPCO' id = 'OPCOsel' onchange = 'getopcocode(this.id)' >
+		 </select>
+		</span>
+		<span 		
+		 <label for='OPCO' class = 'label' id ='opcocode_L'>OPCOCode</label>
+		 <span class='after'>*</span> 
+		 <input style='width:5%' type = 'text' class = 'provisioning' name = 'OPCO' id = 'OPCOcode' disabled>
+		</span>
+		<span 		
+		 <label for='OPCO_currency_code_MB' class = 'label'style = 'display:none'  >OPCO Currency Code</label> 
+		 <span class='after'>*</span> 
+		 <input type = 'text' class = 'provisioning' name = 'OPCO_currency_code_MB' id = 'OPCO_currency_code' disabled style = 'display:none'  >
+		</span>
+<span>
+			<label for='OPCO_data_date_flag_MB' class = 'label'style = 'display:none'  >OPCO Data Date Flag</label> 
+			<input type = 'text' class = 'provisioning' name = 'OPCO_data_date_flag_MB' id = 'OPCO_data_date_flag' disabled style = 'display:none'>
+		</span>
+		<!-- Mac and BPF Related Layout Fields -->
+			<!-- Static Logic as per Nari Inputs for MAC (Since only vodafone UK have MAC) -->
+				<span 
+				 <label for = 'OPCO_M'class = 'label' id ='opco_L_Mac'>OPCO</label>
+				 <span class='after'>*</span> 
+				 <select type = 'text' class = 'provisioning' name = 'OPCO_M' id = 'OPCOsel_Mac' onchange = "Populate_opco_code_mac(this.value);" >
+				 <option value= "Please select" > Please Select </option>
+				 <option value= "United Kingdom" > United Kingdom </option>
+				 <option value= "Germany" > Germany </option>
+				 <option value= "Netherland" > Netherland </option>
+				 <option value= "Ireland" > Ireland </option>
+				 </select>
+				</span>
+				<span 		
+				 <label for='OPCO_M' class = 'label' id ='opcocode_L_M'>OPCOCode</label>
+				 <span class='after'>*</span> 
+				 <input type = 'text' class = 'provisioning' name = 'OPCO_M' id = 'OPCOcode_Mac' value='1109' disabled>
+				</span>
+			<!-- Static Logic as per Nari Inputs for MAC (Since only vodafone UK have MAC) -->  
+		<label for='OPCOName' class = 'label' style = 'display:none'>OPCOName</label>
+		<input type = 'text' class = 'cdrgen' name = 'OPCOName' id = 'OPCOName' disabled style = 'display:none'>
+						
+		<span 
+				<label for = 'File Exist'class = 'label' id = 'File_E'> File Exist  </label>
+				<span class='after'>*</span> 
+				<select id = "FileExi_v" name = "File Exist" onchange="FExist(this.value);" > 
+				<option value= "val_FN" > NO </option>	
+				<option value= "val_FE" > YES </option>	
+				</select>
+			 </span>				
+		<span> 	
+		<span 
+				<label for = 'Test_env'class = 'label' id = 'test_env'> Test Environment </label>
+				<span class='after'>*</span> 
+				<select id = "test_env_vebp" name = "Test_env"  > 
+				<option value= "SIT Prime" > SIT Prime </option>	
+				</select>
+			 </span>				
+		<span> 				
+		
+		<!--<form ref='uploadForm' id='frmUploader'  action='/Uploadprov'  method='post' encType="multipart/form-data">
+			<label for = 'Browse File'class = 'label' id = 'Browse_L'> Browse File <span class='after'>*</span> </label>	
+			<input type="file" name="sampleFile" id="file" />
+			<input type='submit' value='Upload' />
+		</form>  -->  
+			<label for = 'Browse File'class = 'label' id = 'Browse_L'> Browse File <span class='after'>*</span> </label>	
+			<input type="file" name="sampleFile" id="file" multiple/>
+			<input type='submit' value='Upload' id='upload_B'  />		
+		</span>
+	</form> 
+
+	    <br>
+		<br>
+	</div>
+	
+			<!-- Mac and BPF Generation Buttons value='BPF_View' -->
+	<div id='Mac_BPF_gen'>
+		 <br>
+		 <input id = 'Mac_file_name' disabled style="Display:None">
+		 <button class = 'button1' type = 'submit' id = 'Mac_gen' onclick = 'send_MACdata(this.id);'>Generate MAC File</button>
+		  <button class = 'button1' type = 'submit' id = 'Mac_gen_vebp_upload' onclick = 'MAC_Upload_in_VEBP();'>Upload MAC in VEBP</button>
+		<input id = 'BPF_file_name' disabled style="Display:None">	   
+		<button class = 'button1' type = 'submit' id = 'BPF_gen'  onclick = 'send_BPFData(this.id)'>Generate BPF File</button>
+		<button class = 'button1' type = 'submit' id = 'BPF_gen_vebp_upload' onclick = 'BPF_Upload_in_VEBP();'>Upload BPF in VEBP</button>
+		<input id = 'Clear_M' disabled style="Display:None">
+		<button class = 'button1' type = 'submit' id = 'Clear_mac_gen' onclick = 'MAC_BPF_clearall(this.id)'>Clear All</button>
+		<input id = 'Clear_B' disabled style="Display:None">
+		<button class = 'button1' type = 'submit' id = 'Clear_bpf_gen' onclick = 'MAC_BPF_clearall(this.id)'>Clear All</button>	
+		<button class = 'button1' id = 'dwlcdr_M' onclick = Mac_Dwnlcdr(); style="display:none"><a id ='dwdlink_M' href = '##'class = 'a' target="_blank"> Download MAC File</a></button> 
+		<button class = 'button1' id = 'dwlcdr_B' onclick = BPFFiledwd(); style="display:none"><a id ='dwdlink_B' href = '##'class = 'a' target="_blank"> Download MAC File</a></button> 
+		 <br>
+		 <br>
+	</div>	
+<div class = 'Mac_content2' id = 'M_content'>
+<br>
+<div>
+	<input id = 'Macfile_Name' disabled style="Display:None">
+</div>
+	<table border = 1 class="imagetable" id = 'mactable'  style="width:120%">
+	<thead>  <!-- Mac Generation Table Headers -->
+	<tr id = 'HeadRow'>
+		<th> <label class = 'label' style='color:white'> Use Case <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white;text-align:left;'>OpCo BAN <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> MSISDN <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white' > Email</label></th>
+		<th> <label class = 'label' style='color:white'> Existing Price Plan/SOC <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> Existing Price Plan/SOC Description </label></th>
+		<th> <label class = 'label' style='color:white'> New Price Plan/SOC <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> New Price Plan/SOC Description </label></th>
+		<th> <label class = 'label' style='color:white'>Modification Date <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> No. of Services </label></th>
+	</tr>
+	</thead>
+
+	<tbody><!-- Mac Generation Table Data -->
+	<datalist id = 'expp'></datalist>
+	<datalist id = 'newpp'></datalist>
+	<datalist id = 'exppDESC'></datalist>
+	<datalist id = 'newppDESC'></datalist>
+	<tr id = 'row1' class = 'rows' >
+	<td style="width:7%"><Select type = 'text' class = 'macgen'id = 'type_of_mod1' style="width:100%" onchange= "Clear_exis_values_uk_mac(this.id);MAC_field_level_validation(this.id,'No')" ><option>Please Select</option><option>Add</option><option>Move</option><option>Terminate</option><option>SOC Add</option><option>SOC Terminate</option></td>
+	<td style="width:9.5%"><input type = 'text'  class = 'macgen' id = 'BAN1' style="width:100%" onblur='neg_validation_MAC(this.id)' onchange = 'checkusecase(this.id)'></td>
+	<!--<td style="width:9%"><input type = 'number' class = 'macgen' id = 'MSISDN1' min="1" max="9999999999" style="width:100%" onblur = 'neg_validation_MAC(this.id)' ></td> -->
+	<td style="width:9%"><input type = 'text' class = 'macgen' id = 'MSISDN1' style="width:100%" onblur = 'neg_validation_MAC(this.id)' onchange = 'checkusecase(this.id)'></td>
+	<td style="width:6%"><input type = 'text' class = 'macgen' id = 'Email_add1' style="width:100%;text-transform:uppercase" onchange = 'checkEmail_Mac(this.id);checkusecase(this.id);' ></td>
+	<td style="width:10%"><Select type = 'text' class = 'macgen'id = 'Exis_PP_SOC_U1' style="width:100%" onchange = 'getPPdesc(this.id)' ><option>Please Select</option></td></td>
+	<td style="width:13%"><Select type = 'text' class = 'macgen' id = 'Exis_PP_SOC_desc1' style="width:100%" onchange = 'getPPcode(this.id)' ><option>Please Select</option></td></td>
+	<td style="width:9%"><Select type = 'text' class = 'macgen'   id = 'New_PP_SOC_U1'  style="width:100%" onchange = 'getPPdesc(this.id)'><option>Please Select</option></td></td>
+	<td style="width:12%"><Select type = 'text' class = 'macgen'id = 'New_PP_SOC_desc1'style="width:100%"  onchange = 'getPPcode(this.id)'><option>Please Select</option></td></td>
+	<td style="width:9.5%"><input type = 'text' disabled class = 'macgen' id ='Mod_date1' style="width:80%" onchange = 'checkusecase(this.id)'><img class = 'imgcdr_M' src='/ui/images2/cal.gif' id ='Mod_date1' onclick="javascript:NewCssCal(this.id,'ddMMMyyyy')" style="cursor:pointer"></td>
+	<td style="width:8%"><input type = 'text' class = 'macgen' id = 'No_of_Rec_Mac1'  style="width:100%" onblur='neg_validation_MAC(this.id);checkusecase(this.id)' ></td>
+	<td style = 'border-style:none;border-top:1px solid;width:2%;'><button class ='copy_Mac' id = 'cpy1' title = 'copy previous Row' style = 'border:none;background:white' onclick = 'copyrow_Macfile(this.id)'><img id = 'cpy1' src = 'ui/copy.png' class = 'copy'  style = 'border:none'></button>
+    <td style = 'border-style:none;border-top:1px solid;width:2%;'><button style = 'border:none;background:white' onclick = 'Mac_addnewrow()'><img src = 'ui/add.png' id = 'Add_M1' class = 'addpng'  style = 'border:none'></button>
+	<td style = 'border-style:none;border-top:1px solid;width:2%;'><button style = 'border:none;background:white' id = 'delbut_M1' class = 'delb_M' onclick = 'Mac_deleterow(this.id)'><img src = 'ui/delete.png' class = 'delete' id = 'Del_M1' disabled style = 'border:none'  ></button>
+	<td style = 'border-style:none;border-top:1px solid'><input type = 'text' class = 'macgen' id = 'mac_senData_ref1' disabled style="display:none;"></td>
+	</tr>
+	</tbody>
+	</table>
+</div>
+
+
+<!-- ####################################  Germany MAC ################################-->
+
+
+<div class = 'DE_Mac_content' id = 'M_content_DE' style='position:absolute;top:43%;width:85%;left:7%;'>
+</br>
+<div>
+	<input id = 'DE_Macfile_Name' disabled style="Display:None">
+</div>
+	<table border = 1 class="imagetable" id = 'mactable_DE'  style="width:105%">
+	<thead>  <!-- Mac Generation Table Headers -->
+	<tr id = 'HeadRow'>
+		<th> <label class = 'label' style='color:white'> Use Case <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white;text-align:left;'>OpCo BAN <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> MSISDN <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white' > Name1</label></th>
+		<th> <label class = 'label' style='color:white'> Name2 </label></th>
+		<th> <label class = 'label' style='color:white'> Creation Date <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> Effective Date <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> Tarrif Code <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'>Tarrif Description </label></th>
+		<th> <label class = 'label' style='color:white'>Old Value </label></th>
+		<th> <label class = 'label' style='color:white'> No. of Services </label></th>
+	</tr>
+	</thead>
+
+	<tbody><!-- Mac Generation Table Data  onchange = 'getPPdesc(this.id)'  -->
+	<datalist id = 'DE_Tarrif_Lcode'></datalist>
+	<datalist id = 'DE_Tarrif_Ldesc'></datalist>
+	<tr id = 'row1' class = 'rows' >
+	<!--<td style="width:7%"><Select type = 'text' class = 'DE_macgen'id = 'DE_use_case1' style="width:100%" onchange="" ><option>Please Select</option><option>Activation</option><option>Acquisition Postpay</option></td> -->
+	<td style="width:7%"><Select type = 'text' class = 'DE_macgen'id = 'DE_use_case1' style="width:100%" onchange= "Clear_exis_values_DE_mac(this.id);get_DE_pp_val(this.id)" ></td>
+	<td style="width:9.5%"><input type = 'text'  class = 'DE_macgen' id = 'DE_BAN1' min="1"  max="9999999999" style="width:100%" onblur='neg_validation_MAC(this.id)' onchange= 'checkusecase(this.id)' ></td>
+	<td style="width:7%"><input type = 'text' class = 'DE_macgen' id = 'DE_MSISDN1' style="width:100%" onblur='neg_validation_MAC(this.id)'onchange= 'checkusecase(this.id)' ></td>
+	<td style="width:8%"><input type = 'text' class = 'DE_macgen' id = 'DE_Name11' style="width:100%" onblur='neg_validation_MAC(this.id)' onchange= 'checkusecase(this.id)'></td>
+	<td style="width:8%"><input type = 'text' class = 'DE_macgen' id = 'DE_Name21' style="width:100%" onblur='neg_validation_MAC(this.id)' onchange= 'checkusecase(this.id)'></td>																  
+	<td style="width:9.5%"><input type = 'text'  class = 'DE_macgen' id ='DE_cre_date1' disabled style="width:80%" onchange= 'checkusecase(this.id)'><img class = 'DE_imgcdr_M' src='/ui/images2/cal.gif' id ='DE_cre_date1' onclick="javascript:NewCssCal(this.id,'yyyyMMdd','arrow','true','24','true')" style="cursor:pointer"></td>
+	<td style="width:9.5%"><input type = 'text'  class = 'DE_macgen' id ='DE_eff_date1' disabled style="width:80%" onchange= 'checkusecase(this.id)'><img class = 'DE_imgcdr_M' src='/ui/images2/cal.gif' id ='DE_eff_date1' onclick="javascript:NewCssCal(this.id,'yyyyMMdd')" style="cursor:pointer"></td>
+	<td style="width:10%"><Select type = 'text' class = 'DE_macgen'  id = 'DE_Tarrif_code1' onchange='getPP_DE(this.id)' style="width:100%"  ><option>Please Select</option></td>
+	<td style="width:10%"><Select type = 'text' class = 'DE_macgen'  id = 'DE_Tarrif_desc1' onchange='getPP_desc_DE(this.id)' style="width:100%" ><option>Please Select</option></td>
+	<td style="width:8%"><input type = 'text' class = 'DE_macgen' id = 'DE_Old_value1' style="width:100%" onblur='neg_validation_MAC(this.id)' onchange= 'checkusecase(this.id)'></td>	
+	<td style="width:8%"><input type = 'text' class = 'DE_macgen' id = 'DE_No_of_Rec_Mac1'  onblur='neg_validation_MAC(this.id)' style="width:100%" onchange= 'checkusecase(this.id)' ></td>
+
+	<td style = 'border-style:none;border-top:1px solid'><button class ='DE_copy_Mac' id = 'DE_cpy1' title = 'copy previous Row' style = 'border:none;background:white' onclick = 'DE_copyrow_Macfile(this.id)'><img id = 'DE_cpy1' src = 'ui/copy.png' class = 'DE_copy'  style = 'border:none'></button></td>
+    <td style = 'border-style:none;border-top:1px solid'><button style = 'border:none;background:white' onclick = 'DE_Mac_addnewrow()'><img src = 'ui/add.png' id = 'DE_Add_M1' class = 'DE_addpng'  style = 'border:none'></button></td>
+	<td style = 'border-style:none;border-top:1px solid'><button style = 'border:none;background:white' id = 'DE_delbut_M1' class = 'DE_delb_M' onclick = 'DE_Mac_deleterow(this.id)'><img src = 'ui/delete.png' class = 'DE_delete' id = 'DE_Del_M1' disabled style = 'border:none'  ></button></td>
+	<td style = 'border-style:none;border-top:1px solid'><input type = 'text' class = 'DE_macgen' id = 'DE_mac_pp_val1' disabled style="display:none;"></td>
+	<td style = 'border-style:none;border-top:1px solid'><input type = 'text' class = 'DE_macgen' id = 'DE_mac_pp_desc1' disabled style="display:none;"></td>
+	<td style = 'border-style:none;border-top:1px solid'><input type = 'text' class = 'DE_macgen' id = 'DE_mac_senData_ref1' disabled style="display:none;"></td>
+	</tr>
+	</tbody>
+	</table>
+</div>
+
+<!-- ####################################  Germany MAC ################################-->
+
+
+<!-- ####################################  Netherland ################################-->
+<div class = 'Mac_content_NL' id = 'M_content_NL' style='position:absolute;top:43%;width:85%;left:7%;'>
+<br>
+<div>
+	<input id = 'Macfile_NL' disabled style="Display:None">
+</div>
+	<table border = 1 class="imagetable" id = 'mactable_NL'  style="width:105%">
+	<thead>  
+	<tr id = 'HeadRow'>
+		<th> <label class = 'label' style='color:white'> Use Case <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white;text-align:left;'>OpCo BAN <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white;text-align:left;'> MSISDN<span class='after'>*</span></label></th>	
+		<th> <label class = 'label' style='color:white'>DATE <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'>Price Plan Name <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white' >Price Plan Description</label></th>
+		<th> <label class = 'label' style='color:white'>MAC <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'>Add On Name<span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'>Add On Description </label></th>
+		<th> <label class = 'label' style='color:white'>ADD_ON_CON_DISCON <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> No. of Services </label></th>
+	</tr>
+	</thead>
+
+	<tbody>
+	<datalist id = 'PP_NAME_NL_L'></datalist>
+	<datalist id = 'PP_DESC_NL_L'></datalist>   
+	<tr id = 'row1' class = 'rows' >
+	<td style="width:8%"><Select type = 'text' class = 'macgen_nl'id = 'type_of_mod_NL1' style="width:100%" onchange= "Clear_exis_values_NL_mac(this.id);NL_mac_picker(this.id)" ><option>Please Select</option><option>Add</option><option>Terminate</option></td>
+	<td style="width:7%"><input type = 'text'  class = 'macgen_nl' id = 'BAN_NL1'  style="width:100%" onblur='neg_validation_MAC(this.id)' onchange= 'checkusecase(this.id)' ></td>
+	<td style="width:7%"><input type = 'text' class = 'macgen_nl' id = 'MSISDN_NL1' style="width:100%" onblur='neg_validation_MAC(this.id)' onchange= 'checkusecase(this.id)' ></td>
+	<td style="width:7%"><input type = 'text' disabled class = 'macgen_nl' id ='Mod_date_NL1' title = 'Date: dd-mm-yyyy' style="width:80%" onchange= 'checkusecase(this.id)'><img class = 'imgcdr_NL_M' src='/ui/images2/cal.gif' id ='Mod_date_NL1' onclick="javascript:NewCssCal(this.id,'ddMMyyyy')" style="cursor:pointer"></td>
+	<td style="width:9%"><Select type = 'text' class = 'macgen_nl'  id = 'PP_NAME_NL1' onchange='getPP_NL(this.id)'   style="width:100%;"><Option>Please Select</option></td>
+	<td style="width:11%"><Select type = 'text' class = 'macgen_nl'  id = 'PP_DESC_NL1' onchange='getPP_desc_NL(this.id)'style="width:100%"><Option>Please Select</option></td>
+	<td style="width:7%"><Select type = 'text' class = 'macgen_nl'id = 'MAC_NL1' style="width:100%" onchange= 'checkusecase(this.id)' ><option></option><option>ACTIVATION</option><option>MOVE_CURRENT</option><option>DISCONNECTION</option></td>
+	<td style="width:8%"><input type = 'text' class = 'macgen_nl'  id = 'Name_NL1'  style="width:100%" onchange='Onhover_MAC(this.id);checkusecase(this.id)' ></td>
+	<td style="width:10%"><input type = 'text' class = 'macgen_nl'id = 'Desc_NL1'style="width:100%" onchange='Onhover_MAC(this.id);checkusecase(this.id)'></td>
+	<td style="width:12%"><Select type = 'text' class = 'macgen_nl'id = 'ADD_ON_CON_DISCON_NL1' style="width:100%" onchange="checkusecase(this.id);" ><option> </option><option>CONNECTION</option><option>DISCONNECTION</option><option>DISCONNECTION_IN_MONTH</option></td>
+	<td style="width:8%"><input type = 'text' class = 'macgen_nl' id = 'No_of_Rec_NL1' style="width:100%" onblur='neg_validation_MAC(this.id)'  onchange="checkusecase(this.id);"></td>
+	
+	<td style = 'border-style:none;width:2%;border-top:1px solid'><button class ='NL_copy_Mac' id = 'cpy_NL1' title = 'copy previous Row_NL' style = 'border:none;background:white' onclick = 'copyrow_Macfile_NL(this.id)'><img id = 'cpy_NL1' src = 'ui/copy.png' class = 'NL_copy'  style = 'border:none'></button>
+    <td style = 'border-style:none;width:2%;border-top:1px solid'><button style = 'border:none;background:white' onclick = 'Mac_addnewrow_NL()'><img src = 'ui/add.png' id = 'Add_M_NL1' class = 'NL_addpng'  style = 'border:none'></button>
+	<td style = 'border-style:none;width:2%;border-top:1px solid'><button style = 'border:none;background:white' id = 'delbut_NL_M1' class = 'NL_delb_M' onclick = 'Mac_deleterow_NL(this.id)'><img src = 'ui/delete.png' class = 'NL_delete' id = 'Del_NL_M1' disabled style = 'border:none'></button>
+	<td style = 'border-style:none;width:0.5%;border-top:1px solid'><input type = 'text' class = 'macgen_nl' id = 'mac_senData_NL_ref1' disabled style="display:none;"></td>
+	</tr>
+	</tbody>
+	</table>
+</div>
+
+
+<!-- ####################################  Netherland ################################-->
+
+
+<!-- ####################################  Ireland ################################-->
+<div class = 'Mac_content_IE' id = 'M_content_IE' style='position:absolute;top:43%;width:70%;left:7%;'>
+<br>
+<div>
+	<input id = 'Macfile_IE' disabled style="Display:None">
+</div>
+	<table border = 1 class="imagetable" id = 'mactable_IE'  style="width:100%">
+	<thead>  
+	<tr id = 'HeadRow'>
+		<th> <label class = 'label' style='color:white'> Use Case <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white;text-align:left;'>OpCo BAN <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white;text-align:left;'> MSISDN<span class='after'>*</span></label></th>	
+		<th> <label class = 'label' style='color:white'>DATE <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> Tarrif <span class='after'>*</span></label></th>
+		<th disabled style="display:none;" > <label class = 'label' style='color:white'>Package plan code <span class='after'>*</span></label></th>
+		<th disabled style="display:none;" > <label class = 'label' style='color:white'>Bundle code <span class='after'>*</span></label></th>
+		<th disabled style="display:none;" > <label class = 'label' style='color:white'>Bundle code description <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> No. of Services </label></th>
+	</tr>
+	</thead>
+
+	<tbody>
+	<datalist id = 'PP_NAME_IE_L'></datalist>
+	<datalist id = 'PP_DESC_IE_L'></datalist>   
+	<tr id = 'row1' class = 'rows' >
+	<td style="width:10%"><Select type = 'text' class = 'macgen_IE'id = 'type_of_mod_IE1' style="width:100%" onchange= "Clear_exis_values_IE_mac(this.id);IE_mac_picker(this.id)" ><option>Please Select</option><option>Add</option><option>Terminate</option></td>
+	<td style="width:10%"><input type = 'text'  class = 'macgen_IE' id = 'BAN_IE1'  style="width:100%" onblur='neg_validation_MAC(this.id)' onchange= 'checkusecase(this.id)'></td>
+	<td style="width:10%"><input type = 'text' class = 'macgen_IE' id = 'MSISDN_IE1' style="width:100%" onblur='neg_validation_MAC(this.id)' onchange= 'checkusecase(this.id)'></td>
+	<td style="width:10%"><input type = 'text' disabled class = 'macgen_IE' id ='Mod_date_IE1' title = 'Date: dd-mm-yyyy' style="width:80%" onchange= 'checkusecase(this.id)'><img class = 'imgcdr_IE_Mod_date' src='/ui/images2/cal.gif' id ='Mod_date_IE1' onclick="javascript:NewCssCal(this.id,'ddMMyyyy')" style="cursor:pointer"></td>
+	<td style="width:10%"><Select type = 'text' class = 'macgen_IE'  id = 'PP_NAME_IE1'  onchange="get_IE_pp_val(this.id)"  style="width:100%;"><Option>Please Select</option></td>
+	<td style="width:8%"><input type = 'text' class = 'macgen_IE' id = 'No_of_Rec_IE1' style="width:100%" onblur='neg_validation_MAC(this.id)' onchange= 'checkusecase(this.id)'></td>
+	<!-- Hidden feild's reference -->
+	<td style = 'border-style:none;width:0.5%;border-top:1px solid'><input type = 'text' class = 'macgen_IE' id = 'package_plan_code1' disabled style="display:none;"></td>
+	<td style = 'border-style:none;width:0.5%;border-top:1px solid'><input type = 'text' class = 'macgen_IE' id = 'bundle_soc_code1' disabled style="display:none;"></td>
+	<td style = 'border-style:none;width:0.5%;border-top:1px solid'><input type = 'text' class = 'macgen_IE' id = 'bundle_soc_description1' disabled style="display:none;"></td>
+	
+	<td style = 'border-style:none;width:2%;border-top:1px solid'><button class ='IE_copy_Mac' id = 'cpy_IE1' title = 'copy previous Row' style = 'border:none;background:white' onclick = 'copyrow_Macfile_IE(this.id)'><img id = 'cpy_IE1' src = 'ui/copy.png' class = 'IE_copy'  style = 'border:none'></button>
+    <td style = 'border-style:none;width:2%;border-top:1px solid'><button style = 'border:none;background:white' onclick = 'Mac_addnewrow_IE()'><img src = 'ui/add.png' id = 'Add_M_IE1' class = 'IE_addpng'  style = 'border:none'></button>
+	<td style = 'border-style:none;width:2%;border-top:1px solid'><button style = 'border:none;background:white' id = 'delbut_IE_M1' class = 'IE_delb_M' onclick = 'Mac_deleterow_IE(this.id)'><img src = 'ui/delete.png' class = 'IE_delete' id = 'Del_IE_M1' disabled style = 'border:none'></button>
+	<td style = 'border-style:none;width:0.5%;border-top:1px solid'><input type = 'text' class = 'macgen_IE' id = 'mac_senData_IE_ref1' disabled style="display:none;"></td>
+	</tr>
+	</tbody>
+	</table>
+</div>
+
+
+<!-- ####################################  Ireland ################################-->
+
+
+
+
+<div class = 'BPF_content2' id = 'B_content' style='width:73%'>
+<div>
+	<input id = 'Bpffile_Name' disabled style="Display:None">
+	<br>
+	<br>
+	</div>
+	<table border = 1 class="imagetable" id = 'bpftable' style='width:130%;position:absolute;left:5%' >
+	<thead>  <!-- BPF Generation Table Headers -->
+	<tr id = 'HeadRow'>
+		<th> <label class = 'label' style='color:white'> Proposition Type<span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> BAN <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> Site ID <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> Service ID <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> User ID <span class='after'></th>
+		<th> <label class = 'label' style='color:white'> Price Plan <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white' title = 'User_Level Flat Charge 1' > UL_FC1 </label></th>
+		<th> <label class = 'label' style='color:white' title = 'User_Level Flat Charge 2' > UL_FC2</label></th>
+		<th> <label class = 'label' style='color:white' title = 'User_Level Flat Charge 3'> UL_FC3</label></th>
+		<th> <label class = 'label' style='color:white' title = 'Service_Level Flat Charge 1' > SL_FC1</label></th>
+		<th> <label class = 'label' style='color:white' title = 'Service_Level Flat Charge 2' > SL_FC2</label></th>
+		<th> <label class = 'label' style='color:white' title = 'Service_Level Flat Charge 3' > SL_FC3</label></th>
+		<th> <label class = 'label' style='color:white'> Number Masking </label></th>
+		<th> <label class = 'label' style='color:white'> Device Type </label></th>
+		<th> <label class = 'label' style='color:white'> Date <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> No. of Services </label></th>
+	</tr>
+	</thead>
+	<!-- BPF Generation Table Data -->
+	<tbody>  <!-- BPF Generation Table Data <option>SOC Add</option><option>SOC Terminate</option> -->
+	<datalist id = 'dlPrice_Plan'></datalist>
+	<datalist id = 'dlFlat_Charg'></datalist>
+	<datalist id = 'Acc_Fcharge'></datalist>
+	<datalist id = 'dldevice_type'></datalist>
+	<tr id = 'row1' class = 'rows' >
+	<td style="width:6%"><Select type = 'text' class = 'bpfgen_add' id = 'proposition_type_B_A1' style="width:100%" onchange= "Clear_exis_values_BPF_add_mac(this.id);getpriceplan(this.id)"	></td>
+	<td style="width:4.5%"><input type = 'number' class = 'bpfgen_add' id = 'BAN_BA1' min="1"  max="9999999999" style="width:100%" onblur = 'neg_validation_BPF(this.id)' onchange='checkusecase_BPF_A(this.id)' ></td>
+	<!--<td style="width:5%"><input type = 'number' class = 'bpfgen_add' id = 'Parent_AccID1' min="1"  max="9999999999" style="width:100%" onblur = 'neg_validation_BPF(this.id)' ></td>
+	<td style="width:5%"><input type = 'number' class = 'bpfgen_add' id = 'Service_ID1'  min="1"  max="9999999999" style="width:100%" onblur = 'neg_validation_BPF(this.id)' ></td> -->
+	<td style="width:4%"><input type = 'text' class = 'bpfgen_add' id = 'Parent_AccID1'  style="width:100%" onblur = 'neg_validation_BPF(this.id)' onchange='checkusecase_BPF_A(this.id)'></td>
+	<td style="width:5%"><input type = 'text' class = 'bpfgen_add' id = 'Service_ID1'   style="width:100%" onblur = 'neg_validation_BPF(this.id)' onchange='checkusecase_BPF_A(this.id)' ></td>
+	<td style="width:4%"><input type = 'text' class = 'bpfgen_add' id = 'User_ID1' style="width:100%" onblur = 'checkEmail_BPF(this.id)' onchange='checkusecase_BPF_A(this.id)' ></td>
+	<td style="width:4.5%"><Select type = 'text' class = 'bpfgen_add' list ="dlPrice_Plan"  id = 'Price_Plan1' style="width:100%" onchange='checkusecase_BPF_A(this.id)' ><option>Please Select</option></td>
+	<td style="width:1%"><input type = 'text' class = 'bpfgen_add' list ="Acc_Fcharge" id = 'AL_Fcharge11' style="width:100%" onchange='checkusecase_BPF_A(this.id)' ></td>
+	<td style="width:2%"><input type = 'text' class = 'bpfgen_add' id = 'AL_Fcharge21' style="width:100%" onchange='checkusecase_BPF_A(this.id)' ></td>
+	<td style="width:2%"><input type = 'text' class = 'bpfgen_add' id = 'AL_Fcharge31' style="width:100%"  onchange='checkusecase_BPF_A(this.id)' ></td>
+	<td style="width:2%"><input type = 'text' class = 'bpfgen_add' list ="dlFlat_Charg" id = 'Flat_Charge11' style="width:100%" onchange='checkusecase_BPF_A(this.id)' ></td>
+	<td style="width:2%"><input type = 'text' class = 'bpfgen_add' id = 'Flat_Charge21' style="width:100%" onchange='checkusecase_BPF_A(this.id)' ></td>
+	<td style="width:2%"><input type = 'text' class = 'bpfgen_add' id = 'Flat_Charge31' style="width:100%"  onchange='checkusecase_BPF_A(this.id)' ></td>
+	<td style="width:6%"><input type = 'text' class = 'bpfgen_add' id = 'Number_Masking1' style="width:100%" onchange='checkusecase_BPF_A(this.id)' ></td>
+	<td style="width:5%"><input type = 'text' class = 'bpfgen_add' list ="dldevice_type" id = 'Device_Type1' style="width:100%" onchange='checkusecase_BPF_A(this.id)' ></td>
+	<td style="width:5%"><input type = 'text' disabled class = 'bpfgen_add' id ='Date_Add1' style="width:80%" onchange='checkusecase_BPF_A(this.id)' ><img src='/ui/images2/cal.gif' class = 'imgbpf_M'  id ='Date_Add1' onclick="javascript:NewCssCal('Date_Add1','ddMMyyyy')" style="cursor:pointer"></td>
+	<td style="width:6%"><input type = 'text' class = 'bpfgen_add' id = 'No_of_Rec_BPF_A1' style="width:100%" onblur='neg_validation_BPF(this.id)' onchange='checkusecase_BPF_A(this.id)' ></td>
+	<td style = 'border-style:none;width:1.2%;border-top:1px solid'><button class ='copy_BA' id = 'cpy_A1' title = 'copy previous Row' style = 'border:none;background:white' onclick = 'copyrow_Bpffile_add(this.id)'><img src = 'ui/copy.png'  id = 'cpy_A1' class = 'copy_BAd'  style = 'border:none' ></button>
+    <td style = 'border-style:none;width:1.2%;border-top:1px solid'><button style = 'border:none;background:white' onclick = 'Bpf_addnewrow_add()'><img src = 'ui/add.png' class = 'addpng_BAd'  style = 'border:none' id = 'addbut_add1'></button></td>
+	<td style = 'border-style:none;width:1.2%;border-top:1px solid'><button  style = 'border:none;background:white' id = 'delbut_add1' class = 'delbut_add' onclick = 'Bpf_deleterow_add("delbut_add1")'><img src = 'ui/delete.png' class = 'delete_BAd'  style = 'border:none'  id = 'del_add1'  ></button></td>
+	<td style = 'border-style:none;width:0.5%;border-top:1px solid'><input type = 'text' class = 'bpfgen_add' id = 'bpf_senData_add_ref1' disabled style="display:none;"></td>
+	</tr>
+	</tbody>	
+	</table>
+</div>
+<div class = 'BPF_content_Move' id = 'B_content_Mov'>
+<div>
+	<input id = 'Bpffile_Name_Mov' disabled style="Display:None">
+	<br>
+	<br>
+	</div>
+	<table border = 1 class="imagetable" id = 'bpftable_mov'  style= "width:120%">
+	<thead>  <!-- BPF Generation Table Headers -->
+	<tr id = 'HeadRow'>
+		<th> <label class = 'label' style='color:white'> Proposition Type<span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> Service ID <span class='after'>*</span></label></th>
+		<!--<th> <label class = 'label' style='color:white'> User ID <span class='after'>*</span></label></th> -->
+		<th> <label class = 'label' style='color:white'> Price Plan <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> Flat Charge1 </label></th>
+		<th> <label class = 'label' style='color:white'> Flat Charge2 </label></th>
+		<th> <label class = 'label' style='color:white'> Flat Charge3 </label></th>
+		<th> <label class = 'label' style='color:white'> Number Masking </label></th>
+		<th> <label class = 'label' style='color:white'> Device Type </label></th>
+		<th> <label class = 'label' style='color:white'> Date <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> No. of Services </label></th>
+	</tr>
+	</thead>
+
+	<tbody>  <!-- BPF Generation Table Data <option>SOC Add</option><option>SOC Terminate</option> -->
+	<datalist id = 'dlPrice_Plan_Mov'></datalist>
+	<datalist id = 'dlFlat_Charg_Mov'></datalist>
+	<datalist id = 'dldevice_type_Mov'></datalist>
+	<tr id = 'row1' class = 'rows' >
+	<td style="width:7%"><Select type = 'text' class = 'bpfgen_mov' id = 'proposition_Mov1' style="width:100%" onchange= "Clear_exis_values_BPF_mov_mac(this.id);getpriceplan(this.id)" ></td>
+	<td style="width:5%"><input type = 'text' class = 'bpfgen_mov' id = 'Service_ID_Mov1' style="width:100%"  onblur = 'neg_validation_BPF(this.id)' onchange='checkusecase_BPF_M(this.id)' ></td>
+	<!--<td style="width:5%"><input type = 'number' class = 'bpfgen_mov' id = 'Service_ID_Mov1' style="width:100%"  min="1"  max="999999999" style="width:100%" onblur = 'neg_validation_BPF(this.id)' ></td>
+	<td style="width:5%"><input type = 'text' class = 'bpfgen_mov' id = 'User_ID_Mov1' style="width:100%" onblur = 'checkEmail_BPF(this.id)' ></td> -->
+	<td style="width:5%"><Select type = 'text' class = 'bpfgen_mov'  id = 'Price_Plan_Mov1' style="width:100%" onchange='checkusecase_BPF_M(this.id)' ><option>Please Select</option></td> 
+	<td style="width:5%"><input type = 'text' class = 'bpfgen_mov' list = "dlFlat_Charg_Mov" id = 'Flat_Charge_Mov1' style="width:100%"  onchange='checkusecase_BPF_M(this.id)' ></td>
+	<td style="width:5%"><input type = 'text' class = 'bpfgen_mov' id = 'Flat_Charge2_Mov1' style="width:100%"  onchange='checkusecase_BPF_M(this.id)' ></td>
+	<td style="width:5%"><input type = 'text' class = 'bpfgen_mov' id = 'Flat_Charge3_Mov1' style="width:100%"  onchange='checkusecase_BPF_M(this.id)' ></td>
+	<td style="width:7%"><input type = 'text' class = 'bpfgen_mov' id = 'Number_Masking_Mov1' style="width:100%"  onchange='checkusecase_BPF_M(this.id)' ></td>
+	<td style="width:7%"><input type = 'text' class = 'bpfgen_mov' list= "dldevice_type_Mov" id = 'Device_Type_Mov1' style="width:100%"  onchange='checkusecase_BPF_M(this.id)' ></td>
+	<td style="width:7%"><input type = 'text' disabled class = 'bpfgen_mov' id ='Date_Mov1' style="width:80%" onchange='checkusecase_BPF_M(this.id)' ><img src='/ui/images2/cal.gif' class = 'imgbpf_Mov' id ='Date_Mov1'onclick="javascript:NewCssCal('Date_Mov1','ddMMyyyy')" style="cursor:pointer"></td>
+	<td style="width:6%"><input type = 'text' class = 'bpfgen_mov' id = 'No_of_Rec_BPF_M1'  style="width:100%" onblur='neg_validation_BPF(this.id)' onchange='checkusecase_BPF_M(this.id)' ></td>
+	<td style = 'border-style:none;width:1.2%;border-top:1px solid'><button title = 'copy previous Row' style = 'border:none;background:white'class ='copy_BM' id = 'cpy_M1'  onclick = 'copyrow_Bpffile_Mov(this.id)'><img src = 'ui/copy.png' class = 'copy_BMo'  style = 'border:none' id = 'cpy_M1'></button></td>
+    <td style = 'border-style:none;width:1.2%;border-top:1px solid'><button style = 'border:none;background:white' onclick = 'Bpf_addnewrow_Mov()'><img src = 'ui/add.png' class = 'addpng_BM'  style = 'border:none' id = 'addbut_mov1' ></button></td>
+	<td style = 'border-style:none;width:1.2%;border-top:1px solid'><button  style = 'border:none;background:white' id = 'delbut_mov1' class = 'delbut_mov' onclick = 'Bpf_deleterow_Mov("delbut_mov1") '><img src = 'ui/delete.png' class = 'delete_BM' dilsabled style = 'border:none' id = 'del_mov1' ></button></td>
+	<td style = 'border-style:none;width:0.5%;border-top:1px solid'><input type = 'text' class = 'bpfgen_mov' id = 'bpf_senData_Mov_ref1' disabled style="display:none;"></td>
+	</tr>
+	</tbody>
+	</table>
+</div>
+<div class = 'BPF_content_Ter' id = 'B_content_Ter'>
+<div>
+	<input id = 'Bpffile_Name_Ter' disabled style="Display:None" style = 'width:100%'>
+	<br>
+	<br>
+	</div>
+	<table border = 1 class="imagetable" id = 'bpftable_Ter'  style= "width:130%">
+	<thead>  <!-- BPF Generation Table Headers -->
+	<tr id = 'HeadRow'>
+		<th> <label class = 'label' style='color:white'> Termination type <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> Site ID </label></th>
+		<th> <label class = 'label' style='color:white'> User ID<span class='after'></span></label></th>		
+		<th> <label class = 'label' style='color:white'> Service ID <span class='after'></span></label></th>
+		<th> <label class = 'label' style='color:white'> Inactive Date  <span class='after'>*</span></label></th>
+		<th> <label class = 'label' style='color:white'> No. of Services </label></th>
+	</tr>
+	</thead>
+
+	<tbody>  <!-- BPF Generation Table Data <option>SOC Add</option><option>SOC Terminate</option> -->
+	<tr id = 'row1' class = 'rows' >
+	<td style="width:8%"><Select type = 'text' class = 'bpfgen_Ter'id = 'Termination_typ1' style="width:100%" onchange= "Clear_exis_values_BPF_ter_mac(this.id);BPF_field_level_validation(this.id,'n')" ><option>Please Select</option><option>USER</option><option>SERVICE</option></td>
+	<!--<td style="width:9%"><input type = 'number' class = 'bpfgen_Ter' id = 'Site_ID_Ter1' style="width:100%" min="1" style="width:100%" onblur = 'neg_validation_BPF(this.id)'></td> -->
+	<td style="width:9%"><input type = 'text' class = 'bpfgen_Ter' id = 'Site_ID_Ter1'  style="width:100%" onblur = 'neg_validation_BPF(this.id)' onchange = 'checkusecase_BPF_T(this.id)'></td> 
+	<td style="width:9%"><input type = 'text' class = 'bpfgen_Ter' id = 'User_ID_Ter1' style="width:100%" onblur = 'checkEmail_BPF(this.id)' onchange = 'checkusecase_BPF_T(this.id)' ></td>
+	<!--<td style="width:9%"><input type = 'number' class = 'bpfgen_Ter' id = 'Service_ID_Ter1' style="width:100%" min="1"  max="999999999" style="width:100%" onblur = 'neg_validation_BPF(this.id)'></td> -->
+	<td style="width:9%"><input type = 'text' class = 'bpfgen_Ter' id = 'Service_ID_Ter1' style="width:100%" onblur = 'neg_validation_BPF(this.id)' onchange = 'checkusecase_BPF_T(this.id)'></td> 
+	<td style="width:9%"><input type = 'text' disabled class = 'bpfgen_Ter' id ='Date_Ter1' style="width:80%" onchange = 'checkusecase_BPF_T(this.id)' ><img src='/ui/images2/cal.gif' class = 'imgbpf_Ter' id ='Date_Ter1' onclick="javascript:NewCssCal('Date_Ter1','ddMMyyyy')" style="cursor:pointer"></td>
+	<td style="width:8%"><input type = 'text' class = 'bpfgen_Ter' id = 'No_of_Rec_BPF_T1' disabled style="width:100%" onblur='neg_validation_BPF(this.id)' onchange = 'checkusecase_BPF_T(this.id)' ></td>
+	<td style = 'border-style:none;width:2%;border-top:1px solid'><button title = 'copy previous Row' style = 'border:none;background:white' class ='copy_BT' id = 'cpy_T1' onclick = 'copyrow_Bpffile_Ter(this.id)'><img src = 'ui/copy.png' class = 'copy_Bter'  style = 'border:none' id = 'cpy_T1'></button></td>
+    <td style = 'border-style:none;width:2%;border-top:1px solid'><button style = 'border:none;background:white' onclick = 'Bpf_addnewrow_Ter()'><img src = 'ui/add.png' class = 'addpng_Bter'  style = 'border:none' id = 'addbut_ter1' ></button></td>
+	<td style = 'border-style:none;width:2%;border-top:1px solid'><button  style = 'border:none;background:white'  id = 'delbut_ter1' class = 'delbut_term' onclick = 'Bpf_deleterow_Ter("delbut_ter1") '><img src = 'ui/delete.png' class = 'delete_Bter' dilsabled style = 'border:none' id = 'del_ter1' ></button></td>
+	<td style = 'border-style:none;width:0.5%;border-top:1px solid'><input type = 'text' class = 'bpfgen_Ter' id = 'bpf_senData_Ter_ref1' disabled style="display:none;"></td>
+	</tr>
+	</tbody>
+	</table>
+</div>
+</div>
+<img src = 'ui/loading.gif' class = 'loading' style = 'display:none' id = 'provload' >
+</script>
+</body>
+</html>

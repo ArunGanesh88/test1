@@ -1,0 +1,211 @@
+Mon, 26 Jun 2017 11:51:59 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Mon, 26 Jun 2017 11:51:59 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+SyntaxError: Unexpected end of JSON input
+    at Object.parse (native)
+    at D:\TAT\server.js:53:22
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\TAT\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (D:\TAT\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\TAT\node_modules\express\lib\router\index.js:312:13)
+    at D:\TAT\node_modules\express\lib\router\index.js:280:7
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\TAT\node_modules\express\lib\router\index.js:312:13)
+    at D:\TAT\node_modules\express\lib\router\index.js:280:7
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+SyntaxError: Unexpected end of JSON input
+    at Object.parse (native)
+    at D:\TAT\server.js:53:22
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\TAT\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (D:\TAT\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\TAT\node_modules\express\lib\router\index.js:312:13)
+    at D:\TAT\node_modules\express\lib\router\index.js:280:7
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\TAT\node_modules\express\lib\router\index.js:312:13)
+    at D:\TAT\node_modules\express\lib\router\index.js:280:7
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+Tue, 27 Jun 2017 07:01:03 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Tue, 27 Jun 2017 07:01:03 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+Wed, 28 Jun 2017 07:08:17 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Wed, 28 Jun 2017 07:08:17 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: channel closed
+    at ChildProcess.target.send (internal/child_process.js:540:16)
+    at process.killkid (D:\TAT\node_modules\node-windows\lib\wrapper.js:177:11)
+    at emitNone (events.js:86:13)
+    at process.emit (events.js:185:7)
+    at Signal.wrap.onsignal (internal/process.js:199:44)
+Thu, 29 Jun 2017 07:48:05 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Thu, 29 Jun 2017 07:48:05 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+Fri, 30 Jun 2017 05:29:54 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Fri, 30 Jun 2017 05:29:54 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+Fri, 30 Jun 2017 08:10:01 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Fri, 30 Jun 2017 08:10:01 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+Fri, 30 Jun 2017 14:36:21 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Fri, 30 Jun 2017 14:36:21 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+Fri, 30 Jun 2017 14:59:10 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Fri, 30 Jun 2017 14:59:10 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+Sat, 01 Jul 2017 05:34:25 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Sat, 01 Jul 2017 05:34:25 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+error running query { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (D:\TAT\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\TAT\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\TAT\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\TAT\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (D:\TAT\node_modules\mysql\lib\Pool.js:202:8)
+    at D:\TAT\server.js:61:7
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\TAT\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (D:\TAT\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\TAT\node_modules\express\lib\router\index.js:312:13)
+    at D:\TAT\node_modules\express\lib\router\index.js:280:7
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+error running query { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (D:\TAT\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\TAT\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\TAT\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\TAT\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (D:\TAT\node_modules\mysql\lib\Pool.js:202:8)
+    at D:\TAT\server.js:61:7
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\TAT\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (D:\TAT\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\TAT\node_modules\express\lib\router\index.js:312:13)
+    at D:\TAT\node_modules\express\lib\router\index.js:280:7
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+error running query { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (D:\TAT\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\TAT\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\TAT\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\TAT\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (D:\TAT\node_modules\mysql\lib\Pool.js:202:8)
+    at D:\TAT\server.js:61:7
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\TAT\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (D:\TAT\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\TAT\node_modules\express\lib\router\index.js:312:13)
+    at D:\TAT\node_modules\express\lib\router\index.js:280:7
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+error running query { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (D:\TAT\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\TAT\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\TAT\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\TAT\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (D:\TAT\node_modules\mysql\lib\Pool.js:202:8)
+    at D:\TAT\server.js:61:7
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\TAT\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (D:\TAT\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (D:\TAT\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\TAT\node_modules\express\lib\router\index.js:312:13)
+    at D:\TAT\node_modules\express\lib\router\index.js:280:7
+    at next (D:\TAT\node_modules\express\lib\router\index.js:271:10)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+Sun, 02 Jul 2017 14:42:25 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Sun, 02 Jul 2017 14:42:25 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+Mon, 03 Jul 2017 06:36:31 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Mon, 03 Jul 2017 06:36:31 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+Mon, 03 Jul 2017 07:49:13 GMT express-session deprecated undefined resave option; provide resave option at server.js:16:9
+Mon, 03 Jul 2017 07:49:13 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:16:9
+D:\TAT\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+         ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (D:\TAT\node_modules\node-windows\lib\wrapper.js:177:10)
+    at emitNone (events.js:86:13)
+    at process.emit (events.js:185:7)
+    at Signal.wrap.onsignal (internal/process.js:199:44)
+Mon, 03 Jul 2017 08:31:53 GMT express-session deprecated undefined resave option; provide resave option at server.js:17:9
+Mon, 03 Jul 2017 08:31:53 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:17:9
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: channel closed
+    at ChildProcess.target.send (internal/child_process.js:540:16)
+    at process.killkid (D:\TAT\node_modules\node-windows\lib\wrapper.js:177:11)
+    at emitOne (events.js:96:13)
+    at process.emit (events.js:188:7)
+    at process.exit (internal/process.js:146:15)
+    at ChildProcess.<anonymous> (D:\TAT\node_modules\node-windows\lib\wrapper.js:165:15)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:12)
+Tue, 04 Jul 2017 07:06:11 GMT express-session deprecated undefined resave option; provide resave option at server.js:17:9
+Tue, 04 Jul 2017 07:06:11 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:17:9
+Wed, 05 Jul 2017 08:13:19 GMT express-session deprecated undefined resave option; provide resave option at server.js:17:9
+Wed, 05 Jul 2017 08:13:19 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:17:9
+Fri, 07 Jul 2017 08:13:28 GMT express-session deprecated undefined resave option; provide resave option at server.js:17:9
+Fri, 07 Jul 2017 08:13:28 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:17:9
+Sat, 08 Jul 2017 11:38:39 GMT express-session deprecated undefined resave option; provide resave option at server.js:17:9
+Sat, 08 Jul 2017 11:38:39 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:17:9
+Mon, 10 Jul 2017 06:45:08 GMT express-session deprecated undefined resave option; provide resave option at server.js:17:9
+Mon, 10 Jul 2017 06:45:08 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:17:9

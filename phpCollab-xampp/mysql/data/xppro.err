@@ -1,0 +1,8 @@
+080713  2:00:03 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.0.51b-community'  socket: ''  port: 3306  MySQL Community Edition (GPL)
+080713  2:23:18 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+080713  2:23:18 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+080713  2:23:19 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.0.51b-community'  socket: ''  port: 3306  MySQL Community Edition (GPL)

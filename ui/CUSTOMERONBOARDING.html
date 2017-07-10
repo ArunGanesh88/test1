@@ -1,0 +1,296 @@
+<html>
+
+<Head>
+<title>
+	Account Creation
+</title>
+<link rel="shortcut icon" href="favicon.ico"> 
+<link rel="stylesheet" type="text/css" href="ui/index.css">
+<link rel="stylesheet" href="ui/alertify.core.css" />
+<link rel="stylesheet" href="ui/alertify.default.css" id="toggleCSS" />
+
+
+<style>
+.GenerateFile
+{
+background-color: Grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+	position:absolute;
+}
+.GenerateFile12
+{
+background-color: Grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+	position:absolute;
+	left:12%;
+}
+#Kenan_Acc_gen{
+   position:absolute;
+	Top:35%;
+	left:7%;
+}
+#layout{
+   position:absolute;
+    Top:25%;
+	left:7%;
+}
+.kenanbuttondiv
+{
+
+
+}
+
+.beforecontent{
+	position:absolute;
+	left:12%;
+	top:30%;
+	width:80%;
+	height = 100%;
+	border-left: solid grey;
+	border-right: solid grey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-width: 1px;	
+	}
+	.belowcontent{
+	position:absolute;
+	top:100%
+	left:10%;
+	width:100%;
+	height = 100%;
+	border-left: solid grey;
+	border-right: solid grey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-width: 1px;	
+	}	
+	
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+	Height:80%;
+	overflow-y:scroll;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+<script src="ui/main.js"></script>
+<script src="ui/alertify.min.js"></script>
+<script src="ui/jquery-3.1.1.min.js"></script>
+</head>
+<body onload = "var k1=window.setTimeout('get_OPCO_Proposition_Type_kenan();', 200); var k2=window.setTimeout('loaddropdowns();', 200); ">
+	<div class = 'arrow-right'>
+	</div>
+	<img src = 'ui/index.png' class = 'vfindex'>
+	<div class = 'header'>
+		<center>Account Creation</center>
+		<br>
+	<ul id="menu-bar">
+	<li ><a href="index.html">Home</a></li>
+	<li class="active"><a href="#">Test Data Generation</a>
+	<ul>
+	<li><a href="CUSTOMERONBOARDING.html">Kenan Account Creation</a></li>
+   <li><a href="PROVISIONING.html">Provisioning</a></li>
+   <li><a href="#">Usage</a>
+   <ul>
+   <li><a href="USAGECDRGENERATION.html">Create CDR</a></li>
+   <li><a href = "BulkUploadCDR.html">Bulk Upload</a></li>
+   </ul>
+   </li>
+  </ul>
+ </li>
+ <li><a href="TemplateUpload.HTML">Upload Templates</a></li>
+ <li><a href="#">Test Automation</a>
+  
+ </li>
+ <li><a href="#">Reports</a>
+ </li>
+ </li>
+ <li><a href="#" onclick = "admin();">Admin</a>
+ </li>
+</ul>
+	</div>
+	
+	<!-- sudheer  primary layout -->
+
+	<div id = 'layout'style="border: thin solid grey">
+		<br>
+
+		<span> 
+	 
+		<span >
+		 <label for = 'OPCO'class = 'label' id ='opco_L'>OPCO</label>
+		 <span class='after'>*</span> 
+		 <select type = 'text' class = 'Kenan_Acc_creation' name = 'OPCO' id = 'OPCOsel' onchange = 'getopcocode(this.id)' >
+		 </select>
+		</span>
+		<span> 		
+		 <label for='OPCO' class = 'label' id ='opcocode_L'>OPCOCode</label>
+		 <span class='after'>*</span> 
+		 <input type = 'text' class = 'Kenan_Acc_creation' name = 'OPCO' id = 'OPCOcode' disabled>
+		 
+		<label for='OPCOName' class = 'label' style = 'display:none'>OPCOName</label>
+		<input type = 'text' class = 'cdrgen' name = 'OPCO_currency_code' id = 'OPCO_currency_code' disabled style = 'display:none'  >
+				<input type = 'text' class = 'cdrgen' name = 'OPCOName' id = 'OPCOName' disabled style = 'display:none'>
+		
+		<br>
+		<br>
+	</div>
+	<div class = 'kenanbuttondiv' id = 'kenanbutton'>
+	
+	<div>
+	<input id = 'cdrfilename' disabled style="Display:None">
+	<button class = 'button1' type = 'submit' id = 'kenangenerate' onclick = 'sendkenandata(this.id)' >Generate Kenan Accounts</button>
+	<button class = 'button1' type = 'submit' id = 'bpfgenerate' onclick = 'sendkenandata(this.id)'>Generate BPF Files</button>
+	<button class = 'button1'  id = 'clearall' onclick = 'clearall()'>Clear All</button>
+	<button class = 'button1' id = 'dwlcdr1' onclick = "Dwnldbpfacccreation();" style="display:none"><a id ='dwdlink1' href = '##'class = 'a' target="_blank"> Download BPF File</a></button>
+	
+	</div>
+	</div>
+	<div class = 'kenancontent' id = 'kenancontent'>
+		<H3 style = "Background-color:grey ;color:White"> Customer Account Details</H3>
+		<table class = 'kenantable'>
+		<tbody>
+		<tr>
+		<td>Proposition Type<br><input type = "text" list = "propositiontype" style = "width:100%" id = "custaccprop" class = 'Kenan_Acc_creation'></td>
+		<td>Active Date<br><input type = "date" style = "width:100%" id = "Custactdate" class = 'Kenan_Acc_creation'></td>
+		<td>Account Category<br><input type = "text" list = "kenanacccategory" style = "width:100%" id = "custacccat" class = 'Kenan_Acc_creation'></td>
+		<td>Customer Name<br><input type = "text" style = "width:100%" id = "CustName" class = 'Kenan_Acc_creation'></td>
+		<td>Customer Address 1<br><input type = "text" style = "width:100%" id = "CustAdd1" class = 'Kenan_Acc_creation'></td>
+		<td>Customer Address 2<br><input type = "text" style = "width:100%" id = "CustAdd2" class = 'Kenan_Acc_creation'></td>
+		<td>Customer Address 3<br><input type = "text" style = "width:100%" id = "CustAdd3" class = 'Kenan_Acc_creation'></td>
+		<td>City<br><input type = "text" style = "width:100%" id = "CustCity"></td>
+		</tr>
+		<tr>
+		<td>Zip Code<br><input type = "text" style = "width:100%" id = "CustZip" class = 'Kenan_Acc_creation'></td>
+		<td>Country<br><input type = "text" list = "kenancountry" style = "width:100%" id = "CustCountry" class = 'Kenan_Acc_creation'></td>
+		<td>Legal Entity<br><input type = "text" style = "width:100%" id = "CustLegalentyty" class = 'Kenan_Acc_creation'></td>
+		<td>Contact Person<br><input type = "text" style = "width:100%" id = "ContactPer" class = 'Kenan_Acc_creation'></td>
+		<td>Contact Country Code<br><input type = "text" style = "width:100%" id = "CustcountyCode" class = 'Kenan_Acc_creation'></td>
+		<td>Contact Phone Number<br><input type = "text" style = "width:100%" id = "CustPhone" class = 'Kenan_Acc_creation'></td>
+		<td>Contact e-Mail<br><input type = "text" style = "width:100%" id = "CustMail" class = 'Kenan_Acc_creation'></td>
+		<td>Language<br><input type = "text" list = "kenanlang" style = "width:100%" id = "Custlang" class = 'Kenan_Acc_creation'></td>
+		</tr>
+		<tr>
+		<td>Bill Cycle<br><input style = "width:100%" id = "CustBillcycle" list = "kenanbillcycle" class = 'Kenan_Acc_creation'></td>
+		<td>Currency<br><input type = "text" style = "width:100%" list = "kenancurrency" id = "CustCurr" class = 'Kenan_Acc_creation'></td>
+		</tr>
+		<tr>
+		<td style ="Background-color:white">&nbsp </td>
+		</tr>
+		<tr>
+		<td style ="Background-color:white"><Button onclick = "displaybillaccdiv(this.id)" id = "cust_bill1" class = 'button1'>Create Billing Accounts</Button></td>
+		</tr>
+		<tbody>
+		</table>
+		<br>
+		
+		<div class = 'billingacc' id = 'billingacc1' style = "display:table;display:none">
+		<H4 style = "Background-color:black ;color:White"> Billing Account 1</H4>
+		<table class = 'kenantable'>
+		<tbody>
+		<tr>
+		<td>Proposition Type<br><input type = "text" list = "propositiontype" style = "width:100%" id = "bill1_billaccproptyp" class = 'Kenan_Acc_creation'></td>
+		<td>Active Date<br><input type = "date" style = "width:100%" id = "bill1_billactdate" class = 'Kenan_Acc_creation'></td>
+		<td>Account Category<br><input type = "text" list = "kenanacccategory" style = "width:100%" id = "bill1_billactcat" class = 'Kenan_Acc_creation'></td>
+		<td>Billing Name<br><input type = "text" style = "width:100%" id = "bill1_billactname" class = 'Kenan_Acc_creation'></td>
+		<td>Billing Address 1<br><input type = "text" style = "width:100%" id = "bill1_billadd1" class = 'Kenan_Acc_creation'></td>
+		<td>Billing Address 2<br><input type = "text" style = "width:100%" id = "bill1_billadd2" class = 'Kenan_Acc_creation'></td>
+		<td>Billing Address 3<br><input type = "text" style = "width:100%" id = "bill1_billadd3" class = 'Kenan_Acc_creation'></td>
+		<td>Billing City<br><input type = "text" style = "width:100%" id = "bill1_billcity" class = 'Kenan_Acc_creation'></td>
+		</tr>
+		<tr>
+		<td>Billing Zip Code<br><input type = "text" style = "width:100%" id = "bill1_billzipcode" class = 'Kenan_Acc_creation'></td>
+		<td>Billing Country<br><input type = "text" list = "kenancountry" style = "width:100%" id ="bill1_billcountry" class = 'Kenan_Acc_creation'></td>
+		<td>Legal Entity<br><input type = "text" style = "width:100%" id = "bill1_billlegalentyty" class = 'Kenan_Acc_creation'></td>
+		<td>Contact Person<br><input type = "text" style = "width:100%" id = "bill1_billcontactperson" class = 'Kenan_Acc_creation'></td>
+		<td>Contact Country Code<br><input type = "text" style = "width:100%" id = "bill1_billcountycode" class = 'Kenan_Acc_creation'></td>
+		<td>Contact Phone Number<br><input type = "text" style = "width:100%" id = "bill1_billphonenum" class = 'Kenan_Acc_creation'></td>
+		<td>Contact e-Mail<br><input type = "text" style = "width:100%" id = "bill1_billcontactmail" class = 'Kenan_Acc_creation'></td>
+		<td>Language<br><input type = "text" list = "kenanlang" style = "width:100%" id = "bill1_billlang"></td>
+		</tr>
+		<tr>
+		<td>Bill Cycle<br><input type = "text" style = "width:100%" list = "kenanbillcycle" id = "bill1_billcycle" class = 'Kenan_Acc_creation'></td>
+		<td>Currency<br><input type = "text" list = "kenancurrency" style = "width:100%" id = "bill1_billcurrency" class = 'Kenan_Acc_creation'></td>
+		<td>SAP Account Number<br><input type = "text" style = "width:100%" id = "bill1_billsapaccno"class = 'Kenan_Acc_creation'></td>
+		<td>Opco BAN<br><input type = "text" style = "width:100%" id = "bill1_billopcoban" class = 'Kenan_Acc_creation'></td>
+		<td>Payment Terms<br><input type = "text" style = "width:100%" id = "bill1_billpaymentterms" class = 'Kenan_Acc_creation'></td>
+		<td>Purchase Order<br><input type = "text" style = "width:100%" id = "bill1_billpurchasorder" class = 'Kenan_Acc_creation'></td>
+		<td>Profit Center<br><input type = "text" style = "width:100%" id = "bill1_billprofitcenter" class = 'Kenan_Acc_creation'></td>
+		<td>Country of Service<br><input type = "text" list = "kenancountry" style = "width:100%" id = "bill1_billcntryserv" class = 'Kenan_Acc_creation'></td>
+		</tr>
+		<tr>
+		<td>Registration Number<br><input type = "text" style = "width:100%" id = "bill1_billregno" class = 'Kenan_Acc_creation'></td>
+		<td>VAT Registration Number<br><input type = "text" style = "width:100%" id = "bill1_billVAT" class = 'Kenan_Acc_creation'></td>
+		<td>No of Similar Accounts<br><input type = "text" style = "width:100%" id = "bill1_billSimilaracc" class = 'Kenan_Acc_creation'></td>
+		</tr>
+		<tr>
+		<td style ="Background-color:white">&nbsp </td>
+		</tr>
+		<tr>
+		<td style= "Background-color:white"><Button class = 'button1' id ='bill1_siteuser'  style = "width:100%" onclick = "displaysitepopup(this.id)">Site / User Account Details</Button></td>
+		<td style= "Background-color:white"><Button class = 'button1'  id = "bill1_addbillaccount" style = "width:95%" onclick = "addbillingaccount(this.id);">Add New Billing Account</Button></td>
+		<td style= "Background-color:white"><Button class = 'button1'  id = "bill1_copybill" style = "width:95%" onclick = "copybillaccount(this.id);">Copy Billing Account</Button></td>
+		<td style= "Background-color:white"><Button class = 'button1'  id = "bill1_Delete"estyle = "width:95%" onclick = "DeletbillAccount(this.id);">Delete Billing Account</Button></td>
+		</tr>
+		<tbody>
+		</table>
+		<div id="bill1_myModal" class="modal">
+		<div class="modal-content" id = "bill1_modalcontent">
+		<span class="close" id = "bill1_modal_close1" onclick = "closemodal(this.id)">&times;</span>
+		<Button class = 'button1' id = "bill1_SiteCreate" onclick = "addsiteacc(this.id)";>Add New Site Account</Button>
+		<Button class = 'button1' id = "bill1_UserCreate" onclick = "addusraccount(this.id)">Add New User Account</Button>
+		<br>
+		<br>
+		<center><Button class = 'button1' Style = "display:none"  id = "bill1_modal_close" onclick = "closemodal(this.id)">Submit</Button></center>
+		</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,1827 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampplite\\php\\ext\\php_pgsql.dll' - This application has failed to start because the application configuration is incorrect. Reinstalling the application may fix this problem.\r\n in Unknown on line 0
+[Sun Jul 13 02:00:00 2008] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sun Jul 13 02:00:00 2008] [notice] Server built: Jun 14 2008 19:02:12
+[Sun Jul 13 02:00:00 2008] [notice] Parent: Created child process 2996
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampplite\\php\\ext\\php_pgsql.dll' - This application has failed to start because the application configuration is incorrect. Reinstalling the application may fix this problem.\r\n in Unknown on line 0
+[Sun Jul 13 02:00:02 2008] [notice] Child 2996: Child process is running
+[Sun Jul 13 02:00:02 2008] [notice] Child 2996: Acquired the start mutex.
+[Sun Jul 13 02:00:02 2008] [notice] Child 2996: Starting 250 worker threads.
+[Sun Jul 13 02:00:02 2008] [notice] Child 2996: Starting thread to listen on port 443.
+[Sun Jul 13 02:00:02 2008] [notice] Child 2996: Starting thread to listen on port 80.
+[Fri Dec 09 12:23:52 2016] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 09 12:23:55 2016] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Dec 09 12:23:55 2016] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Dec 09 12:23:55 2016] [notice] Parent: Created child process 5880
+[Fri Dec 09 12:23:57 2016] [notice] Child 5880: Child process is running
+[Fri Dec 09 12:23:57 2016] [notice] Child 5880: Acquired the start mutex.
+[Fri Dec 09 12:23:57 2016] [notice] Child 5880: Starting 250 worker threads.
+[Fri Dec 09 12:23:57 2016] [notice] Child 5880: Starting thread to listen on port 80.
+[Fri Dec 09 12:23:57 2016] [notice] Child 5880: Starting thread to listen on port 443.
+[Fri Dec 23 11:43:51 2016] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 23 11:43:56 2016] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Dec 23 11:43:56 2016] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Dec 23 11:43:56 2016] [notice] Parent: Created child process 7088
+Apache server shutdown initiated...
+Child 7088: Child process is running
+[Fri Dec 23 11:43:58 2016] [notice] Child 7088: Acquired the start mutex.
+[Fri Dec 23 11:43:58 2016] [notice] Child 7088: Starting 250 worker threads.
+[Fri Dec 23 11:43:58 2016] [notice] Child 7088: Starting thread to listen on port 80.
+[Fri Dec 23 11:43:58 2016] [notice] Child 7088: Starting thread to listen on port 443.
+[Fri Dec 23 11:43:58 2016] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 23 11:43:58 2016] [notice] Child 7088: Exit event signaled. Child process is ending.
+[Fri Dec 23 11:43:59 2016] [notice] Child 7088: Released the start mutex
+[Fri Dec 23 11:44:00 2016] [notice] Child 7088: All worker threads have exited.
+[Fri Dec 23 11:44:00 2016] [notice] Child 7088: Child process is exiting
+[Fri Dec 23 11:44:00 2016] [notice] Parent: Child process exited successfully.
+[Fri Dec 23 12:07:34 2016] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Dec 23 12:07:34 2016] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Dec 23 12:07:34 2016] [notice] Parent: Created child process 5268
+[Fri Dec 23 12:07:36 2016] [notice] Child 5268: Child process is running
+[Fri Dec 23 12:07:36 2016] [notice] Child 5268: Acquired the start mutex.
+[Fri Dec 23 12:07:36 2016] [notice] Child 5268: Starting 250 worker threads.
+[Fri Dec 23 12:07:36 2016] [notice] Child 5268: Starting thread to listen on port 443.
+[Fri Dec 23 12:07:36 2016] [notice] Child 5268: Starting thread to listen on port 80.
+[Fri Dec 23 12:11:24 2016] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 23 12:11:25 2016] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Dec 23 12:11:25 2016] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Dec 23 12:11:25 2016] [notice] Parent: Created child process 7544
+[Fri Dec 23 12:11:26 2016] [notice] Child 7544: Child process is running
+[Fri Dec 23 12:11:26 2016] [notice] Child 7544: Acquired the start mutex.
+[Fri Dec 23 12:11:26 2016] [notice] Child 7544: Starting 250 worker threads.
+[Fri Dec 23 12:11:26 2016] [notice] Child 7544: Starting thread to listen on port 443.
+[Fri Dec 23 12:11:26 2016] [notice] Child 7544: Starting thread to listen on port 80.
+[Fri Dec 23 12:16:47 2016] [error] [client 127.0.0.1] script 'D:/phpCollab-xampp/htdocs/Adminer/adminer-4.2.5.php' not found or unable to stat
+[Fri Dec 23 12:17:07 2016] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/Adminer/adminer
+[Mon Dec 26 12:38:45 2016] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+Apache server shutdown initiated...
+[Mon Dec 26 12:38:49 2016] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Dec 26 12:38:49 2016] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Dec 26 12:38:49 2016] [notice] Parent: Created child process 2056
+[Mon Dec 26 12:38:51 2016] [notice] Child 2056: Child process is running
+[Mon Dec 26 12:38:51 2016] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 26 12:38:51 2016] [notice] Child 2056: Acquired the start mutex.
+[Mon Dec 26 12:38:51 2016] [notice] Child 2056: Starting 250 worker threads.
+[Mon Dec 26 12:38:51 2016] [notice] Child 2056: Starting thread to listen on port 443.
+[Mon Dec 26 12:38:51 2016] [notice] Child 2056: Exit event signaled. Child process is ending.
+[Mon Dec 26 12:38:51 2016] [notice] Child 2056: Starting thread to listen on port 80.
+[Mon Dec 26 12:38:52 2016] [notice] Child 2056: Released the start mutex
+[Mon Dec 26 12:38:53 2016] [notice] Child 2056: All worker threads have exited.
+[Mon Dec 26 12:38:53 2016] [notice] Child 2056: Child process is exiting
+[Mon Dec 26 12:38:53 2016] [notice] Parent: Child process exited successfully.
+[Mon Dec 26 12:39:00 2016] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Dec 26 12:39:00 2016] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Dec 26 12:39:00 2016] [notice] Parent: Created child process 6528
+[Mon Dec 26 12:39:01 2016] [notice] Child 6528: Child process is running
+[Mon Dec 26 12:39:01 2016] [notice] Child 6528: Acquired the start mutex.
+[Mon Dec 26 12:39:01 2016] [notice] Child 6528: Starting 250 worker threads.
+[Mon Dec 26 12:39:01 2016] [notice] Child 6528: Starting thread to listen on port 443.
+[Mon Dec 26 12:39:01 2016] [notice] Child 6528: Starting thread to listen on port 80.
+[Wed Dec 28 13:05:34 2016] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 28 13:05:39 2016] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Dec 28 13:05:39 2016] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Dec 28 13:05:39 2016] [notice] Parent: Created child process 5524
+[Wed Dec 28 13:05:40 2016] [notice] Child 5524: Child process is running
+[Wed Dec 28 13:05:40 2016] [notice] Child 5524: Acquired the start mutex.
+[Wed Dec 28 13:05:40 2016] [notice] Child 5524: Starting 250 worker threads.
+[Wed Dec 28 13:05:40 2016] [notice] Child 5524: Starting thread to listen on port 443.
+[Wed Dec 28 13:05:40 2016] [notice] Child 5524: Starting thread to listen on port 80.
+[Wed Dec 28 17:18:53 2016] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 28 17:19:04 2016] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Dec 28 17:19:04 2016] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Dec 28 17:19:04 2016] [notice] Parent: Created child process 1852
+[Wed Dec 28 17:19:05 2016] [notice] Child 1852: Child process is running
+[Wed Dec 28 17:19:06 2016] [notice] Child 1852: Acquired the start mutex.
+[Wed Dec 28 17:19:06 2016] [notice] Child 1852: Starting 250 worker threads.
+[Wed Dec 28 17:19:06 2016] [notice] Child 1852: Starting thread to listen on port 443.
+[Wed Dec 28 17:19:06 2016] [notice] Child 1852: Starting thread to listen on port 80.
+[Fri Dec 30 15:14:24 2016] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 30 15:14:31 2016] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Dec 30 15:14:31 2016] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Dec 30 15:14:31 2016] [notice] Parent: Created child process 5968
+[Fri Dec 30 15:14:32 2016] [notice] Child 5968: Child process is running
+[Fri Dec 30 15:14:33 2016] [notice] Child 5968: Acquired the start mutex.
+[Fri Dec 30 15:14:33 2016] [notice] Child 5968: Starting 250 worker threads.
+[Fri Dec 30 15:14:33 2016] [notice] Child 5968: Starting thread to listen on port 443.
+[Fri Dec 30 15:14:33 2016] [notice] Child 5968: Starting thread to listen on port 80.
+[Fri Jan 06 18:36:07 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 06 18:36:13 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Jan 06 18:36:13 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Jan 06 18:36:13 2017] [notice] Parent: Created child process 5608
+[Fri Jan 06 18:36:14 2017] [notice] Child 5608: Child process is running
+[Fri Jan 06 18:36:15 2017] [notice] Child 5608: Acquired the start mutex.
+[Fri Jan 06 18:36:15 2017] [notice] Child 5608: Starting 250 worker threads.
+[Fri Jan 06 18:36:15 2017] [notice] Child 5608: Starting thread to listen on port 443.
+[Fri Jan 06 18:36:15 2017] [notice] Child 5608: Starting thread to listen on port 80.
+[Fri Jan 06 18:38:15 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 06 18:38:16 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Jan 06 18:38:16 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Jan 06 18:38:16 2017] [notice] Parent: Created child process 5760
+[Fri Jan 06 18:38:17 2017] [notice] Child 5760: Child process is running
+[Fri Jan 06 18:38:17 2017] [notice] Child 5760: Acquired the start mutex.
+[Fri Jan 06 18:38:17 2017] [notice] Child 5760: Starting 250 worker threads.
+[Fri Jan 06 18:38:17 2017] [notice] Child 5760: Starting thread to listen on port 443.
+[Fri Jan 06 18:38:17 2017] [notice] Child 5760: Starting thread to listen on port 80.
+[Thu Jan 12 23:08:38 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 12 23:08:42 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Jan 12 23:08:42 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Jan 12 23:08:42 2017] [notice] Parent: Created child process 2956
+[Thu Jan 12 23:08:44 2017] [notice] Child 2956: Child process is running
+[Thu Jan 12 23:08:44 2017] [notice] Child 2956: Acquired the start mutex.
+[Thu Jan 12 23:08:44 2017] [notice] Child 2956: Starting 250 worker threads.
+[Thu Jan 12 23:08:44 2017] [notice] Child 2956: Starting thread to listen on port 80.
+[Thu Jan 12 23:08:44 2017] [notice] Child 2956: Starting thread to listen on port 443.
+[Wed Jan 18 22:04:34 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 18 22:04:39 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Jan 18 22:04:39 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Jan 18 22:04:39 2017] [notice] Parent: Created child process 4880
+[Wed Jan 18 22:04:40 2017] [notice] Child 4880: Child process is running
+[Wed Jan 18 22:04:40 2017] [notice] Child 4880: Acquired the start mutex.
+[Wed Jan 18 22:04:40 2017] [notice] Child 4880: Starting 250 worker threads.
+[Wed Jan 18 22:04:40 2017] [notice] Child 4880: Starting thread to listen on port 443.
+[Wed Jan 18 22:04:40 2017] [notice] Child 4880: Starting thread to listen on port 80.
+[Thu Jan 26 18:27:33 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 26 18:27:38 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Jan 26 18:27:38 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Jan 26 18:27:38 2017] [notice] Parent: Created child process 6532
+[Thu Jan 26 18:27:39 2017] [notice] Child 6532: Child process is running
+[Thu Jan 26 18:27:39 2017] [notice] Child 6532: Acquired the start mutex.
+[Thu Jan 26 18:27:39 2017] [notice] Child 6532: Starting 250 worker threads.
+[Thu Jan 26 18:27:39 2017] [notice] Child 6532: Starting thread to listen on port 443.
+[Thu Jan 26 18:27:39 2017] [notice] Child 6532: Starting thread to listen on port 80.
+[Mon Jan 30 02:05:20 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 30 02:05:24 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Jan 30 02:05:24 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Jan 30 02:05:24 2017] [notice] Parent: Created child process 744
+Apache server shutdown initiated...
+Child 744: Child process is running
+[Mon Jan 30 02:05:25 2017] [notice] Child 744: Acquired the start mutex.
+[Mon Jan 30 02:05:25 2017] [notice] Child 744: Starting 250 worker threads.
+[Mon Jan 30 02:05:25 2017] [notice] Child 744: Starting thread to listen on port 443.
+[Mon Jan 30 02:05:25 2017] [notice] Child 744: Starting thread to listen on port 80.
+[Mon Jan 30 02:29:47 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jan 30 02:29:47 2017] [notice] Child 744: Exit event signaled. Child process is ending.
+[Mon Jan 30 02:29:48 2017] [notice] Child 744: Released the start mutex
+[Mon Jan 30 02:29:49 2017] [notice] Child 744: All worker threads have exited.
+[Mon Jan 30 02:29:54 2017] [notice] Child 744: Child process is exiting
+[Sat Feb 11 17:06:40 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 11 17:06:46 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Feb 11 17:06:46 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Feb 11 17:06:46 2017] [notice] Parent: Created child process 620
+[Sat Feb 11 17:06:47 2017] [notice] Child 620: Child process is running
+[Sat Feb 11 17:06:47 2017] [notice] Child 620: Acquired the start mutex.
+[Sat Feb 11 17:06:47 2017] [notice] Child 620: Starting 250 worker threads.
+[Sat Feb 11 17:06:47 2017] [notice] Child 620: Starting thread to listen on port 443.
+[Sat Feb 11 17:06:47 2017] [notice] Child 620: Starting thread to listen on port 80.
+[Sun Feb 12 01:45:48 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Feb 12 01:45:52 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sun Feb 12 01:45:52 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sun Feb 12 01:45:52 2017] [notice] Parent: Created child process 5180
+[Sun Feb 12 01:45:53 2017] [notice] Child 5180: Child process is running
+[Sun Feb 12 01:45:53 2017] [notice] Child 5180: Acquired the start mutex.
+[Sun Feb 12 01:45:53 2017] [notice] Child 5180: Starting 250 worker threads.
+[Sun Feb 12 01:45:53 2017] [notice] Child 5180: Starting thread to listen on port 443.
+[Sun Feb 12 01:45:53 2017] [notice] Child 5180: Starting thread to listen on port 80.
+[Mon Feb 13 15:43:01 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 13 15:43:05 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Feb 13 15:43:05 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Feb 13 15:43:05 2017] [notice] Parent: Created child process 6452
+[Mon Feb 13 15:43:06 2017] [notice] Child 6452: Child process is running
+[Mon Feb 13 15:43:06 2017] [notice] Child 6452: Acquired the start mutex.
+[Mon Feb 13 15:43:06 2017] [notice] Child 6452: Starting 250 worker threads.
+[Mon Feb 13 15:43:06 2017] [notice] Child 6452: Starting thread to listen on port 443.
+[Mon Feb 13 15:43:06 2017] [notice] Child 6452: Starting thread to listen on port 80.
+[Mon Feb 13 15:43:26 2017] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/adminr
+[Mon Feb 13 19:56:19 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 13 19:56:29 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Feb 13 19:56:29 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Feb 13 19:56:29 2017] [notice] Parent: Created child process 3616
+[Mon Feb 13 19:56:31 2017] [notice] Child 3616: Child process is running
+[Mon Feb 13 19:56:31 2017] [notice] Child 3616: Acquired the start mutex.
+[Mon Feb 13 19:56:31 2017] [notice] Child 3616: Starting 250 worker threads.
+[Mon Feb 13 19:56:31 2017] [notice] Child 3616: Starting thread to listen on port 443.
+[Mon Feb 13 19:56:31 2017] [notice] Child 3616: Starting thread to listen on port 80.
+[Tue Feb 14 12:33:36 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 14 12:34:13 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Feb 14 12:34:13 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Feb 14 12:34:13 2017] [notice] Parent: Created child process 5344
+[Tue Feb 14 12:34:15 2017] [notice] Child 5344: Child process is running
+[Tue Feb 14 12:34:16 2017] [notice] Child 5344: Acquired the start mutex.
+[Tue Feb 14 12:34:16 2017] [notice] Child 5344: Starting 250 worker threads.
+[Tue Feb 14 12:34:16 2017] [notice] Child 5344: Starting thread to listen on port 443.
+[Tue Feb 14 12:34:16 2017] [notice] Child 5344: Starting thread to listen on port 80.
+[Tue Feb 14 18:24:57 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 14 18:25:01 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Feb 14 18:25:01 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Feb 14 18:25:01 2017] [notice] Parent: Created child process 6168
+[Tue Feb 14 18:25:02 2017] [notice] Child 6168: Child process is running
+[Tue Feb 14 18:25:02 2017] [notice] Child 6168: Acquired the start mutex.
+[Tue Feb 14 18:25:02 2017] [notice] Child 6168: Starting 250 worker threads.
+[Tue Feb 14 18:25:02 2017] [notice] Child 6168: Starting thread to listen on port 443.
+[Tue Feb 14 18:25:02 2017] [notice] Child 6168: Starting thread to listen on port 80.
+[Wed Feb 15 17:01:23 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 15 17:01:25 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Feb 15 17:01:25 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Feb 15 17:01:25 2017] [notice] Parent: Created child process 5216
+[Wed Feb 15 17:01:26 2017] [notice] Child 5216: Child process is running
+[Wed Feb 15 17:01:27 2017] [notice] Child 5216: Acquired the start mutex.
+[Wed Feb 15 17:01:27 2017] [notice] Child 5216: Starting 250 worker threads.
+[Wed Feb 15 17:01:27 2017] [notice] Child 5216: Starting thread to listen on port 443.
+[Wed Feb 15 17:01:27 2017] [notice] Child 5216: Starting thread to listen on port 80.
+[Tue Feb 21 13:10:55 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 21 13:10:58 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Feb 21 13:10:58 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Feb 21 13:10:59 2017] [notice] Parent: Created child process 5292
+[Tue Feb 21 13:11:00 2017] [notice] Child 5292: Child process is running
+[Tue Feb 21 13:11:00 2017] [notice] Child 5292: Acquired the start mutex.
+[Tue Feb 21 13:11:00 2017] [notice] Child 5292: Starting 250 worker threads.
+[Tue Feb 21 13:11:00 2017] [notice] Child 5292: Starting thread to listen on port 443.
+[Tue Feb 21 13:11:00 2017] [notice] Child 5292: Starting thread to listen on port 80.
+[Thu Mar 09 18:35:01 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 09 18:35:12 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Mar 09 18:35:12 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Mar 09 18:35:12 2017] [notice] Parent: Created child process 5896
+[Thu Mar 09 18:35:14 2017] [notice] Child 5896: Child process is running
+[Thu Mar 09 18:35:14 2017] [notice] Child 5896: Acquired the start mutex.
+[Thu Mar 09 18:35:14 2017] [notice] Child 5896: Starting 250 worker threads.
+[Thu Mar 09 18:35:14 2017] [notice] Child 5896: Starting thread to listen on port 443.
+[Thu Mar 09 18:35:14 2017] [notice] Child 5896: Starting thread to listen on port 80.
+[Mon Mar 13 13:25:47 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 13 13:25:53 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Mar 13 13:25:53 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Mar 13 13:25:53 2017] [notice] Parent: Created child process 5088
+[Mon Mar 13 13:25:54 2017] [notice] Child 5088: Child process is running
+[Mon Mar 13 13:25:54 2017] [notice] Child 5088: Acquired the start mutex.
+[Mon Mar 13 13:25:54 2017] [notice] Child 5088: Starting 250 worker threads.
+[Mon Mar 13 13:25:54 2017] [notice] Child 5088: Starting thread to listen on port 443.
+[Mon Mar 13 13:25:54 2017] [notice] Child 5088: Starting thread to listen on port 80.
+[Mon Mar 13 18:49:37 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 13 18:49:39 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Mar 13 18:49:39 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Mar 13 18:49:39 2017] [notice] Parent: Created child process 8176
+[Mon Mar 13 18:49:40 2017] [notice] Child 8176: Child process is running
+[Mon Mar 13 18:49:40 2017] [notice] Child 8176: Acquired the start mutex.
+[Mon Mar 13 18:49:40 2017] [notice] Child 8176: Starting 250 worker threads.
+[Mon Mar 13 18:49:40 2017] [notice] Child 8176: Starting thread to listen on port 443.
+[Mon Mar 13 18:49:40 2017] [notice] Child 8176: Starting thread to listen on port 80.
+[Tue Mar 14 18:59:37 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 14 18:59:42 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Mar 14 18:59:42 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Mar 14 18:59:42 2017] [notice] Parent: Created child process 6364
+[Tue Mar 14 18:59:43 2017] [notice] Child 6364: Child process is running
+[Tue Mar 14 18:59:43 2017] [notice] Child 6364: Acquired the start mutex.
+[Tue Mar 14 18:59:43 2017] [notice] Child 6364: Starting 250 worker threads.
+[Tue Mar 14 18:59:43 2017] [notice] Child 6364: Starting thread to listen on port 443.
+[Tue Mar 14 18:59:43 2017] [notice] Child 6364: Starting thread to listen on port 80.
+[Thu Mar 16 17:28:24 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 16 17:28:28 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Mar 16 17:28:28 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Mar 16 17:28:28 2017] [notice] Parent: Created child process 7232
+[Thu Mar 16 17:28:30 2017] [notice] Child 7232: Child process is running
+[Thu Mar 16 17:28:30 2017] [notice] Child 7232: Acquired the start mutex.
+[Thu Mar 16 17:28:30 2017] [notice] Child 7232: Starting 250 worker threads.
+[Thu Mar 16 17:28:30 2017] [notice] Child 7232: Starting thread to listen on port 443.
+[Thu Mar 16 17:28:30 2017] [notice] Child 7232: Starting thread to listen on port 80.
+[Thu Mar 16 17:33:51 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 16 17:33:51 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Mar 16 17:33:51 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Mar 16 17:33:51 2017] [notice] Parent: Created child process 3928
+[Thu Mar 16 17:33:53 2017] [notice] Child 3928: Child process is running
+[Thu Mar 16 17:33:53 2017] [notice] Child 3928: Acquired the start mutex.
+[Thu Mar 16 17:33:53 2017] [notice] Child 3928: Starting 250 worker threads.
+[Thu Mar 16 17:33:53 2017] [notice] Child 3928: Starting thread to listen on port 443.
+[Thu Mar 16 17:33:53 2017] [notice] Child 3928: Starting thread to listen on port 80.
+[Mon Mar 20 11:28:00 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 20 11:28:57 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Mar 20 11:28:57 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Mar 20 11:28:57 2017] [notice] Parent: Created child process 6384
+[Mon Mar 20 11:29:00 2017] [notice] Child 6384: Child process is running
+[Mon Mar 20 11:29:01 2017] [notice] Child 6384: Acquired the start mutex.
+[Mon Mar 20 11:29:01 2017] [notice] Child 6384: Starting 250 worker threads.
+[Mon Mar 20 11:29:01 2017] [notice] Child 6384: Starting thread to listen on port 443.
+[Mon Mar 20 11:29:01 2017] [notice] Child 6384: Starting thread to listen on port 80.
+[Mon Mar 20 11:59:03 2017] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/favicon.ico, referer: http://localhost/adminer/
+[Tue Mar 21 19:00:31 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 21 19:00:35 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Mar 21 19:00:35 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Mar 21 19:00:35 2017] [notice] Parent: Created child process 5464
+[Tue Mar 21 19:00:37 2017] [notice] Child 5464: Child process is running
+[Tue Mar 21 19:00:37 2017] [notice] Child 5464: Acquired the start mutex.
+[Tue Mar 21 19:00:37 2017] [notice] Child 5464: Starting 250 worker threads.
+[Tue Mar 21 19:00:37 2017] [notice] Child 5464: Starting thread to listen on port 443.
+[Tue Mar 21 19:00:37 2017] [notice] Child 5464: Starting thread to listen on port 80.
+[Tue Mar 21 19:01:11 2017] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/favicon.ico, referer: http://localhost/adminer/
+[Wed Mar 22 16:09:21 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 16:09:24 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 22 16:09:24 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 22 16:09:24 2017] [notice] Parent: Created child process 5156
+[Wed Mar 22 16:09:25 2017] [notice] Child 5156: Child process is running
+[Wed Mar 22 16:09:25 2017] [notice] Child 5156: Acquired the start mutex.
+[Wed Mar 22 16:09:25 2017] [notice] Child 5156: Starting 250 worker threads.
+[Wed Mar 22 16:09:25 2017] [notice] Child 5156: Starting thread to listen on port 443.
+[Wed Mar 22 16:09:25 2017] [notice] Child 5156: Starting thread to listen on port 80.
+[Wed Mar 22 16:09:35 2017] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/favicon.ico, referer: http://localhost/adminer/
+[Wed Mar 22 16:52:49 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 16:52:50 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 22 16:52:50 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 22 16:52:50 2017] [notice] Parent: Created child process 7892
+[Wed Mar 22 16:52:51 2017] [notice] Child 7892: Child process is running
+[Wed Mar 22 16:52:51 2017] [notice] Child 7892: Acquired the start mutex.
+[Wed Mar 22 16:52:51 2017] [notice] Child 7892: Starting 250 worker threads.
+[Wed Mar 22 16:52:51 2017] [notice] Child 7892: Starting thread to listen on port 443.
+[Wed Mar 22 16:52:51 2017] [notice] Child 7892: Starting thread to listen on port 80.
+[Wed Mar 22 16:53:58 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 16:53:58 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 22 16:53:58 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 22 16:53:58 2017] [notice] Parent: Created child process 8260
+[Wed Mar 22 16:54:00 2017] [notice] Child 8260: Child process is running
+[Wed Mar 22 16:54:00 2017] [notice] Child 8260: Acquired the start mutex.
+[Wed Mar 22 16:54:00 2017] [notice] Child 8260: Starting 250 worker threads.
+[Wed Mar 22 16:54:00 2017] [notice] Child 8260: Starting thread to listen on port 443.
+[Wed Mar 22 16:54:00 2017] [notice] Child 8260: Starting thread to listen on port 80.
+[Wed Mar 22 17:07:19 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 17:07:28 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 22 17:07:28 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 22 17:07:28 2017] [notice] Parent: Created child process 9160
+[Wed Mar 22 17:07:30 2017] [notice] Child 9160: Child process is running
+[Wed Mar 22 17:07:30 2017] [notice] Child 9160: Acquired the start mutex.
+[Wed Mar 22 17:07:30 2017] [notice] Child 9160: Starting 250 worker threads.
+[Wed Mar 22 17:07:30 2017] [notice] Child 9160: Starting thread to listen on port 443.
+[Wed Mar 22 17:07:30 2017] [notice] Child 9160: Starting thread to listen on port 80.
+[Wed Mar 22 17:15:45 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 17:15:46 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 22 17:15:46 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 22 17:15:46 2017] [notice] Parent: Created child process 3216
+[Wed Mar 22 17:15:48 2017] [notice] Child 3216: Child process is running
+[Wed Mar 22 17:15:48 2017] [notice] Child 3216: Acquired the start mutex.
+[Wed Mar 22 17:15:48 2017] [notice] Child 3216: Starting 250 worker threads.
+[Wed Mar 22 17:15:48 2017] [notice] Child 3216: Starting thread to listen on port 443.
+[Wed Mar 22 17:15:48 2017] [notice] Child 3216: Starting thread to listen on port 80.
+[Wed Mar 22 17:19:56 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 17:19:57 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 22 17:19:57 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 22 17:19:57 2017] [notice] Parent: Created child process 1516
+[Wed Mar 22 17:19:58 2017] [notice] Child 1516: Child process is running
+[Wed Mar 22 17:19:58 2017] [notice] Child 1516: Acquired the start mutex.
+[Wed Mar 22 17:19:58 2017] [notice] Child 1516: Starting 250 worker threads.
+[Wed Mar 22 17:19:58 2017] [notice] Child 1516: Starting thread to listen on port 443.
+[Wed Mar 22 17:19:58 2017] [notice] Child 1516: Starting thread to listen on port 80.
+[Wed Mar 22 17:20:18 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 17:20:18 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 22 17:20:18 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 22 17:20:18 2017] [notice] Parent: Created child process 8884
+[Wed Mar 22 17:20:19 2017] [notice] Child 8884: Child process is running
+[Wed Mar 22 17:20:19 2017] [notice] Child 8884: Acquired the start mutex.
+[Wed Mar 22 17:20:19 2017] [notice] Child 8884: Starting 250 worker threads.
+[Wed Mar 22 17:20:19 2017] [notice] Child 8884: Starting thread to listen on port 443.
+[Wed Mar 22 17:20:19 2017] [notice] Child 8884: Starting thread to listen on port 80.
+[Wed Mar 22 17:27:19 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 17:27:20 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 22 17:27:20 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 22 17:27:20 2017] [notice] Parent: Created child process 8408
+[Wed Mar 22 17:27:21 2017] [notice] Child 8408: Child process is running
+[Wed Mar 22 17:27:21 2017] [notice] Child 8408: Acquired the start mutex.
+[Wed Mar 22 17:27:21 2017] [notice] Child 8408: Starting 250 worker threads.
+[Wed Mar 22 17:27:21 2017] [notice] Child 8408: Starting thread to listen on port 443.
+[Wed Mar 22 17:27:21 2017] [notice] Child 8408: Starting thread to listen on port 80.
+[Wed Mar 22 17:27:25 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 17:27:26 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 22 17:27:26 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 22 17:27:26 2017] [notice] Parent: Created child process 7360
+[Wed Mar 22 17:27:28 2017] [notice] Child 7360: Child process is running
+[Wed Mar 22 17:27:28 2017] [notice] Child 7360: Acquired the start mutex.
+[Wed Mar 22 17:27:28 2017] [notice] Child 7360: Starting 250 worker threads.
+[Wed Mar 22 17:27:28 2017] [notice] Child 7360: Starting thread to listen on port 443.
+[Wed Mar 22 17:27:28 2017] [notice] Child 7360: Starting thread to listen on port 80.
+[Wed Mar 22 17:51:34 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 17:51:35 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 22 17:51:35 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 22 17:51:35 2017] [notice] Parent: Created child process 8808
+[Wed Mar 22 17:51:36 2017] [notice] Child 8808: Child process is running
+[Wed Mar 22 17:51:36 2017] [notice] Child 8808: Acquired the start mutex.
+[Wed Mar 22 17:51:36 2017] [notice] Child 8808: Starting 250 worker threads.
+[Wed Mar 22 17:51:36 2017] [notice] Child 8808: Starting thread to listen on port 443.
+[Wed Mar 22 17:51:36 2017] [notice] Child 8808: Starting thread to listen on port 80.
+[Wed Mar 22 18:01:02 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 18:01:02 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 22 18:01:02 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 22 18:01:02 2017] [notice] Parent: Created child process 7660
+[Wed Mar 22 18:01:03 2017] [notice] Child 7660: Child process is running
+[Wed Mar 22 18:01:03 2017] [notice] Child 7660: Acquired the start mutex.
+[Wed Mar 22 18:01:03 2017] [notice] Child 7660: Starting 250 worker threads.
+[Wed Mar 22 18:01:03 2017] [notice] Child 7660: Starting thread to listen on port 443.
+[Wed Mar 22 18:01:03 2017] [notice] Child 7660: Starting thread to listen on port 80.
+[Wed Mar 22 18:54:17 2017] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/favicon.ico, referer: http://localhost/adminer/adminer-4.3.0.php?pgsql=localhost%3A5432&username=postgres&db=VGE_CDRGeneration&ns=public&table=BPF_format_table
+[Wed Mar 22 19:52:40 2017] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/favicon.ico
+[Wed Mar 22 19:52:40 2017] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/favicon.ico
+[Wed Mar 22 22:16:40 2017] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/favicon.ico, referer: http://localhost/
+[Thu Mar 23 15:24:19 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+Apache server shutdown initiated...
+[Thu Mar 23 15:24:21 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Mar 23 15:24:21 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Mar 23 15:24:21 2017] [notice] Parent: Created child process 4016
+[Thu Mar 23 15:24:23 2017] [notice] Child 4016: Child process is running
+[Thu Mar 23 15:24:23 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 23 15:24:23 2017] [notice] Child 4016: Acquired the start mutex.
+[Thu Mar 23 15:24:23 2017] [notice] Child 4016: Starting 250 worker threads.
+[Thu Mar 23 15:24:23 2017] [notice] Child 4016: Starting thread to listen on port 443.
+[Thu Mar 23 15:24:23 2017] [notice] Child 4016: Exit event signaled. Child process is ending.
+[Thu Mar 23 15:24:23 2017] [notice] Child 4016: Starting thread to listen on port 80.
+[Thu Mar 23 15:24:24 2017] [notice] Child 4016: Released the start mutex
+[Thu Mar 23 15:24:25 2017] [notice] Child 4016: All worker threads have exited.
+[Thu Mar 23 15:24:25 2017] [notice] Child 4016: Child process is exiting
+[Thu Mar 23 15:24:27 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 23 15:24:28 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Mar 23 15:24:28 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Mar 23 15:24:28 2017] [notice] Parent: Created child process 2904
+[Thu Mar 23 15:24:29 2017] [notice] Child 2904: Child process is running
+[Thu Mar 23 15:24:29 2017] [notice] Child 2904: Acquired the start mutex.
+[Thu Mar 23 15:24:29 2017] [notice] Child 2904: Starting 250 worker threads.
+[Thu Mar 23 15:24:29 2017] [notice] Child 2904: Starting thread to listen on port 443.
+[Thu Mar 23 15:24:29 2017] [notice] Child 2904: Starting thread to listen on port 80.
+[Thu Mar 23 19:07:22 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 23 19:07:25 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Mar 23 19:07:25 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Mar 23 19:07:25 2017] [notice] Parent: Created child process 7424
+[Thu Mar 23 19:07:27 2017] [notice] Child 7424: Child process is running
+[Thu Mar 23 19:07:27 2017] [notice] Child 7424: Acquired the start mutex.
+[Thu Mar 23 19:07:27 2017] [notice] Child 7424: Starting 250 worker threads.
+[Thu Mar 23 19:07:27 2017] [notice] Child 7424: Starting thread to listen on port 443.
+[Thu Mar 23 19:07:27 2017] [notice] Child 7424: Starting thread to listen on port 80.
+[Thu Mar 23 22:28:38 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 23 22:28:44 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Mar 23 22:28:44 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Mar 23 22:28:44 2017] [notice] Parent: Created child process 3256
+[Thu Mar 23 22:28:45 2017] [notice] Child 3256: Child process is running
+[Thu Mar 23 22:28:45 2017] [notice] Child 3256: Acquired the start mutex.
+[Thu Mar 23 22:28:45 2017] [notice] Child 3256: Starting 250 worker threads.
+[Thu Mar 23 22:28:45 2017] [notice] Child 3256: Starting thread to listen on port 443.
+[Thu Mar 23 22:28:45 2017] [notice] Child 3256: Starting thread to listen on port 80.
+[Mon Mar 27 19:03:54 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 27 19:03:58 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Mar 27 19:03:58 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Mar 27 19:03:58 2017] [notice] Parent: Created child process 6348
+[Mon Mar 27 19:03:59 2017] [notice] Child 6348: Child process is running
+[Mon Mar 27 19:03:59 2017] [notice] Child 6348: Acquired the start mutex.
+[Mon Mar 27 19:03:59 2017] [notice] Child 6348: Starting 250 worker threads.
+[Mon Mar 27 19:03:59 2017] [notice] Child 6348: Starting thread to listen on port 443.
+[Mon Mar 27 19:03:59 2017] [notice] Child 6348: Starting thread to listen on port 80.
+[Wed Mar 29 12:58:17 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 29 12:58:42 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Mar 29 12:58:42 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Mar 29 12:58:42 2017] [notice] Parent: Created child process 3340
+[Wed Mar 29 12:58:43 2017] [notice] Child 3340: Child process is running
+[Wed Mar 29 12:58:43 2017] [notice] Child 3340: Acquired the start mutex.
+[Wed Mar 29 12:58:43 2017] [notice] Child 3340: Starting 250 worker threads.
+[Wed Mar 29 12:58:43 2017] [notice] Child 3340: Starting thread to listen on port 443.
+[Wed Mar 29 12:58:43 2017] [notice] Child 3340: Starting thread to listen on port 80.
+[Wed Mar 29 13:28:00 2017] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/favicon.ico, referer: http://localhost/
+[Mon Apr 10 11:33:57 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 10 11:34:03 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Apr 10 11:34:03 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Apr 10 11:34:03 2017] [notice] Parent: Created child process 6136
+[Mon Apr 10 11:34:05 2017] [notice] Child 6136: Child process is running
+[Mon Apr 10 11:34:05 2017] [notice] Child 6136: Acquired the start mutex.
+[Mon Apr 10 11:34:05 2017] [notice] Child 6136: Starting 250 worker threads.
+[Mon Apr 10 11:34:05 2017] [notice] Child 6136: Starting thread to listen on port 443.
+[Mon Apr 10 11:34:05 2017] [notice] Child 6136: Starting thread to listen on port 80.
+[Tue Apr 11 15:06:29 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 11 15:06:33 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Apr 11 15:06:33 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Apr 11 15:06:33 2017] [notice] Parent: Created child process 6052
+[Tue Apr 11 15:06:35 2017] [notice] Child 6052: Child process is running
+[Tue Apr 11 15:06:35 2017] [notice] Child 6052: Acquired the start mutex.
+[Tue Apr 11 15:06:35 2017] [notice] Child 6052: Starting 250 worker threads.
+[Tue Apr 11 15:06:35 2017] [notice] Child 6052: Starting thread to listen on port 443.
+[Tue Apr 11 15:06:35 2017] [notice] Child 6052: Starting thread to listen on port 80.
+[Wed Apr 12 13:50:35 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 12 13:50:43 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Apr 12 13:50:43 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Apr 12 13:50:43 2017] [notice] Parent: Created child process 5928
+[Wed Apr 12 13:50:45 2017] [notice] Child 5928: Child process is running
+[Wed Apr 12 13:50:45 2017] [notice] Child 5928: Acquired the start mutex.
+[Wed Apr 12 13:50:45 2017] [notice] Child 5928: Starting 250 worker threads.
+[Wed Apr 12 13:50:45 2017] [notice] Child 5928: Starting thread to listen on port 443.
+[Wed Apr 12 13:50:45 2017] [notice] Child 5928: Starting thread to listen on port 80.
+[Thu Apr 13 14:18:07 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 13 14:18:10 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Apr 13 14:18:10 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Apr 13 14:18:10 2017] [notice] Parent: Created child process 5752
+[Thu Apr 13 14:18:11 2017] [notice] Child 5752: Child process is running
+[Thu Apr 13 14:18:11 2017] [notice] Child 5752: Acquired the start mutex.
+[Thu Apr 13 14:18:11 2017] [notice] Child 5752: Starting 250 worker threads.
+[Thu Apr 13 14:18:11 2017] [notice] Child 5752: Starting thread to listen on port 443.
+[Thu Apr 13 14:18:11 2017] [notice] Child 5752: Starting thread to listen on port 80.
+[Thu Apr 13 18:54:46 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 13 18:54:53 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Apr 13 18:54:53 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Apr 13 18:54:53 2017] [notice] Parent: Created child process 7132
+[Thu Apr 13 18:54:54 2017] [notice] Child 7132: Child process is running
+[Thu Apr 13 18:54:54 2017] [notice] Child 7132: Acquired the start mutex.
+[Thu Apr 13 18:54:54 2017] [notice] Child 7132: Starting 250 worker threads.
+[Thu Apr 13 18:54:54 2017] [notice] Child 7132: Starting thread to listen on port 443.
+[Thu Apr 13 18:54:54 2017] [notice] Child 7132: Starting thread to listen on port 80.
+[Tue Apr 18 13:03:35 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 18 13:03:39 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Apr 18 13:03:39 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Apr 18 13:03:39 2017] [notice] Parent: Created child process 6872
+[Tue Apr 18 13:03:40 2017] [notice] Child 6872: Child process is running
+[Tue Apr 18 13:03:40 2017] [notice] Child 6872: Acquired the start mutex.
+[Tue Apr 18 13:03:40 2017] [notice] Child 6872: Starting 250 worker threads.
+[Tue Apr 18 13:03:40 2017] [notice] Child 6872: Starting thread to listen on port 443.
+[Tue Apr 18 13:03:40 2017] [notice] Child 6872: Starting thread to listen on port 80.
+[Tue Apr 18 19:34:14 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 18 19:34:20 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Apr 18 19:34:20 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Apr 18 19:34:20 2017] [notice] Parent: Created child process 1760
+[Tue Apr 18 19:34:21 2017] [notice] Child 1760: Child process is running
+[Tue Apr 18 19:34:21 2017] [notice] Child 1760: Acquired the start mutex.
+[Tue Apr 18 19:34:21 2017] [notice] Child 1760: Starting 250 worker threads.
+[Tue Apr 18 19:34:21 2017] [notice] Child 1760: Starting thread to listen on port 443.
+[Tue Apr 18 19:34:21 2017] [notice] Child 1760: Starting thread to listen on port 80.
+[Tue Apr 18 22:38:52 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 18 22:38:58 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Apr 18 22:38:58 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Apr 18 22:38:58 2017] [notice] Parent: Created child process 5196
+[Tue Apr 18 22:38:59 2017] [notice] Child 5196: Child process is running
+[Tue Apr 18 22:39:00 2017] [notice] Child 5196: Acquired the start mutex.
+[Tue Apr 18 22:39:00 2017] [notice] Child 5196: Starting 250 worker threads.
+[Tue Apr 18 22:39:00 2017] [notice] Child 5196: Starting thread to listen on port 443.
+[Tue Apr 18 22:39:00 2017] [notice] Child 5196: Starting thread to listen on port 80.
+[Wed Apr 19 14:34:54 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 19 14:34:55 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Apr 19 14:34:55 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Apr 19 14:34:55 2017] [notice] Parent: Created child process 4964
+[Wed Apr 19 14:34:57 2017] [notice] Child 4964: Child process is running
+[Wed Apr 19 14:34:57 2017] [notice] Child 4964: Acquired the start mutex.
+[Wed Apr 19 14:34:57 2017] [notice] Child 4964: Starting 250 worker threads.
+[Wed Apr 19 14:34:57 2017] [notice] Child 4964: Starting thread to listen on port 443.
+[Wed Apr 19 14:34:57 2017] [notice] Child 4964: Starting thread to listen on port 80.
+[Wed Apr 19 21:20:38 2017] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/favicon.ico, referer: http://localhost/
+[Thu Apr 20 10:16:42 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 20 10:17:26 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Apr 20 10:17:26 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Apr 20 10:17:26 2017] [notice] Parent: Created child process 1776
+[Thu Apr 20 10:17:29 2017] [notice] Child 1776: Child process is running
+[Thu Apr 20 10:17:29 2017] [notice] Child 1776: Acquired the start mutex.
+[Thu Apr 20 10:17:29 2017] [notice] Child 1776: Starting 250 worker threads.
+[Thu Apr 20 10:17:29 2017] [notice] Child 1776: Starting thread to listen on port 443.
+[Thu Apr 20 10:17:29 2017] [notice] Child 1776: Starting thread to listen on port 80.
+[Thu Apr 20 13:30:56 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 20 13:31:06 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Apr 20 13:31:06 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Apr 20 13:31:06 2017] [notice] Parent: Created child process 5532
+[Thu Apr 20 13:31:07 2017] [notice] Child 5532: Child process is running
+[Thu Apr 20 13:31:07 2017] [notice] Child 5532: Acquired the start mutex.
+[Thu Apr 20 13:31:07 2017] [notice] Child 5532: Starting 250 worker threads.
+[Thu Apr 20 13:31:07 2017] [notice] Child 5532: Starting thread to listen on port 443.
+[Thu Apr 20 13:31:07 2017] [notice] Child 5532: Starting thread to listen on port 80.
+[Fri Apr 21 14:02:43 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 21 14:02:49 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Apr 21 14:02:49 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Apr 21 14:02:49 2017] [notice] Parent: Created child process 5268
+[Fri Apr 21 14:02:51 2017] [notice] Child 5268: Child process is running
+[Fri Apr 21 14:02:51 2017] [notice] Child 5268: Acquired the start mutex.
+[Fri Apr 21 14:02:51 2017] [notice] Child 5268: Starting 250 worker threads.
+[Fri Apr 21 14:02:51 2017] [notice] Child 5268: Starting thread to listen on port 443.
+[Fri Apr 21 14:02:51 2017] [notice] Child 5268: Starting thread to listen on port 80.
+[Mon Apr 24 03:08:51 2017] [warn] pid file D:/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 24 03:08:57 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Apr 24 03:08:57 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Apr 24 03:08:57 2017] [notice] Parent: Created child process 4632
+[Mon Apr 24 03:08:59 2017] [notice] Child 4632: Child process is running
+[Mon Apr 24 03:08:59 2017] [notice] Child 4632: Acquired the start mutex.
+[Mon Apr 24 03:08:59 2017] [notice] Child 4632: Starting 250 worker threads.
+[Mon Apr 24 03:08:59 2017] [notice] Child 4632: Starting thread to listen on port 443.
+[Mon Apr 24 03:08:59 2017] [notice] Child 4632: Starting thread to listen on port 80.
+[Mon Apr 24 03:09:00 2017] [error] [client 127.0.0.1] File does not exist: D:/phpCollab-xampp/htdocs/favicon.ico, referer: http://localhost/
+[Fri May 05 16:04:19 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 05 16:04:19 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 05 16:04:19 2017] [notice] Parent: Created child process 5224
+[Fri May 05 16:04:21 2017] [notice] Child 5224: Child process is running
+[Fri May 05 16:04:21 2017] [notice] Child 5224: Acquired the start mutex.
+[Fri May 05 16:04:21 2017] [notice] Child 5224: Starting 250 worker threads.
+[Fri May 05 16:04:21 2017] [notice] Child 5224: Starting thread to listen on port 443.
+[Fri May 05 16:04:21 2017] [notice] Child 5224: Starting thread to listen on port 8000.
+[Mon May 08 14:01:35 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 08 14:01:35 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 08 14:01:35 2017] [notice] Parent: Created child process 5072
+Apache server shutdown initiated...
+Child 5072: Child process is running
+[Mon May 08 14:01:36 2017] [notice] Child 5072: Acquired the start mutex.
+[Mon May 08 14:01:36 2017] [notice] Child 5072: Starting 250 worker threads.
+[Mon May 08 14:01:36 2017] [notice] Child 5072: Starting thread to listen on port 443.
+[Mon May 08 14:01:36 2017] [notice] Child 5072: Starting thread to listen on port 8000.
+[Mon May 08 21:02:49 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 08 21:02:49 2017] [notice] Child 5072: Exit event signaled. Child process is ending.
+[Mon May 08 21:02:50 2017] [notice] Child 5072: Released the start mutex
+[Mon May 08 21:02:51 2017] [notice] Child 5072: All worker threads have exited.
+[Mon May 08 21:02:59 2017] [notice] Child 5072: Child process is exiting
+[Tue May 09 09:04:18 2017] [warn] pid file D:/TAT-V4.1/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 09 09:04:31 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 09 09:04:31 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 09 09:04:31 2017] [notice] Parent: Created child process 5596
+[Tue May 09 09:04:33 2017] [notice] Child 5596: Child process is running
+[Tue May 09 09:04:33 2017] [notice] Child 5596: Acquired the start mutex.
+[Tue May 09 09:04:33 2017] [notice] Child 5596: Starting 250 worker threads.
+[Tue May 09 09:04:33 2017] [notice] Child 5596: Starting thread to listen on port 443.
+[Tue May 09 09:04:33 2017] [notice] Child 5596: Starting thread to listen on port 8000.
+[Tue May 09 11:24:19 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 09 11:24:19 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 09 11:24:19 2017] [notice] Parent: Created child process 7700
+[Tue May 09 11:24:22 2017] [notice] Child 7700: Child process is running
+[Tue May 09 11:24:22 2017] [notice] Child 7700: Acquired the start mutex.
+[Tue May 09 11:24:22 2017] [notice] Child 7700: Starting 250 worker threads.
+[Tue May 09 11:24:22 2017] [notice] Child 7700: Starting thread to listen on port 443.
+[Tue May 09 11:24:22 2017] [notice] Child 7700: Starting thread to listen on port 8000.
+[Tue May 09 12:03:37 2017] [warn] pid file D:/TAT-V4.1/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 09 12:04:15 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 09 12:04:15 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 09 12:04:16 2017] [notice] Parent: Created child process 6968
+Apache server shutdown initiated...
+Child 6968: Child process is running
+[Tue May 09 12:05:37 2017] [notice] Child 6968: Acquired the start mutex.
+[Tue May 09 12:05:37 2017] [notice] Child 6968: Starting 250 worker threads.
+[Tue May 09 12:05:37 2017] [notice] Child 6968: Starting thread to listen on port 443.
+[Tue May 09 12:05:37 2017] [notice] Child 6968: Starting thread to listen on port 8000.
+[Tue May 09 12:49:46 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 09 12:49:46 2017] [notice] Child 6968: Exit event signaled. Child process is ending.
+[Tue May 09 12:49:47 2017] [notice] Child 6968: Released the start mutex
+[Tue May 09 12:49:48 2017] [notice] Child 6968: All worker threads have exited.
+[Tue May 09 12:49:53 2017] [notice] Child 6968: Child process is exiting
+[Tue May 09 14:20:43 2017] [warn] pid file D:/TAT-V4.1/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 09 14:21:34 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 09 14:21:34 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 09 14:21:34 2017] [notice] Parent: Created child process 4512
+Apache server shutdown initiated...
+Child 4512: Child process is running
+[Tue May 09 14:21:36 2017] [notice] Child 4512: Acquired the start mutex.
+[Tue May 09 14:21:36 2017] [notice] Child 4512: Starting 250 worker threads.
+[Tue May 09 14:21:36 2017] [notice] Child 4512: Starting thread to listen on port 443.
+[Tue May 09 14:21:36 2017] [notice] Child 4512: Starting thread to listen on port 8000.
+[Tue May 09 14:39:13 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 09 14:39:13 2017] [notice] Child 4512: Exit event signaled. Child process is ending.
+[Tue May 09 14:39:14 2017] [notice] Child 4512: Released the start mutex
+[Tue May 09 14:39:15 2017] [notice] Child 4512: All worker threads have exited.
+[Tue May 09 14:39:20 2017] [notice] Child 4512: Child process is exiting
+[Tue May 09 16:06:24 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 09 16:06:24 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 09 16:06:24 2017] [notice] Parent: Created child process 5924
+[Tue May 09 16:06:26 2017] [notice] Child 5924: Child process is running
+[Tue May 09 16:06:26 2017] [notice] Child 5924: Acquired the start mutex.
+[Tue May 09 16:06:26 2017] [notice] Child 5924: Starting 250 worker threads.
+[Tue May 09 16:06:26 2017] [notice] Child 5924: Starting thread to listen on port 443.
+[Tue May 09 16:06:26 2017] [notice] Child 5924: Starting thread to listen on port 8000.
+[Tue May 09 16:22:45 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 09 16:22:45 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 09 16:22:45 2017] [notice] Parent: Created child process 7132
+Apache server shutdown initiated...
+Child 7132: Child process is running
+[Tue May 09 16:22:46 2017] [notice] Child 7132: Acquired the start mutex.
+[Tue May 09 16:22:46 2017] [notice] Child 7132: Starting 250 worker threads.
+[Tue May 09 16:22:46 2017] [notice] Child 7132: Starting thread to listen on port 443.
+[Tue May 09 16:22:46 2017] [notice] Child 7132: Starting thread to listen on port 8000.
+[Tue May 09 16:52:09 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 09 16:52:09 2017] [notice] Child 7132: Exit event signaled. Child process is ending.
+[Tue May 09 16:52:10 2017] [notice] Child 7132: Released the start mutex
+[Tue May 09 16:52:11 2017] [notice] Child 7132: All worker threads have exited.
+[Tue May 09 16:52:16 2017] [notice] Child 7132: Child process is exiting
+[Tue May 09 16:54:16 2017] [warn] pid file D:/TAT-V4.1/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 09 16:54:17 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 09 16:54:17 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 09 16:54:17 2017] [notice] Parent: Created child process 2264
+[Tue May 09 16:54:18 2017] [notice] Child 2264: Child process is running
+[Tue May 09 16:54:18 2017] [notice] Child 2264: Acquired the start mutex.
+[Tue May 09 16:54:18 2017] [notice] Child 2264: Starting 250 worker threads.
+[Tue May 09 16:54:18 2017] [notice] Child 2264: Starting thread to listen on port 443.
+[Tue May 09 16:54:18 2017] [notice] Child 2264: Starting thread to listen on port 8000.
+[Wed May 10 18:37:58 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 10 18:37:58 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 10 18:37:58 2017] [notice] Parent: Created child process 4504
+[Wed May 10 18:37:59 2017] [notice] Child 4504: Child process is running
+[Wed May 10 18:37:59 2017] [notice] Child 4504: Acquired the start mutex.
+[Wed May 10 18:37:59 2017] [notice] Child 4504: Starting 250 worker threads.
+[Wed May 10 18:37:59 2017] [notice] Child 4504: Starting thread to listen on port 8000.
+[Wed May 10 18:37:59 2017] [notice] Child 4504: Starting thread to listen on port 443.
+[Thu May 11 12:29:46 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu May 11 12:29:46 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu May 11 12:29:46 2017] [notice] Parent: Created child process 2332
+[Thu May 11 12:29:48 2017] [notice] Child 2332: Child process is running
+[Thu May 11 12:29:48 2017] [notice] Child 2332: Acquired the start mutex.
+[Thu May 11 12:29:48 2017] [notice] Child 2332: Starting 250 worker threads.
+[Thu May 11 12:29:48 2017] [notice] Child 2332: Starting thread to listen on port 443.
+[Thu May 11 12:29:48 2017] [notice] Child 2332: Starting thread to listen on port 8000.
+[Thu May 11 12:59:33 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu May 11 12:59:33 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu May 11 12:59:33 2017] [notice] Parent: Created child process 7212
+[Thu May 11 12:59:34 2017] [notice] Child 7212: Child process is running
+[Thu May 11 12:59:34 2017] [notice] Child 7212: Acquired the start mutex.
+[Thu May 11 12:59:34 2017] [notice] Child 7212: Starting 250 worker threads.
+[Thu May 11 12:59:34 2017] [notice] Child 7212: Starting thread to listen on port 443.
+[Thu May 11 12:59:34 2017] [notice] Child 7212: Starting thread to listen on port 8000.
+[Thu May 11 15:51:39 2017] [warn] pid file D:/TAT-V4.1/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 11 15:51:57 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu May 11 15:51:57 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu May 11 15:51:57 2017] [notice] Parent: Created child process 5452
+[Thu May 11 15:51:58 2017] [notice] Child 5452: Child process is running
+[Thu May 11 15:51:58 2017] [notice] Child 5452: Acquired the start mutex.
+[Thu May 11 15:51:58 2017] [notice] Child 5452: Starting 250 worker threads.
+[Thu May 11 15:51:58 2017] [notice] Child 5452: Starting thread to listen on port 8000.
+[Thu May 11 15:51:58 2017] [notice] Child 5452: Starting thread to listen on port 443.
+[Wed May 17 17:09:31 2017] [warn] pid file D:/TAT-V4.1/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 17 17:09:35 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 17:09:35 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 17:09:35 2017] [notice] Parent: Created child process 4604
+Apache server shutdown initiated...
+Child 4604: Child process is running
+[Wed May 17 17:09:37 2017] [notice] Child 4604: Acquired the start mutex.
+[Wed May 17 17:09:37 2017] [notice] Child 4604: Starting 250 worker threads.
+[Wed May 17 17:09:37 2017] [notice] Child 4604: Starting thread to listen on port 443.
+[Wed May 17 17:09:37 2017] [notice] Child 4604: Starting thread to listen on port 8000.
+[Wed May 17 17:09:48 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 17 17:09:48 2017] [notice] Child 4604: Exit event signaled. Child process is ending.
+[Wed May 17 17:09:49 2017] [notice] Child 4604: Released the start mutex
+[Wed May 17 17:10:38 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 17:10:38 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 17:10:38 2017] [notice] Parent: Created child process 5868
+[Wed May 17 17:10:40 2017] [notice] Child 5868: Child process is running
+[Wed May 17 17:10:40 2017] [notice] Child 5868: Acquired the start mutex.
+[Wed May 17 17:10:40 2017] [notice] Child 5868: Starting 250 worker threads.
+[Wed May 17 17:10:40 2017] [notice] Child 5868: Starting thread to listen on port 443.
+[Wed May 17 17:10:40 2017] [notice] Child 5868: Starting thread to listen on port 8000.
+[Wed May 17 17:13:36 2017] [warn] pid file D:/TAT-V4.1-final- bulk mac/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 17 17:13:38 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 17:13:38 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 17:13:38 2017] [notice] Parent: Created child process 6876
+[Wed May 17 17:13:40 2017] [notice] Child 6876: Child process is running
+[Wed May 17 17:13:40 2017] [notice] Child 6876: Acquired the start mutex.
+[Wed May 17 17:13:40 2017] [notice] Child 6876: Starting 250 worker threads.
+[Wed May 17 17:13:40 2017] [notice] Child 6876: Starting thread to listen on port 8000.
+[Wed May 17 17:13:40 2017] [notice] Child 6876: Starting thread to listen on port 443.
+[Wed May 17 18:38:19 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 18:38:19 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 18:38:19 2017] [notice] Parent: Created child process 8004
+[Wed May 17 18:38:21 2017] [notice] Child 8004: Child process is running
+[Wed May 17 18:38:21 2017] [notice] Child 8004: Acquired the start mutex.
+[Wed May 17 18:38:21 2017] [notice] Child 8004: Starting 250 worker threads.
+[Wed May 17 18:38:21 2017] [notice] Child 8004: Starting thread to listen on port 8000.
+[Wed May 17 18:38:21 2017] [notice] Child 8004: Starting thread to listen on port 443.
+[Wed May 17 18:48:43 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 18:48:43 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 18:48:43 2017] [notice] Parent: Created child process 8628
+[Wed May 17 18:48:45 2017] [notice] Child 8628: Child process is running
+[Wed May 17 18:48:45 2017] [notice] Child 8628: Acquired the start mutex.
+[Wed May 17 18:48:45 2017] [notice] Child 8628: Starting 250 worker threads.
+[Wed May 17 18:48:45 2017] [notice] Child 8628: Starting thread to listen on port 443.
+[Wed May 17 18:48:45 2017] [notice] Child 8628: Starting thread to listen on port 8000.
+[Wed May 17 18:49:53 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 18:49:53 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 18:49:53 2017] [notice] Parent: Created child process 5972
+[Wed May 17 18:49:55 2017] [notice] Child 5972: Child process is running
+[Wed May 17 18:49:55 2017] [notice] Child 5972: Acquired the start mutex.
+[Wed May 17 18:49:55 2017] [notice] Child 5972: Starting 250 worker threads.
+[Wed May 17 18:49:55 2017] [notice] Child 5972: Starting thread to listen on port 443.
+[Wed May 17 18:49:55 2017] [notice] Child 5972: Starting thread to listen on port 8000.
+[Wed May 17 18:58:02 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 18:58:02 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 18:58:02 2017] [notice] Parent: Created child process 5180
+[Wed May 17 18:58:04 2017] [notice] Child 5180: Child process is running
+[Wed May 17 18:58:04 2017] [notice] Child 5180: Acquired the start mutex.
+[Wed May 17 18:58:04 2017] [notice] Child 5180: Starting 250 worker threads.
+[Wed May 17 18:58:04 2017] [notice] Child 5180: Starting thread to listen on port 8000.
+[Wed May 17 18:58:04 2017] [notice] Child 5180: Starting thread to listen on port 443.
+[Wed May 17 19:02:30 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 19:02:30 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 19:02:30 2017] [notice] Parent: Created child process 7312
+[Wed May 17 19:02:33 2017] [notice] Child 7312: Child process is running
+[Wed May 17 19:02:33 2017] [notice] Child 7312: Acquired the start mutex.
+[Wed May 17 19:02:33 2017] [notice] Child 7312: Starting 250 worker threads.
+[Wed May 17 19:02:33 2017] [notice] Child 7312: Starting thread to listen on port 443.
+[Wed May 17 19:02:33 2017] [notice] Child 7312: Starting thread to listen on port 8000.
+[Wed May 17 19:03:55 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 19:03:55 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 19:03:55 2017] [notice] Parent: Created child process 8108
+[Wed May 17 19:03:57 2017] [notice] Child 8108: Child process is running
+[Wed May 17 19:03:57 2017] [notice] Child 8108: Acquired the start mutex.
+[Wed May 17 19:03:57 2017] [notice] Child 8108: Starting 250 worker threads.
+[Wed May 17 19:03:57 2017] [notice] Child 8108: Starting thread to listen on port 443.
+[Wed May 17 19:03:57 2017] [notice] Child 8108: Starting thread to listen on port 8000.
+[Wed May 17 19:23:42 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 19:23:42 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 19:23:42 2017] [notice] Parent: Created child process 8700
+[Wed May 17 19:23:44 2017] [notice] Child 8700: Child process is running
+[Wed May 17 19:23:44 2017] [notice] Child 8700: Acquired the start mutex.
+[Wed May 17 19:23:44 2017] [notice] Child 8700: Starting 250 worker threads.
+[Wed May 17 19:23:44 2017] [notice] Child 8700: Starting thread to listen on port 443.
+[Wed May 17 19:23:44 2017] [notice] Child 8700: Starting thread to listen on port 8000.
+[Wed May 17 20:04:13 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 20:04:13 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 20:04:13 2017] [notice] Parent: Created child process 6472
+[Wed May 17 20:04:17 2017] [notice] Child 6472: Child process is running
+[Wed May 17 20:04:17 2017] [notice] Child 6472: Acquired the start mutex.
+[Wed May 17 20:04:17 2017] [notice] Child 6472: Starting 250 worker threads.
+[Wed May 17 20:04:17 2017] [notice] Child 6472: Starting thread to listen on port 8000.
+[Wed May 17 20:04:17 2017] [notice] Child 6472: Starting thread to listen on port 443.
+[Wed May 17 17:05:43 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 17 17:05:43 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 17 17:05:43 2017] [notice] Parent: Created child process 6784
+[Wed May 17 17:05:47 2017] [notice] Child 6784: Child process is running
+[Wed May 17 17:05:47 2017] [notice] Child 6784: Acquired the start mutex.
+[Wed May 17 17:05:47 2017] [notice] Child 6784: Starting 250 worker threads.
+[Wed May 17 17:05:47 2017] [notice] Child 6784: Starting thread to listen on port 443.
+[Wed May 17 17:05:47 2017] [notice] Child 6784: Starting thread to listen on port 8000.
+[Thu May 18 09:42:48 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu May 18 09:42:48 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu May 18 09:42:48 2017] [notice] Parent: Created child process 8856
+[Thu May 18 09:42:52 2017] [notice] Child 8856: Child process is running
+[Thu May 18 09:42:52 2017] [notice] Child 8856: Acquired the start mutex.
+[Thu May 18 09:42:52 2017] [notice] Child 8856: Starting 250 worker threads.
+[Thu May 18 09:42:52 2017] [notice] Child 8856: Starting thread to listen on port 443.
+[Thu May 18 09:42:52 2017] [notice] Child 8856: Starting thread to listen on port 8000.
+[Thu May 18 15:17:39 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu May 18 15:17:39 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu May 18 15:17:39 2017] [notice] Parent: Created child process 10880
+[Thu May 18 15:17:45 2017] [notice] Child 10880: Child process is running
+[Thu May 18 15:17:45 2017] [notice] Child 10880: Acquired the start mutex.
+[Thu May 18 15:17:45 2017] [notice] Child 10880: Starting 250 worker threads.
+[Thu May 18 15:17:45 2017] [notice] Child 10880: Starting thread to listen on port 443.
+[Thu May 18 15:17:45 2017] [notice] Child 10880: Starting thread to listen on port 8000.
+[Thu May 18 15:29:46 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu May 18 15:29:46 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu May 18 15:29:46 2017] [notice] Parent: Created child process 9340
+[Thu May 18 15:29:59 2017] [notice] Child 9340: Child process is running
+[Thu May 18 15:29:59 2017] [notice] Child 9340: Acquired the start mutex.
+[Thu May 18 15:29:59 2017] [notice] Child 9340: Starting 250 worker threads.
+[Thu May 18 15:29:59 2017] [notice] Child 9340: Starting thread to listen on port 8000.
+[Thu May 18 15:29:59 2017] [notice] Child 9340: Starting thread to listen on port 443.
+[Fri May 19 13:12:56 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 19 13:12:56 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 19 13:12:56 2017] [notice] Parent: Created child process 8428
+[Fri May 19 13:12:57 2017] [notice] Child 8428: Child process is running
+[Fri May 19 13:12:57 2017] [notice] Child 8428: Acquired the start mutex.
+[Fri May 19 13:12:57 2017] [notice] Child 8428: Starting 250 worker threads.
+[Fri May 19 13:12:57 2017] [notice] Child 8428: Starting thread to listen on port 8000.
+[Fri May 19 13:12:57 2017] [notice] Child 8428: Starting thread to listen on port 443.
+[Fri May 19 13:16:27 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 19 13:16:27 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 19 13:16:27 2017] [notice] Parent: Created child process 3796
+[Fri May 19 13:16:28 2017] [notice] Child 3796: Child process is running
+[Fri May 19 13:16:28 2017] [notice] Child 3796: Acquired the start mutex.
+[Fri May 19 13:16:28 2017] [notice] Child 3796: Starting 250 worker threads.
+[Fri May 19 13:16:28 2017] [notice] Child 3796: Starting thread to listen on port 443.
+[Fri May 19 13:16:28 2017] [notice] Child 3796: Starting thread to listen on port 8000.
+[Fri May 19 13:20:34 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 19 13:20:34 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 19 13:20:34 2017] [notice] Parent: Created child process 7424
+Apache server shutdown initiated...
+Child 7424: Child process is running
+[Fri May 19 13:20:35 2017] [notice] Child 7424: Acquired the start mutex.
+[Fri May 19 13:20:35 2017] [notice] Child 7424: Starting 250 worker threads.
+[Fri May 19 13:20:35 2017] [notice] Child 7424: Starting thread to listen on port 443.
+[Fri May 19 13:20:35 2017] [notice] Child 7424: Starting thread to listen on port 8000.
+[Fri May 19 13:22:41 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 19 13:22:41 2017] [notice] Child 7424: Exit event signaled. Child process is ending.
+[Fri May 19 13:22:42 2017] [notice] Child 7424: Released the start mutex
+[Fri May 19 13:22:43 2017] [notice] Child 7424: All worker threads have exited.
+[Fri May 19 13:22:48 2017] [notice] Child 7424: Child process is exiting
+[Fri May 19 13:24:25 2017] [warn] pid file C:/AG/TAT-V4.3/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 19 13:24:26 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 19 13:24:26 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 19 13:24:26 2017] [notice] Parent: Created child process 7608
+[Fri May 19 13:24:28 2017] [notice] Child 7608: Child process is running
+[Fri May 19 13:24:28 2017] [notice] Child 7608: Acquired the start mutex.
+[Fri May 19 13:24:28 2017] [notice] Child 7608: Starting 250 worker threads.
+[Fri May 19 13:24:28 2017] [notice] Child 7608: Starting thread to listen on port 443.
+[Fri May 19 13:24:28 2017] [notice] Child 7608: Starting thread to listen on port 8000.
+[Fri May 19 13:35:16 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 19 13:35:16 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 19 13:35:16 2017] [notice] Parent: Created child process 8708
+[Fri May 19 13:35:17 2017] [notice] Child 8708: Child process is running
+[Fri May 19 13:35:17 2017] [notice] Child 8708: Acquired the start mutex.
+[Fri May 19 13:35:17 2017] [notice] Child 8708: Starting 250 worker threads.
+[Fri May 19 13:35:17 2017] [notice] Child 8708: Starting thread to listen on port 443.
+[Fri May 19 13:35:17 2017] [notice] Child 8708: Starting thread to listen on port 8000.
+[Fri May 19 13:36:21 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 19 13:36:21 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 19 13:36:21 2017] [notice] Parent: Created child process 4712
+[Fri May 19 13:36:23 2017] [notice] Child 4712: Child process is running
+[Fri May 19 13:36:23 2017] [notice] Child 4712: Acquired the start mutex.
+[Fri May 19 13:36:23 2017] [notice] Child 4712: Starting 250 worker threads.
+[Fri May 19 13:36:23 2017] [notice] Child 4712: Starting thread to listen on port 8000.
+[Fri May 19 13:36:23 2017] [notice] Child 4712: Starting thread to listen on port 443.
+[Fri May 19 13:37:59 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 19 13:37:59 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 19 13:37:59 2017] [notice] Parent: Created child process 6872
+[Fri May 19 13:38:01 2017] [notice] Child 6872: Child process is running
+[Fri May 19 13:38:01 2017] [notice] Child 6872: Acquired the start mutex.
+[Fri May 19 13:38:01 2017] [notice] Child 6872: Starting 250 worker threads.
+[Fri May 19 13:38:01 2017] [notice] Child 6872: Starting thread to listen on port 443.
+[Fri May 19 13:38:01 2017] [notice] Child 6872: Starting thread to listen on port 8000.
+[Fri May 19 14:31:25 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 19 14:31:25 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 19 14:31:25 2017] [notice] Parent: Created child process 9660
+[Fri May 19 14:31:26 2017] [notice] Child 9660: Child process is running
+[Fri May 19 14:31:26 2017] [notice] Child 9660: Acquired the start mutex.
+[Fri May 19 14:31:26 2017] [notice] Child 9660: Starting 250 worker threads.
+[Fri May 19 14:31:26 2017] [notice] Child 9660: Starting thread to listen on port 443.
+[Fri May 19 14:31:26 2017] [notice] Child 9660: Starting thread to listen on port 8000.
+[Fri May 19 14:33:02 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 19 14:33:02 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 19 14:33:02 2017] [notice] Parent: Created child process 3120
+[Fri May 19 14:33:04 2017] [notice] Child 3120: Child process is running
+[Fri May 19 14:33:04 2017] [notice] Child 3120: Acquired the start mutex.
+[Fri May 19 14:33:04 2017] [notice] Child 3120: Starting 250 worker threads.
+[Fri May 19 14:33:04 2017] [notice] Child 3120: Starting thread to listen on port 443.
+[Fri May 19 14:33:04 2017] [notice] Child 3120: Starting thread to listen on port 8000.
+[Fri May 19 14:35:18 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 19 14:35:18 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 19 14:35:18 2017] [notice] Parent: Created child process 6628
+[Fri May 19 14:35:20 2017] [notice] Child 6628: Child process is running
+[Fri May 19 14:35:20 2017] [notice] Child 6628: Acquired the start mutex.
+[Fri May 19 14:35:20 2017] [notice] Child 6628: Starting 250 worker threads.
+[Fri May 19 14:35:20 2017] [notice] Child 6628: Starting thread to listen on port 443.
+[Fri May 19 14:35:20 2017] [notice] Child 6628: Starting thread to listen on port 8000.
+[Fri May 19 15:20:06 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 19 15:20:06 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 19 15:20:06 2017] [notice] Parent: Created child process 3940
+[Fri May 19 15:20:08 2017] [notice] Child 3940: Child process is running
+[Fri May 19 15:20:08 2017] [notice] Child 3940: Acquired the start mutex.
+[Fri May 19 15:20:08 2017] [notice] Child 3940: Starting 250 worker threads.
+[Fri May 19 15:20:08 2017] [notice] Child 3940: Starting thread to listen on port 443.
+[Fri May 19 15:20:08 2017] [notice] Child 3940: Starting thread to listen on port 8000.
+[Mon May 22 11:04:10 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 11:04:10 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 11:04:10 2017] [notice] Parent: Created child process 3520
+[Mon May 22 11:04:11 2017] [notice] Child 3520: Child process is running
+[Mon May 22 11:04:11 2017] [notice] Child 3520: Acquired the start mutex.
+[Mon May 22 11:04:11 2017] [notice] Child 3520: Starting 250 worker threads.
+[Mon May 22 11:04:11 2017] [notice] Child 3520: Starting thread to listen on port 443.
+[Mon May 22 11:04:11 2017] [notice] Child 3520: Starting thread to listen on port 80.
+[Mon May 22 11:21:12 2017] [warn] pid file C:/AG/TAT-V4.3 Updated_20th May 2017/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 22 11:21:13 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 11:21:13 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 11:21:13 2017] [notice] Parent: Created child process 8976
+[Mon May 22 11:21:15 2017] [notice] Child 8976: Child process is running
+[Mon May 22 11:21:15 2017] [notice] Child 8976: Acquired the start mutex.
+[Mon May 22 11:21:15 2017] [notice] Child 8976: Starting 250 worker threads.
+[Mon May 22 11:21:15 2017] [notice] Child 8976: Starting thread to listen on port 443.
+[Mon May 22 11:21:15 2017] [notice] Child 8976: Starting thread to listen on port 80.
+[Mon May 22 11:22:43 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 11:22:43 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 11:22:43 2017] [notice] Parent: Created child process 7844
+[Mon May 22 11:22:45 2017] [notice] Child 7844: Child process is running
+[Mon May 22 11:22:45 2017] [notice] Child 7844: Acquired the start mutex.
+[Mon May 22 11:22:45 2017] [notice] Child 7844: Starting 250 worker threads.
+[Mon May 22 11:22:45 2017] [notice] Child 7844: Starting thread to listen on port 443.
+[Mon May 22 11:22:45 2017] [notice] Child 7844: Starting thread to listen on port 80.
+[Mon May 22 11:48:55 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 11:48:55 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 11:48:55 2017] [notice] Parent: Created child process 4308
+[Mon May 22 11:48:56 2017] [notice] Child 4308: Child process is running
+[Mon May 22 11:48:56 2017] [notice] Child 4308: Acquired the start mutex.
+[Mon May 22 11:48:56 2017] [notice] Child 4308: Starting 250 worker threads.
+[Mon May 22 11:48:56 2017] [notice] Child 4308: Starting thread to listen on port 443.
+[Mon May 22 11:48:56 2017] [notice] Child 4308: Starting thread to listen on port 80.
+[Mon May 22 17:10:54 2017] [warn] pid file D:/TAT-V4.4/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 22 17:10:59 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 17:10:59 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 17:10:59 2017] [notice] Parent: Created child process 3628
+[Mon May 22 17:11:00 2017] [notice] Child 3628: Child process is running
+[Mon May 22 17:11:00 2017] [notice] Child 3628: Acquired the start mutex.
+[Mon May 22 17:11:00 2017] [notice] Child 3628: Starting 250 worker threads.
+[Mon May 22 17:11:00 2017] [notice] Child 3628: Starting thread to listen on port 8000.
+[Mon May 22 17:11:00 2017] [notice] Child 3628: Starting thread to listen on port 443.
+[Mon May 22 14:10:19 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 14:10:19 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 14:10:19 2017] [notice] Parent: Created child process 7864
+Apache server shutdown initiated...
+Child 7864: Child process is running
+[Mon May 22 14:10:22 2017] [notice] Child 7864: Acquired the start mutex.
+[Mon May 22 14:10:22 2017] [notice] Child 7864: Starting 250 worker threads.
+[Mon May 22 14:10:22 2017] [notice] Child 7864: Starting thread to listen on port 443.
+[Mon May 22 14:10:22 2017] [notice] Child 7864: Starting thread to listen on port 80.
+[Mon May 22 14:39:27 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 22 14:39:27 2017] [notice] Child 7864: Exit event signaled. Child process is ending.
+[Mon May 22 14:39:28 2017] [notice] Child 7864: Released the start mutex
+[Mon May 22 14:39:29 2017] [notice] Child 7864: All worker threads have exited.
+[Mon May 22 14:39:29 2017] [notice] Child 7864: Child process is exiting
+[Mon May 22 14:39:29 2017] [notice] Parent: Child process exited successfully.
+[Mon May 22 14:53:14 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 14:53:14 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 14:53:14 2017] [notice] Parent: Created child process 4536
+[Mon May 22 14:53:16 2017] [notice] Child 4536: Child process is running
+[Mon May 22 14:53:16 2017] [notice] Child 4536: Acquired the start mutex.
+[Mon May 22 14:53:16 2017] [notice] Child 4536: Starting 250 worker threads.
+[Mon May 22 14:53:16 2017] [notice] Child 4536: Starting thread to listen on port 443.
+[Mon May 22 14:53:16 2017] [notice] Child 4536: Starting thread to listen on port 80.
+[Mon May 22 15:09:58 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 15:09:58 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 15:09:58 2017] [notice] Parent: Created child process 5488
+[Mon May 22 15:09:59 2017] [notice] Child 5488: Child process is running
+[Mon May 22 15:09:59 2017] [notice] Child 5488: Acquired the start mutex.
+[Mon May 22 15:09:59 2017] [notice] Child 5488: Starting 250 worker threads.
+[Mon May 22 15:09:59 2017] [notice] Child 5488: Starting thread to listen on port 443.
+[Mon May 22 15:09:59 2017] [notice] Child 5488: Starting thread to listen on port 80.
+[Mon May 22 15:12:06 2017] [error] [client 127.0.0.1] File does not exist: C:/AG/TAT-V4.4_MySQL/phpCollab-xampp/htdocs/favicon.ico, referer: http://localhost/
+[Mon May 22 15:20:02 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 15:20:02 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 15:20:02 2017] [notice] Parent: Created child process 3424
+[Mon May 22 15:20:04 2017] [notice] Child 3424: Child process is running
+[Mon May 22 15:20:04 2017] [notice] Child 3424: Acquired the start mutex.
+[Mon May 22 15:20:04 2017] [notice] Child 3424: Starting 250 worker threads.
+[Mon May 22 15:20:04 2017] [notice] Child 3424: Starting thread to listen on port 443.
+[Mon May 22 15:20:04 2017] [notice] Child 3424: Starting thread to listen on port 80.
+[Mon May 22 15:22:24 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 15:22:24 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 15:22:24 2017] [notice] Parent: Created child process 1648
+[Mon May 22 15:22:25 2017] [notice] Child 1648: Child process is running
+[Mon May 22 15:22:25 2017] [notice] Child 1648: Acquired the start mutex.
+[Mon May 22 15:22:25 2017] [notice] Child 1648: Starting 250 worker threads.
+[Mon May 22 15:22:25 2017] [notice] Child 1648: Starting thread to listen on port 443.
+[Mon May 22 15:22:25 2017] [notice] Child 1648: Starting thread to listen on port 80.
+[Mon May 22 15:23:13 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 15:23:13 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 15:23:13 2017] [notice] Parent: Created child process 9056
+[Mon May 22 15:23:15 2017] [notice] Child 9056: Child process is running
+[Mon May 22 15:23:15 2017] [notice] Child 9056: Acquired the start mutex.
+[Mon May 22 15:23:15 2017] [notice] Child 9056: Starting 250 worker threads.
+[Mon May 22 15:23:15 2017] [notice] Child 9056: Starting thread to listen on port 443.
+[Mon May 22 15:23:15 2017] [notice] Child 9056: Starting thread to listen on port 80.
+[Mon May 22 15:24:50 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 15:24:50 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 15:24:50 2017] [notice] Parent: Created child process 8952
+[Mon May 22 15:24:52 2017] [notice] Child 8952: Child process is running
+[Mon May 22 15:24:52 2017] [notice] Child 8952: Acquired the start mutex.
+[Mon May 22 15:24:52 2017] [notice] Child 8952: Starting 250 worker threads.
+[Mon May 22 15:24:52 2017] [notice] Child 8952: Starting thread to listen on port 443.
+[Mon May 22 15:24:52 2017] [notice] Child 8952: Starting thread to listen on port 80.
+[Mon May 22 15:25:26 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 15:25:26 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 15:25:26 2017] [notice] Parent: Created child process 5236
+[Mon May 22 15:25:27 2017] [notice] Child 5236: Child process is running
+[Mon May 22 15:25:27 2017] [notice] Child 5236: Acquired the start mutex.
+[Mon May 22 15:25:27 2017] [notice] Child 5236: Starting 250 worker threads.
+[Mon May 22 15:25:27 2017] [notice] Child 5236: Starting thread to listen on port 443.
+[Mon May 22 15:25:27 2017] [notice] Child 5236: Starting thread to listen on port 80.
+[Mon May 22 16:03:17 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 16:03:17 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 16:03:17 2017] [notice] Parent: Created child process 304
+[Mon May 22 16:03:19 2017] [notice] Child 304: Child process is running
+[Mon May 22 16:03:19 2017] [notice] Child 304: Acquired the start mutex.
+[Mon May 22 16:03:19 2017] [notice] Child 304: Starting 250 worker threads.
+[Mon May 22 16:03:19 2017] [notice] Child 304: Starting thread to listen on port 443.
+[Mon May 22 16:03:19 2017] [notice] Child 304: Starting thread to listen on port 80.
+[Mon May 22 16:07:00 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 16:07:00 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 16:07:00 2017] [notice] Parent: Created child process 11404
+[Mon May 22 16:07:02 2017] [notice] Child 11404: Child process is running
+[Mon May 22 16:07:02 2017] [notice] Child 11404: Acquired the start mutex.
+[Mon May 22 16:07:02 2017] [notice] Child 11404: Starting 250 worker threads.
+[Mon May 22 16:07:02 2017] [notice] Child 11404: Starting thread to listen on port 443.
+[Mon May 22 16:07:02 2017] [notice] Child 11404: Starting thread to listen on port 80.
+[Mon May 22 16:45:47 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 22 16:45:47 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 22 16:45:47 2017] [notice] Parent: Created child process 7300
+[Mon May 22 16:45:50 2017] [notice] Child 7300: Child process is running
+[Mon May 22 16:45:50 2017] [notice] Child 7300: Acquired the start mutex.
+[Mon May 22 16:45:50 2017] [notice] Child 7300: Starting 250 worker threads.
+[Mon May 22 16:45:50 2017] [notice] Child 7300: Starting thread to listen on port 443.
+[Mon May 22 16:45:50 2017] [notice] Child 7300: Starting thread to listen on port 80.
+[Tue May 23 09:07:00 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 23 09:07:00 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 23 09:07:00 2017] [notice] Parent: Created child process 10116
+[Tue May 23 09:07:04 2017] [notice] Child 10116: Child process is running
+[Tue May 23 09:07:04 2017] [notice] Child 10116: Acquired the start mutex.
+[Tue May 23 09:07:04 2017] [notice] Child 10116: Starting 250 worker threads.
+[Tue May 23 09:07:05 2017] [notice] Child 10116: Starting thread to listen on port 443.
+[Tue May 23 09:07:05 2017] [notice] Child 10116: Starting thread to listen on port 80.
+[Tue May 23 11:01:24 2017] [error] [client 127.0.0.1] File does not exist: C:/AG/TAT-V4.4_MySQL/phpCollab-xampp/htdocs/favicon.ico
+[Tue May 23 14:55:45 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 23 14:55:45 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 23 14:55:45 2017] [notice] Parent: Created child process 8792
+[Tue May 23 14:55:46 2017] [notice] Child 8792: Child process is running
+[Tue May 23 14:55:46 2017] [notice] Child 8792: Acquired the start mutex.
+[Tue May 23 14:55:46 2017] [notice] Child 8792: Starting 250 worker threads.
+[Tue May 23 14:55:46 2017] [notice] Child 8792: Starting thread to listen on port 443.
+[Tue May 23 14:55:46 2017] [notice] Child 8792: Starting thread to listen on port 80.
+[Tue May 23 14:57:01 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 23 14:57:01 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 23 14:57:01 2017] [notice] Parent: Created child process 12280
+[Tue May 23 14:57:02 2017] [notice] Child 12280: Child process is running
+[Tue May 23 14:57:02 2017] [notice] Child 12280: Acquired the start mutex.
+[Tue May 23 14:57:02 2017] [notice] Child 12280: Starting 250 worker threads.
+[Tue May 23 14:57:02 2017] [notice] Child 12280: Starting thread to listen on port 443.
+[Tue May 23 14:57:02 2017] [notice] Child 12280: Starting thread to listen on port 80.
+[Tue May 23 15:07:06 2017] [error] [client 127.0.0.1] File does not exist: C:/AG/TAT-V4.4_MySQL/phpCollab-xampp/htdocs/favicon.ico
+[Tue May 23 21:25:13 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 23 21:25:13 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 23 21:25:13 2017] [notice] Parent: Created child process 2304
+[Tue May 23 21:25:15 2017] [notice] Child 2304: Child process is running
+[Tue May 23 21:25:15 2017] [notice] Child 2304: Acquired the start mutex.
+[Tue May 23 21:25:15 2017] [notice] Child 2304: Starting 250 worker threads.
+[Tue May 23 21:25:15 2017] [notice] Child 2304: Starting thread to listen on port 443.
+[Tue May 23 21:25:15 2017] [notice] Child 2304: Starting thread to listen on port 80.
+[Tue May 23 21:27:36 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 23 21:27:36 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 23 21:27:36 2017] [notice] Parent: Created child process 3972
+[Tue May 23 21:27:38 2017] [notice] Child 3972: Child process is running
+[Tue May 23 21:27:38 2017] [notice] Child 3972: Acquired the start mutex.
+[Tue May 23 21:27:38 2017] [notice] Child 3972: Starting 250 worker threads.
+[Tue May 23 21:27:38 2017] [notice] Child 3972: Starting thread to listen on port 443.
+[Tue May 23 21:27:38 2017] [notice] Child 3972: Starting thread to listen on port 80.
+[Tue May 23 22:53:11 2017] [warn] pid file C:/AG/TAT-V4.4_MySQL/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 23 22:53:25 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 23 22:53:25 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 23 22:53:25 2017] [notice] Parent: Created child process 9000
+[Tue May 23 22:53:29 2017] [notice] Child 9000: Child process is running
+[Tue May 23 22:53:29 2017] [notice] Child 9000: Acquired the start mutex.
+[Tue May 23 22:53:29 2017] [notice] Child 9000: Starting 250 worker threads.
+[Tue May 23 22:53:29 2017] [notice] Child 9000: Starting thread to listen on port 443.
+[Tue May 23 22:53:29 2017] [notice] Child 9000: Starting thread to listen on port 80.
+[Wed May 24 00:11:11 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 24 00:11:11 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 24 00:11:11 2017] [notice] Parent: Created child process 9168
+[Wed May 24 00:11:13 2017] [notice] Child 9168: Child process is running
+[Wed May 24 00:11:13 2017] [notice] Child 9168: Acquired the start mutex.
+[Wed May 24 00:11:13 2017] [notice] Child 9168: Starting 250 worker threads.
+[Wed May 24 00:11:13 2017] [notice] Child 9168: Starting thread to listen on port 443.
+[Wed May 24 00:11:13 2017] [notice] Child 9168: Starting thread to listen on port 80.
+[Wed May 24 00:26:31 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 24 00:26:31 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 24 00:26:31 2017] [notice] Parent: Created child process 7980
+[Wed May 24 00:26:33 2017] [notice] Child 7980: Child process is running
+[Wed May 24 00:26:33 2017] [notice] Child 7980: Acquired the start mutex.
+[Wed May 24 00:26:33 2017] [notice] Child 7980: Starting 250 worker threads.
+[Wed May 24 00:26:33 2017] [notice] Child 7980: Starting thread to listen on port 443.
+[Wed May 24 00:26:33 2017] [notice] Child 7980: Starting thread to listen on port 80.
+[Wed May 24 01:31:11 2017] [warn] pid file C:/AG/TAT-V4.4_MySQL/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 24 01:31:12 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 24 01:31:12 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 24 01:31:12 2017] [notice] Parent: Created child process 8672
+[Wed May 24 01:31:13 2017] [notice] Child 8672: Child process is running
+[Wed May 24 01:31:13 2017] [notice] Child 8672: Acquired the start mutex.
+[Wed May 24 01:31:13 2017] [notice] Child 8672: Starting 250 worker threads.
+[Wed May 24 01:31:13 2017] [notice] Child 8672: Starting thread to listen on port 443.
+[Wed May 24 01:31:13 2017] [notice] Child 8672: Starting thread to listen on port 80.
+[Wed May 24 01:32:16 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 24 01:32:16 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 24 01:32:16 2017] [notice] Parent: Created child process 3436
+[Wed May 24 01:32:17 2017] [notice] Child 3436: Child process is running
+[Wed May 24 01:32:17 2017] [notice] Child 3436: Acquired the start mutex.
+[Wed May 24 01:32:17 2017] [notice] Child 3436: Starting 250 worker threads.
+[Wed May 24 01:32:17 2017] [notice] Child 3436: Starting thread to listen on port 443.
+[Wed May 24 01:32:17 2017] [notice] Child 3436: Starting thread to listen on port 80.
+[Wed May 24 09:05:01 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 24 09:05:01 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 24 09:05:01 2017] [notice] Parent: Created child process 5652
+[Wed May 24 09:05:03 2017] [notice] Child 5652: Child process is running
+[Wed May 24 09:05:03 2017] [notice] Child 5652: Acquired the start mutex.
+[Wed May 24 09:05:03 2017] [notice] Child 5652: Starting 250 worker threads.
+[Wed May 24 09:05:03 2017] [notice] Child 5652: Starting thread to listen on port 443.
+[Wed May 24 09:05:03 2017] [notice] Child 5652: Starting thread to listen on port 80.
+[Wed May 24 10:41:36 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 24 10:41:36 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 24 10:41:36 2017] [notice] Parent: Created child process 11520
+[Wed May 24 10:41:38 2017] [notice] Child 11520: Child process is running
+[Wed May 24 10:41:38 2017] [notice] Child 11520: Acquired the start mutex.
+[Wed May 24 10:41:38 2017] [notice] Child 11520: Starting 250 worker threads.
+[Wed May 24 10:41:38 2017] [notice] Child 11520: Starting thread to listen on port 443.
+[Wed May 24 10:41:38 2017] [notice] Child 11520: Starting thread to listen on port 80.
+[Wed May 24 11:11:16 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 24 11:11:16 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 24 11:11:16 2017] [notice] Parent: Created child process 3336
+[Wed May 24 11:11:17 2017] [notice] Child 3336: Child process is running
+[Wed May 24 11:11:17 2017] [notice] Child 3336: Acquired the start mutex.
+[Wed May 24 11:11:17 2017] [notice] Child 3336: Starting 250 worker threads.
+[Wed May 24 11:11:17 2017] [notice] Child 3336: Starting thread to listen on port 443.
+[Wed May 24 11:11:17 2017] [notice] Child 3336: Starting thread to listen on port 80.
+[Wed May 24 11:47:59 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 24 11:47:59 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 24 11:47:59 2017] [notice] Parent: Created child process 4028
+[Wed May 24 11:48:01 2017] [notice] Child 4028: Child process is running
+[Wed May 24 11:48:01 2017] [notice] Child 4028: Acquired the start mutex.
+[Wed May 24 11:48:01 2017] [notice] Child 4028: Starting 250 worker threads.
+[Wed May 24 11:48:01 2017] [notice] Child 4028: Starting thread to listen on port 443.
+[Wed May 24 11:48:01 2017] [notice] Child 4028: Starting thread to listen on port 80.
+[Thu May 25 09:28:07 2017] [warn] pid file C:/AG/TAT-V4.4/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 25 09:28:09 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu May 25 09:28:09 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu May 25 09:28:09 2017] [notice] Parent: Created child process 6044
+[Thu May 25 09:28:11 2017] [notice] Child 6044: Child process is running
+[Thu May 25 09:28:11 2017] [notice] Child 6044: Acquired the start mutex.
+[Thu May 25 09:28:11 2017] [notice] Child 6044: Starting 250 worker threads.
+[Thu May 25 09:28:11 2017] [notice] Child 6044: Starting thread to listen on port 443.
+[Thu May 25 09:28:11 2017] [notice] Child 6044: Starting thread to listen on port 80.
+[Thu May 25 13:13:11 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu May 25 13:13:11 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu May 25 13:13:11 2017] [notice] Parent: Created child process 10564
+[Thu May 25 13:13:13 2017] [notice] Child 10564: Child process is running
+[Thu May 25 13:13:13 2017] [notice] Child 10564: Acquired the start mutex.
+[Thu May 25 13:13:13 2017] [notice] Child 10564: Starting 250 worker threads.
+[Thu May 25 13:13:13 2017] [notice] Child 10564: Starting thread to listen on port 443.
+[Thu May 25 13:13:13 2017] [notice] Child 10564: Starting thread to listen on port 80.
+[Thu May 25 14:16:17 2017] [warn] pid file C:/AG/TAT-V4.4/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 25 14:16:18 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu May 25 14:16:18 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu May 25 14:16:18 2017] [notice] Parent: Created child process 724
+Apache server shutdown initiated...
+Child 724: Child process is running
+[Thu May 25 14:16:19 2017] [notice] Child 724: Acquired the start mutex.
+[Thu May 25 14:16:19 2017] [notice] Child 724: Starting 250 worker threads.
+[Thu May 25 14:16:19 2017] [notice] Child 724: Starting thread to listen on port 443.
+[Thu May 25 14:16:19 2017] [notice] Child 724: Starting thread to listen on port 80.
+[Thu May 25 14:27:56 2017] [error] [client 127.0.0.1] File does not exist: C:/AG/TAT-V4.4/phpCollab-xampp/htdocs/favicon.ico
+[Thu May 25 14:27:56 2017] [error] [client 127.0.0.1] File does not exist: C:/AG/TAT-V4.4/phpCollab-xampp/htdocs/favicon.ico
+[Thu May 25 16:50:01 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu May 25 16:50:01 2017] [notice] Child 724: Exit event signaled. Child process is ending.
+[Thu May 25 16:50:02 2017] [notice] Child 724: Released the start mutex
+[Thu May 25 16:50:03 2017] [notice] Child 724: All worker threads have exited.
+[Thu May 25 16:50:08 2017] [notice] Child 724: Child process is exiting
+[Fri May 26 10:17:17 2017] [warn] pid file C:/AG/TAT-V4.4/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 26 10:17:18 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 26 10:17:18 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 26 10:17:18 2017] [notice] Parent: Created child process 3124
+[Fri May 26 10:17:19 2017] [notice] Child 3124: Child process is running
+[Fri May 26 10:17:20 2017] [notice] Child 3124: Acquired the start mutex.
+[Fri May 26 10:17:20 2017] [notice] Child 3124: Starting 250 worker threads.
+[Fri May 26 10:17:20 2017] [notice] Child 3124: Starting thread to listen on port 443.
+[Fri May 26 10:17:20 2017] [notice] Child 3124: Starting thread to listen on port 80.
+[Fri May 26 12:59:46 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 26 12:59:46 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 26 12:59:46 2017] [notice] Parent: Created child process 5488
+[Fri May 26 12:59:47 2017] [notice] Child 5488: Child process is running
+[Fri May 26 12:59:47 2017] [notice] Child 5488: Acquired the start mutex.
+[Fri May 26 12:59:47 2017] [notice] Child 5488: Starting 250 worker threads.
+[Fri May 26 12:59:47 2017] [notice] Child 5488: Starting thread to listen on port 443.
+[Fri May 26 12:59:47 2017] [notice] Child 5488: Starting thread to listen on port 80.
+[Fri May 26 17:43:14 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri May 26 17:43:15 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri May 26 17:43:15 2017] [notice] Parent: Created child process 7712
+[Fri May 26 17:43:16 2017] [notice] Child 7712: Child process is running
+[Fri May 26 17:43:16 2017] [notice] Child 7712: Acquired the start mutex.
+[Fri May 26 17:43:16 2017] [notice] Child 7712: Starting 250 worker threads.
+[Fri May 26 17:43:16 2017] [notice] Child 7712: Starting thread to listen on port 443.
+[Fri May 26 17:43:16 2017] [notice] Child 7712: Starting thread to listen on port 80.
+[Sun May 28 20:27:21 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sun May 28 20:27:21 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sun May 28 20:27:21 2017] [notice] Parent: Created child process 8288
+[Sun May 28 20:27:23 2017] [notice] Child 8288: Child process is running
+[Sun May 28 20:27:23 2017] [notice] Child 8288: Acquired the start mutex.
+[Sun May 28 20:27:23 2017] [notice] Child 8288: Starting 250 worker threads.
+[Sun May 28 20:27:23 2017] [notice] Child 8288: Starting thread to listen on port 443.
+[Sun May 28 20:27:23 2017] [notice] Child 8288: Starting thread to listen on port 80.
+[Sun May 28 21:01:52 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sun May 28 21:01:52 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sun May 28 21:01:52 2017] [notice] Parent: Created child process 9796
+[Sun May 28 21:01:53 2017] [notice] Child 9796: Child process is running
+[Sun May 28 21:01:53 2017] [notice] Child 9796: Acquired the start mutex.
+[Sun May 28 21:01:53 2017] [notice] Child 9796: Starting 250 worker threads.
+[Sun May 28 21:01:53 2017] [notice] Child 9796: Starting thread to listen on port 443.
+[Sun May 28 21:01:53 2017] [notice] Child 9796: Starting thread to listen on port 80.
+[Sun May 28 22:15:56 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sun May 28 22:15:56 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sun May 28 22:15:56 2017] [notice] Parent: Created child process 8856
+[Sun May 28 22:15:57 2017] [notice] Child 8856: Child process is running
+[Sun May 28 22:15:57 2017] [notice] Child 8856: Acquired the start mutex.
+[Sun May 28 22:15:57 2017] [notice] Child 8856: Starting 250 worker threads.
+[Sun May 28 22:15:57 2017] [notice] Child 8856: Starting thread to listen on port 443.
+[Sun May 28 22:15:57 2017] [notice] Child 8856: Starting thread to listen on port 80.
+[Mon May 29 10:00:33 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 29 10:00:33 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 29 10:00:33 2017] [notice] Parent: Created child process 8548
+[Mon May 29 10:00:34 2017] [notice] Child 8548: Child process is running
+[Mon May 29 10:00:34 2017] [notice] Child 8548: Acquired the start mutex.
+[Mon May 29 10:00:34 2017] [notice] Child 8548: Starting 250 worker threads.
+[Mon May 29 10:00:34 2017] [notice] Child 8548: Starting thread to listen on port 443.
+[Mon May 29 10:00:34 2017] [notice] Child 8548: Starting thread to listen on port 80.
+[Mon May 29 20:09:25 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 29 20:09:25 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 29 20:09:25 2017] [notice] Parent: Created child process 8624
+[Mon May 29 20:09:26 2017] [notice] Child 8624: Child process is running
+[Mon May 29 20:09:26 2017] [notice] Child 8624: Acquired the start mutex.
+[Mon May 29 20:09:26 2017] [notice] Child 8624: Starting 250 worker threads.
+[Mon May 29 20:09:26 2017] [notice] Child 8624: Starting thread to listen on port 443.
+[Mon May 29 20:09:26 2017] [notice] Child 8624: Starting thread to listen on port 80.
+[Mon May 29 20:28:20 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 29 20:28:20 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 29 20:28:20 2017] [notice] Parent: Created child process 12608
+[Mon May 29 20:28:21 2017] [notice] Child 12608: Child process is running
+[Mon May 29 20:28:21 2017] [notice] Child 12608: Acquired the start mutex.
+[Mon May 29 20:28:21 2017] [notice] Child 12608: Starting 250 worker threads.
+[Mon May 29 20:28:21 2017] [notice] Child 12608: Starting thread to listen on port 443.
+[Mon May 29 20:28:21 2017] [notice] Child 12608: Starting thread to listen on port 80.
+[Mon May 29 21:19:43 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 29 21:19:43 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 29 21:19:43 2017] [notice] Parent: Created child process 11276
+[Mon May 29 21:19:44 2017] [notice] Child 11276: Child process is running
+[Mon May 29 21:19:44 2017] [notice] Child 11276: Acquired the start mutex.
+[Mon May 29 21:19:44 2017] [notice] Child 11276: Starting 250 worker threads.
+[Mon May 29 21:19:44 2017] [notice] Child 11276: Starting thread to listen on port 443.
+[Mon May 29 21:19:44 2017] [notice] Child 11276: Starting thread to listen on port 80.
+[Mon May 29 21:34:20 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon May 29 21:34:20 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon May 29 21:34:20 2017] [notice] Parent: Created child process 7588
+[Mon May 29 21:34:21 2017] [notice] Child 7588: Child process is running
+[Mon May 29 21:34:21 2017] [notice] Child 7588: Acquired the start mutex.
+[Mon May 29 21:34:21 2017] [notice] Child 7588: Starting 250 worker threads.
+[Mon May 29 21:34:21 2017] [notice] Child 7588: Starting thread to listen on port 443.
+[Mon May 29 21:34:21 2017] [notice] Child 7588: Starting thread to listen on port 80.
+[Tue May 30 10:07:36 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 30 10:07:36 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 30 10:07:36 2017] [notice] Parent: Created child process 10044
+[Tue May 30 10:07:37 2017] [notice] Child 10044: Child process is running
+[Tue May 30 10:07:37 2017] [notice] Child 10044: Acquired the start mutex.
+[Tue May 30 10:07:37 2017] [notice] Child 10044: Starting 250 worker threads.
+[Tue May 30 10:07:37 2017] [notice] Child 10044: Starting thread to listen on port 443.
+[Tue May 30 10:07:37 2017] [notice] Child 10044: Starting thread to listen on port 80.
+[Tue May 30 13:10:04 2017] [error] [client 127.0.0.1] File does not exist: C:/AG/TAT-V4.5/phpCollab-xampp/htdocs/favicon.ico
+[Tue May 30 13:15:22 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 30 13:15:22 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 30 13:15:22 2017] [notice] Parent: Created child process 9100
+[Tue May 30 13:15:23 2017] [notice] Child 9100: Child process is running
+[Tue May 30 13:15:23 2017] [notice] Child 9100: Acquired the start mutex.
+[Tue May 30 13:15:23 2017] [notice] Child 9100: Starting 250 worker threads.
+[Tue May 30 13:15:23 2017] [notice] Child 9100: Starting thread to listen on port 80.
+[Tue May 30 13:15:23 2017] [notice] Child 9100: Starting thread to listen on port 443.
+[Tue May 30 16:52:14 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 30 16:52:14 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 30 16:52:14 2017] [notice] Parent: Created child process 1128
+[Tue May 30 16:52:14 2017] [notice] Child 1128: Child process is running
+[Tue May 30 16:52:14 2017] [notice] Child 1128: Acquired the start mutex.
+[Tue May 30 16:52:14 2017] [notice] Child 1128: Starting 250 worker threads.
+[Tue May 30 16:52:14 2017] [notice] Child 1128: Starting thread to listen on port 443.
+[Tue May 30 16:52:14 2017] [notice] Child 1128: Starting thread to listen on port 80.
+[Tue May 30 17:15:02 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 30 17:15:02 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 30 17:15:02 2017] [notice] Parent: Created child process 6512
+[Tue May 30 17:15:03 2017] [notice] Child 6512: Child process is running
+[Tue May 30 17:15:03 2017] [notice] Child 6512: Acquired the start mutex.
+[Tue May 30 17:15:03 2017] [notice] Child 6512: Starting 250 worker threads.
+[Tue May 30 17:15:03 2017] [notice] Child 6512: Starting thread to listen on port 443.
+[Tue May 30 17:15:03 2017] [notice] Child 6512: Starting thread to listen on port 80.
+[Tue May 30 17:59:01 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 30 17:59:01 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 30 17:59:01 2017] [notice] Parent: Created child process 8744
+[Tue May 30 17:59:02 2017] [notice] Child 8744: Child process is running
+[Tue May 30 17:59:02 2017] [notice] Child 8744: Acquired the start mutex.
+[Tue May 30 17:59:02 2017] [notice] Child 8744: Starting 250 worker threads.
+[Tue May 30 17:59:02 2017] [notice] Child 8744: Starting thread to listen on port 443.
+[Tue May 30 17:59:02 2017] [notice] Child 8744: Starting thread to listen on port 80.
+[Tue May 30 18:13:58 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue May 30 18:13:58 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue May 30 18:13:58 2017] [notice] Parent: Created child process 5512
+[Tue May 30 18:13:59 2017] [notice] Child 5512: Child process is running
+[Tue May 30 18:13:59 2017] [notice] Child 5512: Acquired the start mutex.
+[Tue May 30 18:13:59 2017] [notice] Child 5512: Starting 250 worker threads.
+[Tue May 30 18:13:59 2017] [notice] Child 5512: Starting thread to listen on port 80.
+[Tue May 30 18:13:59 2017] [notice] Child 5512: Starting thread to listen on port 443.
+[Wed May 31 08:16:54 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 31 08:16:54 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 31 08:16:54 2017] [notice] Parent: Created child process 2504
+[Wed May 31 08:16:55 2017] [notice] Child 2504: Child process is running
+[Wed May 31 08:16:55 2017] [notice] Child 2504: Acquired the start mutex.
+[Wed May 31 08:16:55 2017] [notice] Child 2504: Starting 250 worker threads.
+[Wed May 31 08:16:55 2017] [notice] Child 2504: Starting thread to listen on port 443.
+[Wed May 31 08:16:55 2017] [notice] Child 2504: Starting thread to listen on port 80.
+[Wed May 31 13:47:06 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed May 31 13:47:06 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed May 31 13:47:06 2017] [notice] Parent: Created child process 6908
+[Wed May 31 13:47:07 2017] [notice] Child 6908: Child process is running
+[Wed May 31 13:47:07 2017] [notice] Child 6908: Acquired the start mutex.
+[Wed May 31 13:47:07 2017] [notice] Child 6908: Starting 250 worker threads.
+[Wed May 31 13:47:07 2017] [notice] Child 6908: Starting thread to listen on port 443.
+[Wed May 31 13:47:07 2017] [notice] Child 6908: Starting thread to listen on port 80.
+[Thu Jun 01 12:45:00 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Jun 01 12:45:00 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Jun 01 12:45:00 2017] [notice] Parent: Created child process 8828
+[Thu Jun 01 12:45:01 2017] [notice] Child 8828: Child process is running
+[Thu Jun 01 12:45:01 2017] [notice] Child 8828: Acquired the start mutex.
+[Thu Jun 01 12:45:01 2017] [notice] Child 8828: Starting 250 worker threads.
+[Thu Jun 01 12:45:01 2017] [notice] Child 8828: Starting thread to listen on port 443.
+[Thu Jun 01 12:45:01 2017] [notice] Child 8828: Starting thread to listen on port 80.
+[Fri Jun 02 13:15:42 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Jun 02 13:15:42 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Jun 02 13:15:42 2017] [notice] Parent: Created child process 9736
+[Fri Jun 02 13:15:43 2017] [notice] Child 9736: Child process is running
+[Fri Jun 02 13:15:43 2017] [notice] Child 9736: Acquired the start mutex.
+[Fri Jun 02 13:15:43 2017] [notice] Child 9736: Starting 250 worker threads.
+[Fri Jun 02 13:15:43 2017] [notice] Child 9736: Starting thread to listen on port 443.
+[Fri Jun 02 13:15:43 2017] [notice] Child 9736: Starting thread to listen on port 80.
+[Fri Jun 02 14:51:43 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Jun 02 14:51:43 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Jun 02 14:51:43 2017] [notice] Parent: Created child process 9036
+[Fri Jun 02 14:51:44 2017] [notice] Child 9036: Child process is running
+[Fri Jun 02 14:51:44 2017] [notice] Child 9036: Acquired the start mutex.
+[Fri Jun 02 14:51:44 2017] [notice] Child 9036: Starting 250 worker threads.
+[Fri Jun 02 14:51:44 2017] [notice] Child 9036: Starting thread to listen on port 443.
+[Fri Jun 02 14:51:44 2017] [notice] Child 9036: Starting thread to listen on port 80.
+[Fri Jun 02 16:21:51 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Jun 02 16:21:51 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Jun 02 16:21:51 2017] [notice] Parent: Created child process 10320
+[Fri Jun 02 16:21:52 2017] [notice] Child 10320: Child process is running
+[Fri Jun 02 16:21:52 2017] [notice] Child 10320: Acquired the start mutex.
+[Fri Jun 02 16:21:52 2017] [notice] Child 10320: Starting 250 worker threads.
+[Fri Jun 02 16:21:52 2017] [notice] Child 10320: Starting thread to listen on port 443.
+[Fri Jun 02 16:21:52 2017] [notice] Child 10320: Starting thread to listen on port 80.
+[Fri Jun 02 18:52:26 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Jun 02 18:52:26 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Jun 02 18:52:26 2017] [notice] Parent: Created child process 9424
+[Fri Jun 02 18:52:27 2017] [notice] Child 9424: Child process is running
+[Fri Jun 02 18:52:27 2017] [notice] Child 9424: Acquired the start mutex.
+[Fri Jun 02 18:52:27 2017] [notice] Child 9424: Starting 250 worker threads.
+[Fri Jun 02 18:52:27 2017] [notice] Child 9424: Starting thread to listen on port 443.
+[Fri Jun 02 18:52:27 2017] [notice] Child 9424: Starting thread to listen on port 80.
+[Mon Jun 05 16:02:26 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Jun 05 16:02:26 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Jun 05 16:02:26 2017] [notice] Parent: Created child process 172
+[Mon Jun 05 16:02:27 2017] [notice] Child 172: Child process is running
+[Mon Jun 05 16:02:27 2017] [notice] Child 172: Acquired the start mutex.
+[Mon Jun 05 16:02:27 2017] [notice] Child 172: Starting 250 worker threads.
+[Mon Jun 05 16:02:27 2017] [notice] Child 172: Starting thread to listen on port 443.
+[Mon Jun 05 16:02:27 2017] [notice] Child 172: Starting thread to listen on port 80.
+[Mon Jun 05 16:46:57 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Jun 05 16:46:57 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Jun 05 16:46:57 2017] [notice] Parent: Created child process 8504
+[Mon Jun 05 16:46:58 2017] [notice] Child 8504: Child process is running
+[Mon Jun 05 16:46:58 2017] [notice] Child 8504: Acquired the start mutex.
+[Mon Jun 05 16:46:58 2017] [notice] Child 8504: Starting 250 worker threads.
+[Mon Jun 05 16:46:58 2017] [notice] Child 8504: Starting thread to listen on port 443.
+[Mon Jun 05 16:46:58 2017] [notice] Child 8504: Starting thread to listen on port 80.
+[Mon Jun 05 16:51:22 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Jun 05 16:51:22 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Jun 05 16:51:22 2017] [notice] Parent: Created child process 7716
+[Mon Jun 05 16:51:23 2017] [notice] Child 7716: Child process is running
+[Mon Jun 05 16:51:23 2017] [notice] Child 7716: Acquired the start mutex.
+[Mon Jun 05 16:51:23 2017] [notice] Child 7716: Starting 250 worker threads.
+[Mon Jun 05 16:51:23 2017] [notice] Child 7716: Starting thread to listen on port 443.
+[Mon Jun 05 16:51:23 2017] [notice] Child 7716: Starting thread to listen on port 80.
+[Mon Jun 05 16:53:44 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Jun 05 16:53:44 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Jun 05 16:53:44 2017] [notice] Parent: Created child process 7548
+[Mon Jun 05 16:53:45 2017] [notice] Child 7548: Child process is running
+[Mon Jun 05 16:53:45 2017] [notice] Child 7548: Acquired the start mutex.
+[Mon Jun 05 16:53:45 2017] [notice] Child 7548: Starting 250 worker threads.
+[Mon Jun 05 16:53:45 2017] [notice] Child 7548: Starting thread to listen on port 443.
+[Mon Jun 05 16:53:45 2017] [notice] Child 7548: Starting thread to listen on port 80.
+[Fri Jun 09 18:40:29 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Jun 09 18:40:29 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Jun 09 18:40:29 2017] [notice] Parent: Created child process 12236
+[Fri Jun 09 18:40:30 2017] [notice] Child 12236: Child process is running
+[Fri Jun 09 18:40:30 2017] [notice] Child 12236: Acquired the start mutex.
+[Fri Jun 09 18:40:30 2017] [notice] Child 12236: Starting 250 worker threads.
+[Fri Jun 09 18:40:30 2017] [notice] Child 12236: Starting thread to listen on port 443.
+[Fri Jun 09 18:40:30 2017] [notice] Child 12236: Starting thread to listen on port 80.
+[Fri Jun 09 20:08:59 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Jun 09 20:08:59 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Jun 09 20:08:59 2017] [notice] Parent: Created child process 12660
+[Fri Jun 09 20:09:00 2017] [notice] Child 12660: Child process is running
+[Fri Jun 09 20:09:00 2017] [notice] Child 12660: Acquired the start mutex.
+[Fri Jun 09 20:09:00 2017] [notice] Child 12660: Starting 250 worker threads.
+[Fri Jun 09 20:09:00 2017] [notice] Child 12660: Starting thread to listen on port 80.
+[Fri Jun 09 20:09:00 2017] [notice] Child 12660: Starting thread to listen on port 443.
+[Sat Jun 10 06:06:16 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Jun 10 06:06:16 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Jun 10 06:06:16 2017] [notice] Parent: Created child process 16340
+[Sat Jun 10 06:06:18 2017] [notice] Child 16340: Child process is running
+[Sat Jun 10 06:06:18 2017] [notice] Child 16340: Acquired the start mutex.
+[Sat Jun 10 06:06:18 2017] [notice] Child 16340: Starting 250 worker threads.
+[Sat Jun 10 06:06:18 2017] [notice] Child 16340: Starting thread to listen on port 443.
+[Sat Jun 10 06:06:18 2017] [notice] Child 16340: Starting thread to listen on port 80.
+[Sat Jun 10 06:23:56 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Jun 10 06:23:56 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Jun 10 06:23:56 2017] [notice] Parent: Created child process 7232
+[Sat Jun 10 06:23:57 2017] [notice] Child 7232: Child process is running
+[Sat Jun 10 06:23:57 2017] [notice] Child 7232: Acquired the start mutex.
+[Sat Jun 10 06:23:57 2017] [notice] Child 7232: Starting 250 worker threads.
+[Sat Jun 10 06:23:57 2017] [notice] Child 7232: Starting thread to listen on port 443.
+[Sat Jun 10 06:23:57 2017] [notice] Child 7232: Starting thread to listen on port 80.
+[Sat Jun 10 06:26:26 2017] [warn] pid file C:/AG/TAT-V4.8/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 10 06:26:26 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Jun 10 06:26:26 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Jun 10 06:26:26 2017] [notice] Parent: Created child process 16488
+[Sat Jun 10 06:26:28 2017] [notice] Child 16488: Child process is running
+[Sat Jun 10 06:26:28 2017] [notice] Child 16488: Acquired the start mutex.
+[Sat Jun 10 06:26:28 2017] [notice] Child 16488: Starting 250 worker threads.
+[Sat Jun 10 06:26:28 2017] [notice] Child 16488: Starting thread to listen on port 80.
+[Sat Jun 10 06:26:28 2017] [notice] Child 16488: Starting thread to listen on port 443.
+[Sat Jun 10 06:35:45 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Jun 10 06:35:45 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Jun 10 06:35:45 2017] [notice] Parent: Created child process 16396
+[Sat Jun 10 06:35:46 2017] [notice] Child 16396: Child process is running
+[Sat Jun 10 06:35:46 2017] [notice] Child 16396: Acquired the start mutex.
+[Sat Jun 10 06:35:46 2017] [notice] Child 16396: Starting 250 worker threads.
+[Sat Jun 10 06:35:46 2017] [notice] Child 16396: Starting thread to listen on port 443.
+[Sat Jun 10 06:35:46 2017] [notice] Child 16396: Starting thread to listen on port 80.
+[Sat Jun 10 08:47:00 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Jun 10 08:47:00 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Jun 10 08:47:00 2017] [notice] Parent: Created child process 15380
+[Sat Jun 10 08:47:02 2017] [notice] Child 15380: Child process is running
+[Sat Jun 10 08:47:02 2017] [notice] Child 15380: Acquired the start mutex.
+[Sat Jun 10 08:47:02 2017] [notice] Child 15380: Starting 250 worker threads.
+[Sat Jun 10 08:47:02 2017] [notice] Child 15380: Starting thread to listen on port 443.
+[Sat Jun 10 08:47:02 2017] [notice] Child 15380: Starting thread to listen on port 80.
+[Sat Jun 10 08:59:24 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Jun 10 08:59:24 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Jun 10 08:59:24 2017] [notice] Parent: Created child process 9064
+[Sat Jun 10 08:59:25 2017] [notice] Child 9064: Child process is running
+[Sat Jun 10 08:59:25 2017] [notice] Child 9064: Acquired the start mutex.
+[Sat Jun 10 08:59:25 2017] [notice] Child 9064: Starting 250 worker threads.
+[Sat Jun 10 08:59:25 2017] [notice] Child 9064: Starting thread to listen on port 443.
+[Sat Jun 10 08:59:25 2017] [notice] Child 9064: Starting thread to listen on port 80.
+[Sat Jun 10 09:02:12 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Jun 10 09:02:12 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Jun 10 09:02:12 2017] [notice] Parent: Created child process 13000
+[Sat Jun 10 09:02:14 2017] [notice] Child 13000: Child process is running
+[Sat Jun 10 09:02:14 2017] [notice] Child 13000: Acquired the start mutex.
+[Sat Jun 10 09:02:14 2017] [notice] Child 13000: Starting 250 worker threads.
+[Sat Jun 10 09:02:14 2017] [notice] Child 13000: Starting thread to listen on port 443.
+[Sat Jun 10 09:02:14 2017] [notice] Child 13000: Starting thread to listen on port 80.
+[Sat Jun 10 09:05:39 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Jun 10 09:05:39 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Jun 10 09:05:39 2017] [notice] Parent: Created child process 5592
+[Sat Jun 10 09:05:40 2017] [notice] Child 5592: Child process is running
+[Sat Jun 10 09:05:40 2017] [notice] Child 5592: Acquired the start mutex.
+[Sat Jun 10 09:05:40 2017] [notice] Child 5592: Starting 250 worker threads.
+[Sat Jun 10 09:05:40 2017] [notice] Child 5592: Starting thread to listen on port 443.
+[Sat Jun 10 09:05:40 2017] [notice] Child 5592: Starting thread to listen on port 80.
+[Sat Jun 10 09:17:18 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Jun 10 09:17:18 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Jun 10 09:17:18 2017] [notice] Parent: Created child process 6668
+[Sat Jun 10 09:17:19 2017] [notice] Child 6668: Child process is running
+[Sat Jun 10 09:17:19 2017] [notice] Child 6668: Acquired the start mutex.
+[Sat Jun 10 09:17:19 2017] [notice] Child 6668: Starting 250 worker threads.
+[Sat Jun 10 09:17:19 2017] [notice] Child 6668: Starting thread to listen on port 443.
+[Sat Jun 10 09:17:19 2017] [notice] Child 6668: Starting thread to listen on port 80.
+[Thu Jun 15 19:40:04 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Jun 15 19:40:04 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Jun 15 19:40:04 2017] [notice] Parent: Created child process 4960
+[Thu Jun 15 19:40:05 2017] [notice] Child 4960: Child process is running
+[Thu Jun 15 19:40:05 2017] [notice] Child 4960: Acquired the start mutex.
+[Thu Jun 15 19:40:05 2017] [notice] Child 4960: Starting 250 worker threads.
+[Thu Jun 15 19:40:05 2017] [notice] Child 4960: Starting thread to listen on port 443.
+[Thu Jun 15 19:40:05 2017] [notice] Child 4960: Starting thread to listen on port 80.
+[Thu Jun 15 19:46:19 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Jun 15 19:46:19 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Jun 15 19:46:19 2017] [notice] Parent: Created child process 2012
+[Thu Jun 15 19:46:20 2017] [notice] Child 2012: Child process is running
+[Thu Jun 15 19:46:20 2017] [notice] Child 2012: Acquired the start mutex.
+[Thu Jun 15 19:46:20 2017] [notice] Child 2012: Starting 250 worker threads.
+[Thu Jun 15 19:46:20 2017] [notice] Child 2012: Starting thread to listen on port 443.
+[Thu Jun 15 19:46:20 2017] [notice] Child 2012: Starting thread to listen on port 80.
+[Fri Jun 16 14:16:04 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 16 14:16:12 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Jun 16 14:16:12 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Jun 16 14:16:12 2017] [notice] Parent: Created child process 5492
+Apache server shutdown initiated...
+Child 5492: Child process is running
+[Fri Jun 16 14:16:14 2017] [notice] Child 5492: Acquired the start mutex.
+[Fri Jun 16 14:16:14 2017] [notice] Child 5492: Starting 250 worker threads.
+[Fri Jun 16 14:16:14 2017] [notice] Child 5492: Starting thread to listen on port 443.
+[Fri Jun 16 14:16:14 2017] [notice] Child 5492: Starting thread to listen on port 80.
+[Fri Jun 16 19:49:14 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 16 19:49:14 2017] [notice] Child 5492: Exit event signaled. Child process is ending.
+[Fri Jun 16 19:49:15 2017] [notice] Child 5492: Released the start mutex
+[Fri Jun 16 19:49:16 2017] [notice] Child 5492: All worker threads have exited.
+[Mon Jun 19 12:15:46 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 19 12:15:52 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Jun 19 12:15:52 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Jun 19 12:15:52 2017] [notice] Parent: Created child process 1208
+Apache server shutdown initiated...
+Child 1208: Child process is running
+[Mon Jun 19 12:15:54 2017] [notice] Child 1208: Acquired the start mutex.
+[Mon Jun 19 12:15:54 2017] [notice] Child 1208: Starting 250 worker threads.
+[Mon Jun 19 12:15:54 2017] [notice] Child 1208: Starting thread to listen on port 443.
+[Mon Jun 19 12:15:54 2017] [notice] Child 1208: Starting thread to listen on port 80.
+[Mon Jun 19 19:42:03 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 19 19:42:03 2017] [notice] Child 1208: Exit event signaled. Child process is ending.
+[Mon Jun 19 19:42:04 2017] [notice] Child 1208: Released the start mutex
+[Mon Jun 19 19:42:05 2017] [notice] Child 1208: All worker threads have exited.
+[Mon Jun 19 19:42:10 2017] [notice] Child 1208: Child process is exiting
+[Tue Jun 20 12:42:37 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 20 12:42:38 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Jun 20 12:42:38 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Jun 20 12:42:38 2017] [notice] Parent: Created child process 2128
+[Tue Jun 20 12:42:39 2017] [notice] Child 2128: Child process is running
+[Tue Jun 20 12:42:39 2017] [notice] Child 2128: Acquired the start mutex.
+[Tue Jun 20 12:42:39 2017] [notice] Child 2128: Starting 250 worker threads.
+[Tue Jun 20 12:42:39 2017] [notice] Child 2128: Starting thread to listen on port 443.
+[Tue Jun 20 12:42:39 2017] [notice] Child 2128: Starting thread to listen on port 80.
+[Tue Jun 20 12:48:50 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jun 20 12:48:50 2017] [notice] Child 2128: Exit event signaled. Child process is ending.
+[Tue Jun 20 12:48:51 2017] [notice] Child 2128: Released the start mutex
+[Tue Jun 20 12:48:52 2017] [notice] Child 2128: All worker threads have exited.
+[Tue Jun 20 12:48:57 2017] [notice] Child 2128: Child process is exiting
+[Tue Jun 20 12:48:57 2017] [notice] Parent: Child process exited successfully.
+[Tue Jun 20 12:50:10 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Jun 20 12:50:10 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Jun 20 12:50:10 2017] [notice] Parent: Created child process 3428
+[Tue Jun 20 12:50:11 2017] [notice] Child 3428: Child process is running
+[Tue Jun 20 12:50:11 2017] [notice] Child 3428: Acquired the start mutex.
+[Tue Jun 20 12:50:11 2017] [notice] Child 3428: Starting 250 worker threads.
+[Tue Jun 20 12:50:11 2017] [notice] Child 3428: Starting thread to listen on port 443.
+[Tue Jun 20 12:50:11 2017] [notice] Child 3428: Starting thread to listen on port 80.
+[Wed Jun 21 13:31:56 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Jun 21 13:31:56 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Jun 21 13:31:56 2017] [notice] Parent: Created child process 1564
+[Wed Jun 21 13:32:07 2017] [notice] Child 1564: Child process is running
+[Wed Jun 21 13:32:07 2017] [notice] Child 1564: Acquired the start mutex.
+[Wed Jun 21 13:32:07 2017] [notice] Child 1564: Starting 250 worker threads.
+[Wed Jun 21 13:32:07 2017] [notice] Child 1564: Starting thread to listen on port 443.
+[Wed Jun 21 13:32:07 2017] [notice] Child 1564: Starting thread to listen on port 80.
+[Wed Jun 21 18:12:20 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 21 18:12:20 2017] [notice] Child 1564: Exit event signaled. Child process is ending.
+[Wed Jun 21 18:12:21 2017] [notice] Child 1564: Released the start mutex
+[Wed Jun 21 18:12:22 2017] [notice] Child 1564: All worker threads have exited.
+[Wed Jun 21 18:12:27 2017] [notice] Child 1564: Child process is exiting
+[Wed Jun 21 18:12:27 2017] [notice] Parent: Child process exited successfully.
+[Wed Jun 21 18:12:44 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Jun 21 18:12:44 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Jun 21 18:12:44 2017] [notice] Parent: Created child process 1080
+Apache server shutdown initiated...
+Child 1080: Child process is running
+[Wed Jun 21 18:12:46 2017] [notice] Child 1080: Acquired the start mutex.
+[Wed Jun 21 18:12:46 2017] [notice] Child 1080: Starting 250 worker threads.
+[Wed Jun 21 18:12:46 2017] [notice] Child 1080: Starting thread to listen on port 80.
+[Wed Jun 21 18:12:46 2017] [notice] Child 1080: Starting thread to listen on port 443.
+[Wed Jun 21 18:12:48 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 21 18:12:48 2017] [notice] Child 1080: Exit event signaled. Child process is ending.
+[Wed Jun 21 18:12:49 2017] [notice] Child 1080: Released the start mutex
+[Wed Jun 21 18:12:50 2017] [notice] Child 1080: All worker threads have exited.
+[Wed Jun 21 18:12:50 2017] [notice] Child 1080: Child process is exiting
+[Wed Jun 21 18:12:50 2017] [notice] Parent: Child process exited successfully.
+[Wed Jun 21 18:13:10 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Jun 21 18:13:10 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Jun 21 18:13:10 2017] [notice] Parent: Created child process 3100
+[Wed Jun 21 18:13:12 2017] [notice] Child 3100: Child process is running
+[Wed Jun 21 18:13:12 2017] [notice] Child 3100: Acquired the start mutex.
+[Wed Jun 21 18:13:12 2017] [notice] Child 3100: Starting 250 worker threads.
+[Wed Jun 21 18:13:12 2017] [notice] Child 3100: Starting thread to listen on port 443.
+[Wed Jun 21 18:13:12 2017] [notice] Child 3100: Starting thread to listen on port 80.
+[Thu Jun 22 12:47:52 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 22 12:48:00 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Thu Jun 22 12:48:00 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Thu Jun 22 12:48:00 2017] [notice] Parent: Created child process 1276
+[Thu Jun 22 12:48:01 2017] [notice] Child 1276: Child process is running
+[Thu Jun 22 12:48:01 2017] [notice] Child 1276: Acquired the start mutex.
+[Thu Jun 22 12:48:01 2017] [notice] Child 1276: Starting 250 worker threads.
+[Thu Jun 22 12:48:01 2017] [notice] Child 1276: Starting thread to listen on port 443.
+[Thu Jun 22 12:48:01 2017] [notice] Child 1276: Starting thread to listen on port 80.
+[Thu Jun 22 15:35:32 2017] [error] [client 127.0.0.1] File does not exist: D:/TAT/phpCollab-xampp/htdocs/favicon.ico, referer: http://localhost/
+[Thu Jun 22 15:35:58 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 22 15:35:58 2017] [notice] Child 1276: Exit event signaled. Child process is ending.
+[Thu Jun 22 15:35:59 2017] [notice] Child 1276: Released the start mutex
+[Thu Jun 22 15:36:01 2017] [notice] Child 1276: All worker threads have exited.
+[Thu Jun 22 15:36:06 2017] [notice] Child 1276: Child process is exiting
+[Thu Jun 22 15:36:07 2017] [notice] Parent: Child process exited successfully.
+[Fri Jun 23 13:24:03 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Jun 23 13:24:03 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Jun 23 13:24:03 2017] [notice] Parent: Created child process 1084
+[Fri Jun 23 13:24:04 2017] [notice] Child 1084: Child process is running
+[Fri Jun 23 13:24:04 2017] [notice] Child 1084: Acquired the start mutex.
+[Fri Jun 23 13:24:04 2017] [notice] Child 1084: Starting 250 worker threads.
+[Fri Jun 23 13:24:04 2017] [notice] Child 1084: Starting thread to listen on port 443.
+[Fri Jun 23 13:24:04 2017] [notice] Child 1084: Starting thread to listen on port 80.
+[Fri Jun 23 13:44:43 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 23 13:44:43 2017] [notice] Child 1084: Exit event signaled. Child process is ending.
+[Fri Jun 23 13:44:44 2017] [notice] Child 1084: Released the start mutex
+[Fri Jun 23 13:44:45 2017] [notice] Child 1084: All worker threads have exited.
+[Fri Jun 23 13:44:50 2017] [notice] Child 1084: Child process is exiting
+[Fri Jun 23 13:44:50 2017] [notice] Parent: Child process exited successfully.
+[Mon Jun 26 17:23:27 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Jun 26 17:23:27 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Jun 26 17:23:27 2017] [notice] Parent: Created child process 7132
+[Mon Jun 26 17:23:29 2017] [notice] Child 7132: Child process is running
+[Mon Jun 26 17:23:29 2017] [notice] Child 7132: Acquired the start mutex.
+[Mon Jun 26 17:23:29 2017] [notice] Child 7132: Starting 250 worker threads.
+[Mon Jun 26 17:23:29 2017] [notice] Child 7132: Starting thread to listen on port 443.
+[Mon Jun 26 17:23:29 2017] [notice] Child 7132: Starting thread to listen on port 80.
+[Sat Jul 01 13:13:25 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jul 01 13:13:29 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Jul 01 13:13:29 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Jul 01 13:13:29 2017] [notice] Parent: Created child process 4428
+[Sat Jul 01 13:13:30 2017] [notice] Child 4428: Child process is running
+[Sat Jul 01 13:13:30 2017] [notice] Child 4428: Acquired the start mutex.
+[Sat Jul 01 13:13:30 2017] [notice] Child 4428: Starting 250 worker threads.
+[Sat Jul 01 13:13:30 2017] [notice] Child 4428: Starting thread to listen on port 443.
+[Sat Jul 01 13:13:30 2017] [notice] Child 4428: Starting thread to listen on port 80.
+[Sun Jul 02 20:11:10 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 02 20:11:26 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sun Jul 02 20:11:26 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sun Jul 02 20:11:26 2017] [notice] Parent: Created child process 1736
+[Sun Jul 02 20:11:28 2017] [notice] Child 1736: Child process is running
+[Sun Jul 02 20:11:28 2017] [notice] Child 1736: Acquired the start mutex.
+[Sun Jul 02 20:11:28 2017] [notice] Child 1736: Starting 250 worker threads.
+[Sun Jul 02 20:11:28 2017] [notice] Child 1736: Starting thread to listen on port 443.
+[Sun Jul 02 20:11:28 2017] [notice] Child 1736: Starting thread to listen on port 80.
+[Mon Jul 03 12:05:27 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 03 12:05:36 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Jul 03 12:05:36 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Jul 03 12:05:36 2017] [notice] Parent: Created child process 1896
+[Mon Jul 03 12:05:37 2017] [notice] Child 1896: Child process is running
+[Mon Jul 03 12:05:37 2017] [notice] Child 1896: Acquired the start mutex.
+[Mon Jul 03 12:05:37 2017] [notice] Child 1896: Starting 250 worker threads.
+[Mon Jul 03 12:05:37 2017] [notice] Child 1896: Starting thread to listen on port 443.
+[Mon Jul 03 12:05:37 2017] [notice] Child 1896: Starting thread to listen on port 80.
+[Mon Jul 03 13:18:56 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 03 13:18:58 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Jul 03 13:18:58 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Jul 03 13:18:58 2017] [notice] Parent: Created child process 1924
+[Mon Jul 03 13:18:59 2017] [notice] Child 1924: Child process is running
+[Mon Jul 03 13:18:59 2017] [notice] Child 1924: Acquired the start mutex.
+[Mon Jul 03 13:18:59 2017] [notice] Child 1924: Starting 250 worker threads.
+[Mon Jul 03 13:18:59 2017] [notice] Child 1924: Starting thread to listen on port 443.
+[Mon Jul 03 13:18:59 2017] [notice] Child 1924: Starting thread to listen on port 80.
+[Mon Jul 03 15:27:27 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jul 03 15:27:27 2017] [notice] Child 1924: Exit event signaled. Child process is ending.
+[Mon Jul 03 15:27:28 2017] [notice] Child 1924: Released the start mutex
+[Mon Jul 03 15:27:31 2017] [notice] Child 1924: All worker threads have exited.
+[Mon Jul 03 15:27:40 2017] [notice] Child 1924: Child process is exiting
+[Mon Jul 03 15:27:42 2017] [notice] Parent: Child process exited successfully.
+[Mon Jul 03 15:28:20 2017] [error] Init: SSLPassPhraseDialog builtin is not supported on Win32 (key file D:/TAT/phpCollab-xampp/apache/conf/ssl.key/vgebillingtat.key)
+[Mon Jul 03 15:29:12 2017] [error] Init: SSLPassPhraseDialog builtin is not supported on Win32 (key file D:/TAT/phpCollab-xampp/apache/conf/ssl.key/vgebillingtat.key)
+[Mon Jul 03 15:29:20 2017] [error] Init: SSLPassPhraseDialog builtin is not supported on Win32 (key file D:/TAT/phpCollab-xampp/apache/conf/ssl.key/vgebillingtat.key)
+[Mon Jul 03 15:33:24 2017] [error] Init: SSLPassPhraseDialog builtin is not supported on Win32 (key file D:/TAT/phpCollab-xampp/apache/conf/ssl.key/vgebillingtat.key)
+[Mon Jul 03 15:49:12 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Mon Jul 03 15:49:12 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Mon Jul 03 15:49:17 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Jul 03 15:49:17 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Jul 03 15:49:17 2017] [notice] Parent: Created child process 1600
+[Mon Jul 03 15:49:18 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Mon Jul 03 15:49:18 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Mon Jul 03 15:49:18 2017] [notice] Child 1600: Child process is running
+[Mon Jul 03 15:49:18 2017] [notice] Child 1600: Acquired the start mutex.
+[Mon Jul 03 15:49:18 2017] [notice] Child 1600: Starting 250 worker threads.
+[Mon Jul 03 15:49:18 2017] [notice] Child 1600: Starting thread to listen on port 443.
+[Mon Jul 03 15:49:18 2017] [notice] Child 1600: Starting thread to listen on port 80.
+[Mon Jul 03 15:49:46 2017] [error] [client 127.0.0.1] File does not exist: D:/TAT/phpCollab-xampp/htdocs/favicon.ico, referer: https://localhost/
+[Tue Jul 04 12:35:36 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Tue Jul 04 12:35:37 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 04 12:35:37 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Tue Jul 04 12:35:50 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Tue Jul 04 12:35:50 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Tue Jul 04 12:35:50 2017] [notice] Parent: Created child process 556
+[Tue Jul 04 12:35:51 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Tue Jul 04 12:35:52 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Tue Jul 04 12:35:52 2017] [notice] Child 556: Child process is running
+[Tue Jul 04 12:36:04 2017] [notice] Child 556: Acquired the start mutex.
+[Tue Jul 04 12:36:04 2017] [notice] Child 556: Starting 250 worker threads.
+[Tue Jul 04 12:36:04 2017] [notice] Child 556: Starting thread to listen on port 443.
+[Tue Jul 04 12:36:04 2017] [notice] Child 556: Starting thread to listen on port 80.
+[Wed Jul 05 13:43:03 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Wed Jul 05 13:43:04 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 05 13:43:04 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Wed Jul 05 13:43:22 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Wed Jul 05 13:43:22 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Wed Jul 05 13:43:29 2017] [notice] Parent: Created child process 2340
+[Wed Jul 05 13:43:30 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Wed Jul 05 13:43:31 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Wed Jul 05 13:43:31 2017] [notice] Child 2340: Child process is running
+[Wed Jul 05 13:43:31 2017] [notice] Child 2340: Acquired the start mutex.
+[Wed Jul 05 13:43:31 2017] [notice] Child 2340: Starting 250 worker threads.
+[Wed Jul 05 13:43:31 2017] [notice] Child 2340: Starting thread to listen on port 443.
+[Wed Jul 05 13:43:31 2017] [notice] Child 2340: Starting thread to listen on port 80.
+[Fri Jul 07 13:43:14 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Fri Jul 07 13:43:15 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jul 07 13:43:15 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Fri Jul 07 13:43:38 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Fri Jul 07 13:43:38 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Fri Jul 07 13:43:38 2017] [notice] Parent: Created child process 2088
+[Fri Jul 07 13:43:39 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Fri Jul 07 13:43:39 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Fri Jul 07 13:43:39 2017] [notice] Child 2088: Child process is running
+[Fri Jul 07 13:43:39 2017] [notice] Child 2088: Acquired the start mutex.
+[Fri Jul 07 13:43:39 2017] [notice] Child 2088: Starting 250 worker threads.
+[Fri Jul 07 13:43:39 2017] [notice] Child 2088: Starting thread to listen on port 443.
+[Fri Jul 07 13:43:39 2017] [notice] Child 2088: Starting thread to listen on port 80.
+[Sat Jul 08 17:08:25 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Sat Jul 08 17:08:26 2017] [warn] pid file D:/TAT/phpCollab-xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jul 08 17:08:27 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Sat Jul 08 17:08:36 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Sat Jul 08 17:08:36 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Sat Jul 08 17:08:36 2017] [notice] Parent: Created child process 1032
+[Sat Jul 08 17:08:37 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Sat Jul 08 17:08:37 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Sat Jul 08 17:08:37 2017] [notice] Child 1032: Child process is running
+[Sat Jul 08 17:08:37 2017] [notice] Child 1032: Acquired the start mutex.
+[Sat Jul 08 17:08:37 2017] [notice] Child 1032: Starting 250 worker threads.
+[Sat Jul 08 17:08:37 2017] [notice] Child 1032: Starting thread to listen on port 443.
+[Sat Jul 08 17:08:37 2017] [notice] Child 1032: Starting thread to listen on port 80.
+[Sat Jul 08 18:01:07 2017] [error] [client 127.0.0.1] File does not exist: D:/TAT/phpCollab-xampp/htdocs/favicon.ico, referer: http://localhost/
+[Sat Jul 08 18:25:33 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jul 08 18:25:33 2017] [notice] Child 1032: Exit event signaled. Child process is ending.
+[Sat Jul 08 18:25:34 2017] [notice] Child 1032: Released the start mutex
+[Sat Jul 08 18:25:35 2017] [notice] Child 1032: All worker threads have exited.
+[Sat Jul 08 18:25:41 2017] [notice] Child 1032: Child process is exiting
+[Sat Jul 08 18:25:43 2017] [notice] Parent: Child process exited successfully.
+[Mon Jul 10 12:14:26 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Mon Jul 10 12:14:26 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Mon Jul 10 12:14:28 2017] [notice] Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8h mod_autoindex_color PHP/5.2.6 configured -- resuming normal operations
+[Mon Jul 10 12:14:28 2017] [notice] Server built: Jun 14 2008 19:02:12
+[Mon Jul 10 12:14:28 2017] [notice] Parent: Created child process 1536
+[Mon Jul 10 12:14:29 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Mon Jul 10 12:14:29 2017] [warn] RSA server certificate CommonName (CN) `vgebillingtat.vodafone.com' does NOT match server name!?
+[Mon Jul 10 12:14:29 2017] [notice] Child 1536: Child process is running
+[Mon Jul 10 12:14:29 2017] [notice] Child 1536: Acquired the start mutex.
+[Mon Jul 10 12:14:29 2017] [notice] Child 1536: Starting 250 worker threads.
+[Mon Jul 10 12:14:29 2017] [notice] Child 1536: Starting thread to listen on port 443.
+[Mon Jul 10 12:14:29 2017] [notice] Child 1536: Starting thread to listen on port 80.
+[Mon Jul 10 12:26:31 2017] [error] [client 127.0.0.1] File does not exist: D:/TAT/phpCollab-xampp/htdocs/Bonobo.Git.Server

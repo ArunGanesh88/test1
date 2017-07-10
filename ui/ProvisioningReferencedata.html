@@ -1,0 +1,221 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<Head>
+<script src="ui/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet"  href="ui/index.css" >
+<link rel="stylesheet" href="ui/alertify.core.css" />
+<link rel="stylesheet" href="ui/alertify.default.css" id="toggleCSS" />
+<style>
+<style>
+
+
+.ACCOUNTCREATION
+{
+	position:absolute;
+	left: 23%;
+}
+.SERVICECREATION
+{
+	position:absolute;
+	left: 43%;
+}
+
+.CREATEALL
+{
+	position:absolute;
+	left: 63%;
+}
+.testdatagen
+{
+	position:absolute;
+	left: 23%;
+	top : 35%;
+}
+.testaut
+{
+	position:absolute;
+	left: 43%;
+	top : 35%;
+}
+.testreport
+{
+	position:absolute;
+	left: 63%;
+	top : 35%;
+}
+#envr
+{
+	position:absolute;
+	left:15%;
+}
+<!-- slide show css -->
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active1 {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+  
+ 
+}
+
+
+</style>
+<script>
+/*function runonload()
+{
+  getusername();
+   $('.list').children('ul').removeClass('active').children('li').slideUp();
+ } 
+ $(document).ready(function() {
+	
+$('li').click(function(e){
+    if( $(this).find('>ul').hasClass('active') ){
+        $(this).children('ul').removeClass('active').children('li').slideUp();
+        e.stopPropagation();
+    }
+    else{
+        $(this).children('ul').addClass('active').children('li').slideDown();
+        e.stopPropagation();
+    }
+});
+})*/
+</script>
+<script src="ui/alertify.min.js"></script>
+<script src="ui/main.js"></script>
+<title>
+	Test Automation Tool Reference Data
+</title>
+<link rel="shortcut icon" href="favicon.ico"> 
+</head>
+
+<body onLoad = 'getusername();'>
+	<div class = 'arrow-right'>
+	</div>
+	<img src = 'ui/index.png' class = 'vfindex'>
+	<div id = 'usernamediv' style = 'position:absolute;top:14%;right:1%;z-index:999;font-size: 20px; font-family:    Arial, Helvetica, sans-serif;'>
+				
+		</div>
+	<div class = 'header'>
+		<center>Provisioning Reference Data</center>
+		<br>
+	<ul id="menu-bar">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="#">Test Data Generation</a>
+	<ul>
+	
+   <li><a href="PROVISIONING.html">Provisioning</a></li>
+   <li><a href="USAGECDRGENERATION.html">Usage</a>
+   
+   </li>
+  </ul>
+ </li>
+ <li><a href="#">Test Data Templates</a>
+ <ul>
+   <!--li><a href="#">Provisioning</a></li-->
+    <li><a href="BulkUploadCDR.html">Usage</a></li>
+	<li><a href="BulkUploadProvisioning.html">Provisioning</a></li>
+</ul>
+   </li>
+   <li class="active"><a href="#"  >Reference Data</a>
+ <ul>
+ 
+   <li><a href="ProvisioningReferencedata.html">Provisioning</a></li>
+    <li><a href="UsageReferenceData.html">Usage</a></li>
+</ul>
+</li>
+ <li><a href="#"  id = 'adminlnk'>Admin</a>
+ <ul>
+   <li><a href="ProvisioningAdmin.html">Provisioning</a></li>
+    <li><a href="UsageAdmin.html">Usage</a></li>
+    <li><a href="admin.html">User Details</a></li>
+</ul>
+</li>
+ <li><a href="Login.html" onclick = "logout();" id = 'logout'>Logout</a></li>
+</ul>
+
+
+	</div>
+	<div id = 'admincontent' style = 'border: 1px solid black;height:50%;width:20%'>
+	<ul style = ' color:white;'>
+	<li class = 'list' ><b> <a href = '#' style = 'color:Black'>MAC</a></b> <br>
+	<ul class = 'li' >
+	<li class = 'activetable'><a href = # id = 'Germany Use Case' onclick = 'loadrefframe(this.id);'>Use Case DE</a></li><br>
+	<li ><a href = # id = 'IreLand Price Plans' onclick = 'loadrefframe(this.id);'>Price Plan IE</a></li><br>
+	<li ><a href = # id = 'UK Price Plans' onclick = 'loadrefframe(this.id);'>Price Plan Other Countries</a></li><br>
+	</ul>
+	</li>
+	<li class = 'list' > <b><a href = '#' style = 'color:Black'>BPF</a></b> <br>
+	<ul class = 'li' >
+	<li ><a href = # id = 'Proposition BPF' onclick = 'loadrefframe(this.id);'>Proposition</a></li><br>
+	<li ><a href = # id = 'BPF Price Plan' onclick = 'loadrefframe(this.id);'>Price Plan</a></li><br>
+	<li ><a href = # id = 'BPF Flat Charge' onclick = 'loadrefframe(this.id);'>Flat Charge</a></li><br>
+	<li ><a href = # id = 'BPF Device Type' onclick = 'loadrefframe(this.id);'>Device Type</a></li><br>
+	</ul>
+	</li>
+	</ul>
+	</div>
+	<iframe src = "" id = "frame" target="_parent">
+	
+</body>

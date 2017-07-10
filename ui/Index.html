@@ -1,0 +1,305 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<Head>
+<link rel="stylesheet"  href="ui/index.css">
+
+<link rel="stylesheet" href="ui/alertify.core.css" />
+<link rel="stylesheet" href="ui/alertify.default.css" id="toggleCSS" />
+<script src="ui/jquery-3.1.1.min.js"></script> 
+<style>
+.ACCOUNTCREATION
+{
+	position:absolute;
+	left: 23%;
+}
+.SERVICECREATION
+{
+	position:absolute;
+	left: 43%;
+}
+
+.CREATEALL
+{
+	position:absolute;
+	left: 63%;
+}
+.testdatagen
+{
+	position:absolute;
+	left: 23%;
+	top : 35%;
+}
+.testaut
+{
+	position:absolute;
+	left: 43%;
+	top : 35%;
+}
+.testreport
+{
+	position:absolute;
+	left: 63%;
+	top : 35%;
+}
+#envr
+{
+	position:absolute;
+	left:15%;
+}
+<!-- slide show css -->
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  width:50%;
+  top:40%;
+  position: absolute;
+  margin: auto;
+  left:45%;
+  
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+#dot
+{
+	position:absolute;
+	top:80%;
+	left:68%;
+
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active1 {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}  
+  <!-- slide show css -->
+}
+#UserManual
+{
+	position:absolute;
+	top:40%;
+	left:10%;
+	width:30%;
+	height:50%;
+	border-right:solid;
+	border-width: 1px;
+}
+
+</style>
+<script src="ui/alertify.min.js"></script>
+<script src="ui/main.js"></script>
+<title>
+	Vodafone Test Data Generator
+</title>
+<link rel="shortcut icon" href="favicon.ico"> 
+</head>
+
+<body onLoad = 'getusername();'>
+	<div class = 'arrow-right'>
+	</div>
+	<img src = 'ui/index.png' class = 'vfindex'>
+	<div id = 'usernamediv' style = 'position:absolute;top:14%;right:1%;z-index:999;font-size: 20px; font-family:    Arial, Helvetica, sans-serif;'>
+				
+		</div>
+	<div class = 'header'>
+	
+		<center>VGE Test Automation </center>
+		
+		<br>
+		<ul id="menu-bar">
+	<li class="active"><a href="index.html">Home</a></li>
+	<li><a href="#">Test Data Generation</a>
+	<ul>
+   <li><a href="PROVISIONING.html">Provisioning</a></li>
+    <li><a href="USAGECDRGENERATION.html">Usage</a></li>
+   </li>
+  </ul>
+ </li>
+ <li><a href="#">Test Data Templates</a>
+ <ul>
+   <!--li><a href="#">Provisioning</a></li-->
+    <li><a href="BulkUploadCDR.html">Usage</a></li>
+	<li><a href="BulkUploadProvisioning.html">Provisioning</a></li>
+</ul>
+   </li>
+   <li><a href="#">Reference Data</a>
+ <ul>
+ 
+   <li><a href="ProvisioningReferencedata.html">Provisioning</a></li>
+    <li><a href="UsageReferenceData.html">Usage</a></li>
+</ul>
+</li>
+ <li><a href="#"  id = 'adminlnk'>Admin</a>
+ <ul>
+ 
+   <li><a href="ProvisioningAdmin.html">Provisioning</a></li>
+    <li><a href="UsageAdmin.html">Usage</a></li>
+    <li><a href="admin.html">User Details</a></li>
+</ul>
+</li>
+ <li><a href="login.html" onclick = "logout();" id = 'logout' style = 'position:absolute'>Logout</a></li>
+</ul>
+
+	</div>
+	<!---br>
+	<Hr>
+		<br>
+		<label for = 'Environment'class = 'label'>Environment</label>
+		<select id = 'Envr' name = 'Environment'> 
+		<option> SIT Prime </option>
+		<option> UAT Prime </option>
+		<option> SIT Fast Track </option>
+		<option> UAT Fast Track </option>
+		<option> Preproduction  </option>
+		</select>
+		<hr>
+	<br>
+	<br-->
+	<div id = 'UserManual'>
+	<H3>User Manuals</H3>
+	<ul style = ' color:white;'>
+	<!--li ><a href = # id = 'UageUserManual' onclick = 'downloadusermanu(this.id);'>Usage User Manual</a></li> <br-->
+	<li ><a href = # id = 'MAC_USER_MANUAL_GUIDE_ALL_OPCO' onclick = 'downloadusermanu(this.id);'>MAC User Manual</a></li> <br>
+	<li ><a href = # id = 'TEST_DATA_TEMPLATE' onclick = 'downloadusermanu(this.id);'>Templates User Manual</a></li> <br>
+	<li ><a href = # id = 'CDR_USERMANUAL' onclick = 'downloadusermanu(this.id);'>Usage User Manual</a></li> <br>
+	<li ><a href = # id = 'BPF_USERMANUAL' onclick = 'downloadusermanu(this.id);'>BPF User Manual</a></li> <br>
+	<li ><a href = # id = 'ADMIN_User_Manual_guide' onclick = 'downloadusermanu(this.id);'>Admin User Manual</a></li> <br>
+	</div>
+	<div id = 'indesdiv' style ='display:none'>
+	<div class = 'testdatagen'>
+		<button class = 'button' onclick='document.getElementById("testdata").style.display = "inline";'>Test Data Generation</button>
+	</div>
+	<div class = 'testaut'>
+		<button class = 'button' onclick='document.getElementById("testdata").style.display = "none";'>Test Automation</button>
+	</div>
+	<div class = 'testreport'>
+		<button class = 'button' onclick='document.getElementById("testdata").style.display = "none";'>Test Reports</button>
+	</div>
+	</div>
+	<div id = 'testdata' style = 'display:none;position:absolute;width:100%;top:50%'>
+	<div class = 'ACCOUNTCREATION'>
+		<button class = 'button' onclick='window.open("CUSTOMERONBOARDING.html");'>CUSTOMER ONBOARDING</button>
+	</div>
+	<div class = 'SERVICECREATION'>
+		<button class = 'button' onclick='window.open("PROVISIONING.html");'>PROVISIONING</button>
+	</div>
+	<div class = 'CREATEALL'>
+		<button class = 'button' onclick='window.open("USAGECDRGENERATION.html");'>USAGE</button>
+	</div>
+	</div>
+	
+	<!-- slide show experiment -->
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	
+		<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 4</div>
+		  <img src="/ui/m_1.jpg" style="width:100%">
+		  <div class="text">Caption Text</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 4</div>
+		  <img src="/ui/m_2.jpg" style="width:100%">
+		  <div class="text">Get ..</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 4</div>
+		  <img src="/ui/m_3.jpg" style="width:100%">
+		  <div class="text">Set .</div>
+		</div>
+		<div class="mySlides fade">
+		  <div class="numbertext">4 / 4</div>
+		  <img src="/ui/m_4.jpg" style="width:100%">
+		  <div class="text">Go</div>
+		</div>
+		</div>
+		<br>
+
+		<div style="text-align:center" id = 'dot'>
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		</div>
+
+		<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+			   slides[i].style.display = "none";  
+			}
+			slideIndex++;
+			if (slideIndex> slides.length) {slideIndex = 1}    
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active1", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active1";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+		</script>
+	
+	
+</body>

@@ -1,0 +1,278 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<Head>
+<link rel="stylesheet"  href="ui/index.css" >
+<link rel="stylesheet" href="ui/alertify.core.css" />
+<link rel="stylesheet" href="ui/alertify.default.css" id="toggleCSS" />
+<script src="ui/jquery-3.1.1.min.js"></script>
+<style>
+.ACCOUNTCREATION
+{
+	position:absolute;
+	left: 23%;
+}
+.SERVICECREATION
+{
+	position:absolute;
+	left: 43%;
+}
+
+.CREATEALL
+{
+	position:absolute;
+	left: 63%;
+}
+.testdatagen
+{
+	position:absolute;
+	left: 23%;
+	top : 35%;
+}
+.testaut
+{
+	position:absolute;
+	left: 43%;
+	top : 35%;
+}
+.testreport
+{
+	position:absolute;
+	left: 63%;
+	top : 35%;
+}
+#envr
+{
+	position:absolute;
+	left:15%;
+}
+<!-- slide show css -->
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active1 {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+  
+  <!-- slide show css -->
+}
+</style>
+  <script>
+  $(document).ready(function() {
+     $('#uploadForm').submit(function() {
+		var opco = document.getElementById('OPCOsel').value;
+		var feedtype = document.getElementById('feedtype').value;
+		var sendval = opco +"|"+feedtype
+		
+		//validations
+		var nme = document.getElementById("bcdr_id");
+		if (opco== 'Please Select') {
+			alertify.alert('please select the OPCO .!!');
+			return false;					
+		}else if(nme.value.length < 4) {
+			alertify.alert('please select file to Upload .!!');
+			nme.focus();
+			return false;
+		}else if ((nme.value).indexOf('.xlsx')==-1){
+			alertify.alert('Please upload the CDR Template with correct extension(.xlsx) .!!');
+			return false;					
+		}			
+		document.getElementById('uploadForm').action = '/uploadcdr?retval='+sendval;
+        $(this).ajaxSubmit({
+            error: function(xhr) {
+          status('Error: ' + xhr.status);
+            },
+            success: function(response) {
+			console.log(response)
+            $("#status").empty().text(response);
+            }
+    });
+    return false;
+    });    
+     $('#uploadFormtemplate').submit(function() {
+		if(document.getElementById('template2').value == '')
+		{
+			alertify.alert('Please select a file and click on upload');
+			//alert('Please select a file and click on upload')
+		}
+		else
+		{
+        $(this).ajaxSubmit({
+            error: function(xhr) {
+          status('Error: ' + xhr.status);
+            },
+            success: function(response) {
+			console.log(response)
+            $("#status").empty().text(response);
+            }
+    });
+	}
+    return false;
+    });    
+});
+
+ $(document).ready(function() {
+	LoadTemplates();
+ })
+
+</script>
+<script src="ui/alertify.min.js"></script>
+<script src="ui/main.js"></script>
+<title>
+	CDR Bulk Upload
+</title>
+<link rel="shortcut icon" href="favicon.ico"> 
+</head>
+
+<!--body onload = 'LoadTemplates();'-->
+<body>
+	<div class = 'arrow-right'>
+	</div>
+	<img src = 'ui/index.png' class = 'vfindex'>
+	<div id = 'usernamediv' style = 'position:absolute;top:14%;right:1%;z-index:999; font-size: 20px; font-family:    Arial, Helvetica, sans-serif;'>
+				
+		</div>
+	<div class = 'header'>
+		<center>Usage Bulk Upload</center>
+		<br>
+		<ul id="menu-bar">
+	<li ><a href="index.html">Home</a></li>
+	<li><a href="#">Test Data Generation</a>
+	<ul>
+   <li><a href="PROVISIONING.html">Provisioning</a></li>
+   <li><a href="USAGECDRGENERATION.html">Usage</a>
+   </li>
+  </ul>
+ </li>
+ <li class="active"><a href="#">Test Data Templates</a>
+ <ul>
+   <!--li><a href="#">Provisioning</a></li-->
+    <li><a href="BulkUploadCDR.html">Usage</a></li>
+	<li><a href="BulkUploadProvisioning.html">Provisioning</a></li>
+</ul>
+   </li>
+<li><a href="#"  >Reference Data</a>
+ <ul>
+ 
+   <li><a href="ProvisioningReferencedata.html" >Provisioning</a></li>
+    <li><a href="UsageReferenceData.html">Usage</a></li>
+</ul>
+</li> 
+ <li><a href="#"  id = 'adminlnk'>Admin</a>
+ <ul>
+   <li><a href="ProvisioningAdmin.html">Provisioning</a></li>
+    <li><a href="UsageAdmin.html">Usage</a></li>
+    <li><a href="admin.html">User Details</a></li>
+</ul>
+</li>
+ <li><a href="login.html" onclick = "logout();" id = 'logout'>Logout</a></li>
+</ul>
+	</div>
+	<div class = 'uploadcontent'>
+	<div id = 'templatesupload' >
+	<H4  style='background:grey; color:white; width:100%'> <label> Select the Template to Upload </label></h4>
+		<form id="uploadFormtemplate" enctype="multipart/form-data"
+          action="/uploadcdrtemplate"
+          method="post">
+		<table>
+		<tr>
+		
+		<td> &nbsp </td>
+		
+		<td> <input type="file" id = 'template2' name="usercdrtemplate"> </td>
+		<td> <input type="submit" value="Upload File" name="submit"> </td>
+		<span id = "status"></span>
+		</tr>
+		</table>
+	 
+    </form>
+	</div>
+	<h4 style='background:grey; color:white; width:100%'>Templates</h4>
+	<div id = 'templatediv'>
+	 
+	 </div>
+		<form id="uploadForm" enctype="multipart/form-data"
+          action="/uploadcdr"
+          method="post">
+		<H4  style='background:grey; color:white; width:100%'><label> Select the CDR file to Upload </label></h4>
+	  <table>
+	  <tr>
+	  <td> OPCO </td>
+	  <td>
+	  <select id = 'OPCOsel'>	
+	  </td>
+	  <td> &nbsp&nbspFeed Type </td>
+	  <td><select id = 'feedtype'>
+	  <option> CSA </option>
+	  <option> NGIN </option>
+	  <option> SOL 42 </option>
+	  </td>
+	  <td>&nbsp&nbsp
+      <input type="file" name="usercdr" id='bcdr_id'></td><td>
+      <input type="submit" value="Upload File" name="submit"></td>
+      <span id = "status"></span></tr></table>
+	  
+    </form>
+	</div>
+	
+</body>

@@ -1,0 +1,4 @@
+http://localhost/adminer/adminer-4.3.0.php?pgsql=localhost%3A5432&username=postgres&db=VGE_CDRGeneration&ns=public&select=OPCO
+http://localhost/adminer/adminer-4.3.0.php?pgsql=localhost%3A5432&username=postgres&db=VGE_CDRGeneration&ns=public&select=BPF_format_table
+http://localhost/adminer/adminer-4.3.0.php?pgsql=localhost%3A5432&username=postgres&db=VGE_CDRGeneration&ns=public&select=cdr_db_1
+http://localhost/adminer/adminer-4.3.0.php?pgsql=localhost%3A5432&username=postgres&db=VGE_CDRGeneration&ns=public&select=cdr_db_1
