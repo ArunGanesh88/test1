@@ -11,6 +11,7 @@ public class Common extends Driver
 			Browser.OpenBrowser("chrome", "https://www.google.co.in/");
 			Result.takescreenshot("Open Google");
 			Browser.WebEdit.Set("GoogleSearch", getdata("GoogleSearch"));
+			Browser.WebButton.click("SearchButton");
 			Result.takescreenshot("Search GitHub");
 			Browser.WebLink.click("GitHubLink");
 			Result.takescreenshot("Select GitHub Link");
