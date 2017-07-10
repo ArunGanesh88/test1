@@ -13,7 +13,7 @@ public class Common extends Driver
 			Browser.WebEdit.Set("GoogleSearch", getdata("GoogleSearch"));
 			Browser.WebButton.click("SearchButton");
 			Result.takescreenshot("Search GitHub");
-			Thread.sleep(5000);
+			Thread.sleep(8000);
 			Browser.WebLink.click("GitHubLink");
 			Result.takescreenshot("Select GitHub Link");
 
